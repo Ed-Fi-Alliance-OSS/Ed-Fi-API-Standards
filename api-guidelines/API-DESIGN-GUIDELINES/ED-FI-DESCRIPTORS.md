@@ -23,7 +23,7 @@ each Descriptor value in a descriptor reference (described below).
 Descriptors are also exposed as Resources of an Ed-Fi REST API and can be
 accessed and manipulated as follows:
 
-**Table 3.** Accessing and Manipulating Descriptors**
+**Table 3.** Accessing and Manipulating Descriptors
 
 | Resource                 | POST                  | GET                                              | PUT                              | DELETE                           |
 | ------------------------ | --------------------- | ------------------------------------------------ | -------------------------------- | -------------------------------- |
