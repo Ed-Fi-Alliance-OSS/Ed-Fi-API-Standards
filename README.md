@@ -17,8 +17,12 @@ in Ed-Fi Tech Docs:
   specifications)
 * [Ed-Fi RFC Home](https://techdocs.ed-fi.org/display/EFDSRFC/Ed-Fi+RFC+Home)
   (Ed-Fi Data (and API) Standard Request for Comment (RFC) documents).
-* [Ed-Fi API Design and Implementation
-  Guidelines](https://techdocs.ed-fi.org/display/EFAPIGUIDE/Ed-Fi+API+Design+and+Implementation+Guidelines)
+
+## Repository Contents
+
+* [Ed-Fi API Design and Implementation Guidelines](./api-guidelines/), the
+  source code version of [Tech Docs: Ed-Fi API Design and Implementation
+  Guidelines](https://techdocs.ed-fi.org/display/EFAPIGUIDE/Ed-Fi+API+Design+and+Implementation+Guidelines)↗
 
 ## Legal Information
 
@@ -26,10 +30,9 @@ Copyright (c) 2023 Ed-Fi Alliance, LLC and contributors.
 
 Licensed under the [Apache License, Version 2.0](LICENSE) (the "License").
 
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
+Unless required by applicable law or agreed to in writing, software distributed
+under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
+CONDITIONS OF ANY KIND, either express or implied. See the License for the
+specific language governing permissions and limitations under the License.
 
 See [NOTICES](NOTICES.md) for additional copyright and license notifications.
