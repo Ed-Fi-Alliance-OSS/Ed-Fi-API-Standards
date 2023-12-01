@@ -99,7 +99,6 @@ components:
             required:
               - name
               - version
-              - informationalVersion
             properties:
               name:
                 type: string
@@ -114,7 +113,7 @@ components:
           type: object
           required:
             - dependencies
-            - openApiMetada
+            - openApiMetadata
             - oauth
             - dataManagementApi
           properties:
