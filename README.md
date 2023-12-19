@@ -23,6 +23,8 @@ in Ed-Fi Tech Docs:
 * [Ed-Fi API Design and Implementation Guidelines](./api-guidelines/), the
   source code version of [Tech Docs: Ed-Fi API Design and Implementation
   Guidelines](https://techdocs.ed-fi.org/display/EFAPIGUIDE/Ed-Fi+API+Design+and+Implementation+Guidelines)↗
+* [API Specifications](api-specifications/README.md)
+  * [Ed-Fi Discovery API](api-specifications/discovery-api)
 
 ## Legal Information
 

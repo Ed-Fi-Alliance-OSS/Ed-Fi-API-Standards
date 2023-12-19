@@ -3,7 +3,7 @@
 The following specifications files are in OpenAPI 2 (aka Swagger) or OpenAPI 3
 format.
 
-* [Metadata API](metadata-api-spec.yml)
+* [Ed-Fi Discovery API](./discovery-api/)
 
 Additionally, there are Postman environment files for the supported "production"
 services, and some of the specifications have a basic set of conformance tests
