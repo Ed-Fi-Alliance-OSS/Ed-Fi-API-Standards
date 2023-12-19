@@ -1,0 +1,29 @@
+meta {
+  name: -GraphML- This endpoint will provide developers with the data needed to load resources in the appropriate order-
+  type: http
+  seq: 2
+}
+
+get {
+  url: {{baseUrl}}/api/metadata/data/v3/dependencies
+  body: none
+  auth: none
+}
+
+headers {
+  Accept: application/graphml
+}
+
+tests {
+  // // Validate status 2xx 
+  // pm.test("[GET]::/api/metadata/data/v3/dependencies - Status code is 2xx", function () {
+  //    pm.response.to.be.success;
+  // });
+  // 
+  // // Validate if response header has matching content-type
+  // pm.test("[GET]::/api/metadata/data/v3/dependencies - Content-Type is application/graphml", function () {
+  //    pm.expect(pm.response.headers.get("Content-Type")).to.include("application/graphml");
+  // });
+  // 
+  // 
+}
