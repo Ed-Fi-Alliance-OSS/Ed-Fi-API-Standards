@@ -1,0 +1,41 @@
+meta {
+  name: This endpoint will provide developers with the data needed to load resources in the appropriate order-
+  type: http
+  seq: 1
+}
+
+get {
+  url: {{baseUrl}}/api/metadata/data/v3/dependencies
+  body: none
+  auth: none
+}
+
+headers {
+  Accept: application/json
+}
+
+tests {
+  // // Validate status 2xx 
+  // pm.test("[GET]::/api/metadata/data/v3/dependencies - Status code is 2xx", function () {
+  //    pm.response.to.be.success;
+  // });
+  // 
+  // // Validate if response header has matching content-type
+  // pm.test("[GET]::/api/metadata/data/v3/dependencies - Content-Type is application/json", function () {
+  //    pm.expect(pm.response.headers.get("Content-Type")).to.include("application/json");
+  // });
+  // 
+  // // Validate if response has JSON Body 
+  // pm.test("[GET]::/api/metadata/data/v3/dependencies - Response has JSON Body", function () {
+  //     pm.response.to.have.jsonBody();
+  // });
+  // 
+  // // Response Validation
+  // const schema = {"type":"array","items":{"type":"object","required":["resource","order","operations"],"properties":{"resource":{"type":"string","example":"/ed-fi/absenceEventCategoryDescriptors"},"order":{"type":"integer","example":1},"operations":{"type":"array","items":{"type":"string","example":"Create"}}}}}
+  // 
+  // // Validate if response matches JSON schema 
+  // pm.test("[GET]::/api/metadata/data/v3/dependencies - Schema is valid", function() {
+  //     pm.response.to.have.jsonSchema(schema,{unknownFormats: ["int32", "int64", "float", "double"]});
+  // });
+  // 
+}

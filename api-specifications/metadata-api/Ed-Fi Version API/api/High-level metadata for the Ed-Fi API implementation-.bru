@@ -1,0 +1,67 @@
+meta {
+  name: High-level metadata for the Ed-Fi API implementation-
+  type: http
+  seq: 1
+}
+
+get {
+  url: {{baseUrl}}/api
+  body: none
+  auth: none
+}
+
+headers {
+  Accept: application/json
+}
+
+tests {
+  // Validate status 2xx 
+  //
+  // pm.test("[GET]::/api - Status code is 2xx", function () {
+  //    pm.response.to.be.success;
+  // });
+  test("[GET]::/api - Status code is 2xx", function () {
+      //pm.response.to.be.success;
+    expect(res.status).to.equal(200);
+  });
+  
+  
+  // Validate if response header has matching content-type
+  //
+  // pm.test("[GET]::/api - Content-Type is application/json", function () {
+  //    pm.expect(pm.response.headers.get("Content-Type")).to.include("application/json");
+  // });
+  
+  test("[GET]::/api - Content-Type is application/json", function () {
+    expect(res.getHeader("content-type")).to.equal("application/json; charset=utf-8");
+  });
+  
+  
+  // Validate if response has JSON Body 
+  //
+  // pm.test("[GET]::/api - Response has JSON Body", function () {
+  //     pm.response.to.have.jsonBody();
+  // });
+  
+  test("[GET]::/api - Response has JSON Body", function () {
+    let body = res.getBody();
+    expect(body).to.not.be.undefined;
+  });
+  
+  
+  // Response Validation
+  const schema = {"type":"object","required":["version","suite","dataModels","urls"],"properties":{"version":{"type":"string","example":7},"informationalVersion":{"type":"string","example":7},"suite":{"type":"string","example":3},"build":{"type":"string","example":"7.0.2250.0"},"dataModels":{"type":"array","items":{"type":"object","required":["name","version"],"properties":{"name":{"type":"string","example":"Ed-Fi"},"version":{"type":"string","example":"5.0.0"},"informationalVersion":{"type":"string","example":"The Ed-Fi Data Model 5.0"}}}},"urls":{"type":"object","required":["dependencies","openApiMetadata","oauth","dataManagementApi"],"properties":{"dependencies":{"type":"string","example":"https://api.ed-fi.org/v7.0/api/metadata/data/v3/dependencies"},"openApiMetadata":{"type":"string","example":"https://api.ed-fi.org/v7.0/api/metadata"},"oauth":{"type":"string","example":"https://api.ed-fi.org/v7.0/api/oauth/token"},"dataManagementApi":{"type":"string","description":"Base path for all resources","example":"https://api.ed-fi.org/v7.0/api/data/v3"},"xsdMetadata":{"type":"string","description":"link for downloading XSD files","example":"https://api.ed-fi.org/v7.0/api/metadata/xsd"},"changeQueries":{"type":"string","description":"Base path for the Change Queries API","example":"https://api.ed-fi.org/v7.0/api/changeQueries/v1"},"composites":{"type":"string","description":"Base path for the Composites API","example":"https://api.ed-fi.org/v7.0/api/composites/v1"},"identity":{"type":"string","description":"Base path for the Identity API","example":"https://api.ed-fi.org/v7.0/api/identity/v2"}}}}}
+   
+  // Validate if response matches JSON schema 
+  //
+  // pm.test("[GET]::/api - Schema is valid", function() {
+  //     pm.response.to.have.jsonSchema(schema,{unknownFormats: ["int32", "int64", "float", "double"]});
+  // }); 
+  
+  test("[GET]::/api - Schema is valid", function() {
+  //     pm.response.to.have.jsonSchema(schema,{unknownFormats: ["int32", "int64", "float", "double"]});
+    let body = res.getBody();
+    // Need to figure out how to either install a chai plugin for JSON schema
+    // or write a little custom code to evaluate the response.
+  });
+}
