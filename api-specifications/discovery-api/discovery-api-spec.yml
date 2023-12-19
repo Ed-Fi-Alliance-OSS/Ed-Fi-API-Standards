@@ -5,7 +5,7 @@
 
 openapi: 3.0.3
 info:
-  title: Ed-Fi Version API
+  title: Ed-Fi Discovery API
   version: 1.0.0
   description: |
     The default response when retrieving the base endpoint on an Ed-Fi implementation

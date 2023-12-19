@@ -1,7 +1,7 @@
 {
 	"info": {
 		"_postman_id": "bae1c2ca-8b3d-4715-97a9-130cf9bdc2e3",
-		"name": "Ed-Fi Version API",
+		"name": "Ed-Fi Discovery API",
 		"description": "The default response when retrieving the base endpoint on an Ed-Fi implementation\nmust be a JSON document that provides information about the application version,\nsupported data model(s), and URLs for additional metadata.\n",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "29458798"
