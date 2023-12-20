@@ -69,53 +69,6 @@ implementations against common security vulnerabilities.
 More details and guidance regarding security are provided in the [API
 Implementation Design Guidelines](API-IMPLEMENTATION-GUIDELINES.md) section.
 
-## Application Use Cases
-
-An Ed-Fi REST API provides organizations developing systems that exchange
-education information with a wide variety of possible scenarios. The following
-examples represent only a sampling of the most compelling use cases:
-
-* **As a shared application data repository.** A state (or large district) can
-  have a combination of extremely large and extremely small schools. A large
-  school often has more specialized roles than a small one. An enterprise
-  Student Information System (SIS) that suits the needs of a large school may be
-  quite different from the SIS appropriate for a smaller school. Using an Ed-Fi
-  REST API, each school can use a SIS that is tailored to their specific needs.
-  State or district users can then generate reports across all schools using a
-  software package that meets its needs without requiring data exports from any
-  school. Each application has direct access to the most current information.
-* **As an enabler for "best of breed" applications.** A school district may
-  prefer their SIS for day-to-day use, but need to integrate with data from
-  another system to leverage best-practice, off-the-shelf analytics. With the
-  Ed-Fi REST API, a more capable reporting package can be used to supplement the
-  capabilities of their preferred SIS.
-* **As the data foundation for targeted "applets."** Small, highly focused
-  applications can use an existing Ed-Fi REST API to provide parents, teachers,
-  and administrators with web or smartphone applications that target specific
-  needs. Imagine a smartphone application that a high school principal can use
-  to verify the names and class schedule for a student found wandering the
-  halls, or an SMS notification application that informs parents the same day
-  that their child missed a key assignment or examination.
-* **As a secure source for research data.** Researchers spend much of their time
-  collecting and standardizing education data in order to perform analysis. One
-  time-consuming aspect of this process is stripping away personal data in order
-  to maintain student privacy. This means that researchers analyze data that is
-  months, or even years, out of date. The Ed-Fi REST API can provide near
-  real-time, de-identified data to researchers in a common, secure format.
-* **As a simplified data reporting infrastructure.** School districts spend a
-  significant amount of time collecting and reporting information to their state
-  education agencies (SEAs). Multiple departments within the SEA often request
-  the same information. Each data collection takes time. Using an Ed-Fi REST
-  API, a school district can authorize the SEA to directly access only the
-  specific information it needs, thus reducing the time spent by the school
-  district providing redundant information.
-* **As an interface for public information.** Most school districts have
-  websites that list information such as school names, grades served at each
-  school, attendance statistics, bell schedules, and available courses. If their
-  websites used the Ed-Fi REST API as a source for the information, this public
-  information could be provided automatically based on the most current
-  information available—without the need to update web pages manually.
-
 ## API Guidelines Contents
 
 * [Scope](SCOPE.md)
