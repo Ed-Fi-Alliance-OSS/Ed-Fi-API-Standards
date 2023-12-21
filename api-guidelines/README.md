@@ -1,6 +1,8 @@
 # API Guidelines
 
 * [v3.1](v3.1) - current, applies to ODS/API 3.x through 7.x
+* [v4.0](v4.0) - draft revision
+  * [RFC: API Guidelines 4.0](RFC-api-guidelines-4.0.md)
 
 This section provides design guidelines for an Ed-Fi representational state
 transfer (REST) application programming interface (API). These guidelines
