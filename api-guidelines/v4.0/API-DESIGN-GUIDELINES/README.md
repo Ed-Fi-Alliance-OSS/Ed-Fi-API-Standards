@@ -3,7 +3,7 @@
 An API is essentially an interface used by programmers to support communication
 between systems. Guidelines are useful because the REST architectural style
 allows for a great deal of flexibility in design. The guidelines that follow are
-designed to make Ed-Fi REST API implementations intuitive and easy to use for
+designed to make Ed-Fi API implementations intuitive and easy to use for
 programmers.
 
 This section covers the following topics in detail:

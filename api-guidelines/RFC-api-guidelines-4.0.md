@@ -157,9 +157,10 @@ compatibility with all backend data sources.
 
 #### Schema Validation
 
-To avoid overposting attacks and subtle bugs where an optional resource name has
-been misspelled, an Ed-Fi API _should_ strictly validate JSON payload contents,
-responding with HTTP status 400 when unexpected properties are present.
+To avoid Mass Assignment attacks and subtle bugs where an optional resource name
+has been misspelled, an Ed-Fi API _should_ strictly validate JSON payload
+contents, responding with HTTP status 400 when unexpected properties are
+present.
 
 For example, the following is a valid `Person` payload:
 
@@ -187,6 +188,13 @@ But the following should be rejected:
 > requirement so that existing version of the Ed-Fi ODS/API do not fall out of
 > compliance. This is subject to further refinement in this document drafting
 > process.
+
+### API Design Guidelines -> HTTP Verbs
+
+Change all usage of "UUID" to the more generic "unique identifier" or
+"identifier", so that the implementation is free to use any scheme, not just a
+UUID, as the identifier for a specific resource.
+
 ### API Design Guidelines -> Query Operators
 
 #### Ordering
