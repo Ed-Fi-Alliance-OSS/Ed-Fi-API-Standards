@@ -1,20 +1,24 @@
 # Scope
 
-The essential features that characterize an Ed-Fi REST API implementation are
-the data model that serves as its basis and the REST architectural style.
+The Ed-Fi Alliance produces several related Application Programming Interface
+(API) specifications for exchange of K-12 education data. The essential feature
+that characterizes an "Ed-Fi API" is implementation of the Ed-Fi Resource API,
+following the REST architectural style.
 
-## Data Model
+## Ed-Fi API Specifications
 
-The Ed-Fi Unifying Data Model (UDM)[\[1\]](#f1) provides the basis for the
-data transferred and manipulated by an Ed-Fi REST API implementation. The Ed-Fi
-UDM is a structured, conceptual model of common K–12 education data. The model
-includes entities that are easily recognized by educators and administrators:
-schools, students, teachers, attendance, grades, assessment results, and many
-others. These entities contain attributes (i.e., properties) that are also
-easily recognized. For example, assessment results contain data, such as a score
-and the date the assessment was administered. The UDM also includes associations
-(i.e., relationships) between entities, such as the association between students
-and schools.
+### Resource API
+
+The Ed-Fi Unifying Data Model (UDM)[\[1\]](#f1) provides the basis for the data
+transferred and manipulated by an implementation of the Ed-Fi Resource API
+specification. The Ed-Fi UDM is a structured, conceptual model of common K–12
+education data. The model includes _entities_ that are easily recognized by
+educators and administrators: schools, students, teachers, attendance, grades,
+assessment results, and many others. These entities contain _attributes_ (i.e.,
+properties) that are also easily recognized. For example, assessment results
+contain data, such as a score and the date the assessment was administered. The
+UDM also includes _associations_ (i.e., relationships) between entities, such as
+the association between students and schools.
 
 REST interfaces are built around Resources that define nouns. In the education
 domain, these nouns include such things as schools, students, and teachers. In
@@ -23,23 +27,66 @@ specific attributes and associations. Compositions of entities, with their
 attributes and associations, are called "domain aggregates." These are
 identified from the Ed-Fi UDM according to the principles of Domain-Driven
 Design (DDD).[\[2\]](#f2) Domain aggregates are the Resources for an Ed-Fi
-REST API. These concepts are discussed in more detail later in this document.
+Resource API. These concepts are discussed in more detail later in this
+document.
 
-An Ed-Fi REST API may cover a subset of the full Ed-Fi UDM that is exposed and
-exchanged in a particular system or implementation. The API need not be
-implemented for the entire scope of the Ed-Fi UDM in order to be aligned.
+### Discovery API
+
+The Ed-Fi Discovery API presents clients with configuration information about
+a running application, including:
+
+* The software version.
+* Which version of the UDM is exposed by its implementation of the Resource API.
+* URL's for authentication and access to the various API specification(s)
+  implemented by that application.
+* And, potentially, other runtime configuration parameters.
+
+The Discovery API allows client developers to build applications that need know
+only one base URL, can extract runtime information from it, and alter behavior
+as appropriate.
+
+### Defining an Ed-Fi API
+
+An application that exposes some subset of the Ed-Fi Resource API, and adheres
+to this guideline document, is said to be "Ed-Fi aligned." An application that
+is Ed-Fi aligned, supports the entire Resource API, and implements the Ed-Fi
+Discovery API is said to be "Ed-Fi compatible".  In either situation, an
+application _may_ expose other API's, whether from Ed-Fi or another source.
+
+Unless otherwise stated, the guidelines provided by this document apply to both
+_compatible_ and _aligned_ API applications.
+
+### Other API Specifications
+
+Ed-Fi API software _must_ utilize the OAuth 2.0 API specification for managing
+authentication, though the implementation _may_ use non-Ed-Fi software to
+provision OAuth-related services.
+
+> ![NOTE]
+> The Ed-Fi ODS/API exclusively uses a built-in OAuth 2.0 provider, which cannot
+> be replaced by an off-the-shelf component. This need not be true of other
+> implementations.
+
+Other specifications managed by the Ed-Fi Alliance include:
+
+* Ed-Fi Admin API
+* Ed-Fi Identity API
+* Ed-Fi Change Queries API
+* Ed-Fi Enrollment API
+* various _profiles_ of the Resource API
+* and others as may be defined from time to time.
 
 ## Architectural Style
 
 The REST architectural style[\[3\]](#f3) is a convention-based approach to
-defining APIs. HTTPS (Hypertext Transfer Protocol Secure), using the HTTP
-methods (GET, PUT, POST, DELETE, etc.), as the application protocol.
+defining APIs using the HTTP methods (GET, PUT, POST, DELETE, etc.), as the
+application protocol.
 
 REST-style architectures consist of clients and servers. Clients initiate
 requests to servers; servers process requests and return appropriate responses.
 Requests and responses are built around the transfer of representations of
 Resources. As depicted below, a data store or server-based application
-implements, exposes, or is wrapped with an Ed-Fi REST API to allow client
+implements, exposes, or is wrapped with an Ed-Fi API to allow client
 applications to exchange and manipulate education data.
 
 ![Image showing HTTP request and response between client and REST API service](Client-Server-Figure.png)
@@ -48,31 +95,29 @@ applications to exchange and manipulate education data.
 
 APIs can be thought of as a "contract" between data sources and client
 applications. The underlying platform and application choices are unimportant in
-terms of this contract. An Ed-Fi REST API follows this pattern. An Ed-Fi REST
-API levies no technical requirements on how data is internally stored or how it
-is used by client applications. The API must only provide the technical contract
-between a provider of data and its consumer applications, externally
-representing the exchanged data Resources in a way that is aligned with the
-Ed-Fi UDM.
+terms of this contract. An Ed-Fi API follows this pattern. An Ed-Fi API imposes
+no technical requirements on how data are internally stored or how they are used
+by client applications. The API need only provide the technical contract between
+a provider of data and its consumer applications, externally representing the
+exchanged data Resources in a way that is aligned with the Ed-Fi UDM.
 
 The same resource may be represented to different clients using different
-representations. For example, an API may represent a resource as JSON for an
-application that is performing transactions, but may use XML to represent the
-same resource to another application for bulk data export. The representation is
-a way to externally represent the resource, but is not the resource itself.
+representations. For example, an API application may represent a resource as
+JSON for an application that is performing transactions, but may use XML to
+represent the same resource for another purpose. The representation is a way to
+externally represent the resource, but is not the resource itself. While some
+use cases may remain for other format, all Ed-Fi API implementations _must_
+support JSON representations.
 
-There may be circumstances where an Ed-Fi REST API would diverge from a pure
-REST approach to support specific use cases, for example, to support
-application-specific operations.
-
-While the Ed-Fi XML Data Exchange Framework allows for file-based exchange of
-education data between systems, an Ed-Fi REST API extends this capability to
-include real-time and transactional exchanges of information.
+There may be circumstances where an Ed-Fi API application would diverge from a
+pure REST approach to support specific use cases, for example, to support
+application-specific operations. Such use cases should be defined by their own
+specifications, which can sit alongside the Ed-Fi specification implementation.
 
 ------
 
 <a name="f1"></a>1. For more information about the Ed-Fi Unifying Data Model, see
-[here](https://techdocs.ed-fi.org/display/EFDS31/Ed-Fi+Unifying+Data+Model).
+[here](https://techdocs.ed-fi.org/display/ETKB/Ed-Fi+Unifying+Data+Model).
 
 <a name="f2"></a>2. See, e.g., Evans, Eric, et al. (2006), [Domain-Driven Design
 Quickly](http://www.infoq.com/minibooks/domain-driven-design-quickly), C4Media

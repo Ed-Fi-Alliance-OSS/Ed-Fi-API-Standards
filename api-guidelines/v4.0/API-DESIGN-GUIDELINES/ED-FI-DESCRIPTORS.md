@@ -1,7 +1,7 @@
 # Ed-Fi Descriptors
 
 Descriptors in the Ed-Fi Data Standard are a set of mechanisms to support
-flexible enumerations or code tables. Each Descriptor has the following
+flexible enumerations or code sets. Each Descriptor has the following
 attributes:
 
 * namespace
@@ -20,7 +20,7 @@ each Descriptor value in a descriptor reference (described below).
 
 ## URI Construction and HTTP Verb Usage for Ed-Fi Descriptors
 
-Descriptors are also exposed as Resources of an Ed-Fi REST API and can be
+Descriptors are also exposed as Resources of an Ed-Fi API and can be
 accessed and manipulated as follows:
 
 **Table 3.** Accessing and Manipulating Descriptors
@@ -54,11 +54,29 @@ For example, a descriptor whose codeValue has spaces _must_ be sent thus:
 uri://ed-fi.org/AcademicSubjectDescriptor#English Language Arts
 ```
 
-...and _must not_ be sent as, e.g., 
+...and _must not_ be sent as, e.g.,
 
 ```none
 uri://ed-fi.org/AcademicSubjectDescriptor#English%20Language%20Arts
 ```
+
+## Ed-Fi Descriptor API
+
+An Ed-Fi API _should_ expose all Descriptors via a REST interface, using the
+[standard verbs](./HTTP-VERBS.md). However, it is _recommended_ that most API
+clients be granted read-only access to these Descriptors, so that they may
+ascertain the full set of values available in the given implementation.
+
+Furthermore, it is _recommended_ that access to the POST verb be granted only in
+carefully controlled situations, as most API clients will not need to have this
+access. The community best practice is to avoid modifying or deleting existing
+Descriptors; thus an Ed-Fi API might not provide PUT or POST capability on
+Descriptors. However, the PUT verb might be used to modify the `endDate` on an
+existing Descriptor, or clarify the `description`, without otherwise modifying
+the `namespace` and `codeValue`.
+
+Also see: [Descriptor API
+specification](../../../api-specifications/descriptor-api).
 
 ## API Guidelines Contents
 

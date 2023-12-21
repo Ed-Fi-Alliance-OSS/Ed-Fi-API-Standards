@@ -1,8 +1,8 @@
 # General Request Construction
 
-For all Ed-Fi REST API transactional requests and responses, JSON must be the
+For all Ed-Fi API transactional requests and responses, JSON _must_ be the
 default format. If a media-type header is not provided, "application/json" is
-presumed. Alternate packet formats may also be supported.
+presumed. Alternate packet formats _may_ also be supported.
 
 ## Resource Collections and Individual Resources
 
@@ -12,14 +12,14 @@ collection form for the URI is referred to by the pluralized name of the
 individual resource. A specific resource is referenced by the collection name,
 followed by a slash and the resource's unique identifier. For example:
 
-* `/students`` refers to a collection of students
-* `/students/ffc0…a272`` refers to a specific student with an assigned
-  identifier of ffc0…a272
+* `/students` refers to a collection of students
+* `/students/ffc0…a272` refers to a specific student with an assigned identifier
+  of `ffc0…a272`.
 
 ## URI Construction and HTTP Verb Usage for Individual Records and Transactions
 
-Individual record and transaction URIs in an Ed-Fi REST API take a
-convention-based approach to construction and HTTP verb usage.
+Individual record and transaction URIs in an Ed-Fi API take a convention-based
+approach to construction and HTTP verb usage.
 
 **Table 2.** Example of Convention-Based Approach to Construction
 

@@ -1,6 +1,6 @@
 # Resources
 
-The Resources that are used by an Ed-Fi REST API are compositions of entities,
+The Resources that are used by an Ed-Fi API are compositions of entities,
 attributes, and associations. Resources are domain aggregates that have been
 identified from the Ed-Fi Unifying Data Model (UDM) according to the principles
 of Domain-Driven Design (DDD). Use cases and events in the domain typically
@@ -26,9 +26,9 @@ root. For example, the StudentSchoolAssociation is represented as an aggregate
 root because it reflects enrollment.
 
 In the table below, the domain aggregate for a Course is constructed from a
-number of course-related entities in the Ed-Fi UDM. A complete list of
-Resources, Types, and Descriptors is included in the [API Resource
-Listing](https://api.ed-fi.org).
+number of course-related entities in the Ed-Fi UDM. A complete list of Resources
+is included in the [Ed-Fi API specification
+documents](../../../api-specifications/).
 
 **Table 1.** Sample Domain Aggregate
 
@@ -42,13 +42,13 @@ Listing](https://api.ed-fi.org).
 |                  | CourseLearningStandard    |
 |                  | CourseLevelCharacteristic |
 
-Each resource exposed by an Ed-Fi REST API _must_ be referenced by an
-internally-assigned universally unique identifier (UUID). While the specific
-algorithm for generating these identifiers is not prescribed in these
-guidelines, the identifiers _should_ be generated using a UUID implementation
-such as Microsoft's GUID (globally unique identifier)[\[5\]](#f5). An Ed-Fi REST
-API _should_ generate unique identifiers for its clients, and _should not_
-accept client-generated identifiers when inserting or updating data.
+Each resource exposed by an Ed-Fi API _must_ be referenced by an
+internally-assigned unique identifier. While the specific algorithm for
+generating these identifiers is not prescribed in these guidelines, the
+identifiers _could_ be generated using a UUID implementation such as Microsoft's
+GUID (globally unique identifier)[\[5\]](#f5). An Ed-Fi API _should_ generate
+unique identifiers for its clients, and _should not_ accept client-generated
+identifiers when inserting or updating data.
 
 All Resources _must_ be created with and also be retrievable by one or more
 externally defined primary key values. Those values _must_ be natural keys of
@@ -60,7 +60,7 @@ primary key values using the standard HTTP GET query string search syntax:
 {resourceURI}?keyField1={value1}&keyField2={value2}
 ```
 
-PUT, PATCH, and DELETE operations _must_ be identified using their UUID
+PUT, PATCH, and DELETE operations _must_ be identified using their URI
 (i.e., `{resourceURI}/{id}`). PUT, PATCH, and DELETE operations _should_ also be
 identifiable using their primary key values (natural keys).
 
@@ -75,7 +75,30 @@ existing fields on the resource.
 
 This unification has proven extremely valuable to ensuring basic data quality in
 field operations. All field and key unification scenarios defined in the
-UDM _must_ be implemented in an Ed-Fi REST API.
+UDM _must_ be implemented in an Ed-Fi  API.
+
+For example, the two `schoolId` values, nested within `schoolReference` and
+`sessionReference`, must have the same value in the following `CourseOffering`
+resource.
+
+```json
+{
+  "id": "5394aabc256d4b938a8137d3b971b372",
+  "courseReference": {
+    "courseCode": "ALG-1",
+    "educationOrganizationId": 255901001
+  },
+  "schoolReference": {
+    "schoolId": 255901001
+  },
+  "sessionReference": {
+    "schoolId": 255901001,
+    "schoolYear": 2022,
+    "sessionName": "2021-2022 Fall Semester"
+  },
+  "localCourseCode": "ALG-1"
+}
+```
 
 ## Resource Extensions
 
@@ -87,13 +110,13 @@ example, if the Student resource has been extended in the data model supported
 by the API platform host, an API consumer requesting a student will receive the
 extended resource.
 
-An Ed-Fi REST API resource _must_ follow a specific pattern for extensibility in
+An Ed-Fi API resource _must_ follow a specific pattern for extensibility in
 its structure in order to distinguish extension attributes from native
 attributes. Extensions _must_ be denoted by use of the reserved term `_ext` and
 namespaced. For API users, this both clearly distinguishes these attributes from
 native attributes that originate from the UDM, and provides (via the namespace)
 information as to the origin or governance of the extension. The example below
-shows the JSON for a Staff resource that has been extended using a "_GrandBend_"
+shows the JSON for a Staff resource that has been extended using a "_grandbend_"
 namespace.
 
 ```json
@@ -104,7 +127,7 @@ namespace.
   "yearsOfPriorProfessionalExperience": 0,
   "yearsOfPriorTeachingExperience": 0,
   "_ext": {
-    "GrandBend": {
+    "grandbend": {
       "probationCompleteDate": "2019-05-14",
       "tenured": true
     }
@@ -131,13 +154,19 @@ namespace.
 
 ## Descriptors
 
-Ed-Fi Descriptors exposed through the API are analogous to enumerations in XML
-or lookup values in a database. Descriptors _must_ include a namespace, and the
-namespace should follow the URI format. 
+Ed-Fi resources utilize Descriptors to enumerate small sets of valid values for
+some elements. This enumeration ensures higher quality in the data compared to
+allowing free-text strings. For example, a student can be associated with one or
+more languages. The list of languages is specified in the `languageDescriptors`.
+Each descriptor has a `namespace` and `codeValue`. These two are combined into
+`<namespace>#<codeValue>` when filling in a Descriptor value on a resource.
 
-It is _recommended_ that Descriptors be read-only from the API's perspective.
-However, an implementation _may_ allow them to be created using POST and updated
-using PUT.
+Example: the Aromanian language with codeValue `rup` is in the
+`uri://ed-fi.org/LanguageDescriptor` namespace. When assigning a language to a
+student, an API client uses the string `uri://ed-fi.org/LanguageDescriptor#rup`.
+
+See [Ed-Fi Descriptors](./ED-FI-DESCRIPTORS.md) for more information on use and
+management of Descriptors.
 
 -----
 
