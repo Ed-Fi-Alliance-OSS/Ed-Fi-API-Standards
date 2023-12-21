@@ -1,15 +1,15 @@
 # Query Operators
 
-An Ed-Fi REST API should support searching capabilities with the possible use of
+An Ed-Fi API should support searching capabilities with the possible use of
 selectors, paging, and views. These are discussed below.
 
 ## Search
 
-An Ed-Fi REST API _should_ support querying capabilities when searching a
-collection of Resources. Query operators are applied to the query string using
-the following format: `{collectionURI}?{propertyName}{operator}{value}`.
-Currently, the equals operator is the only operator specified. Other operators
-(>, <, 'like', 'and', 'or', etc.) maybe implemented.
+An Ed-Fi API _should_ support querying capabilities when searching a collection
+of Resources. Query operators are applied to the query string using the
+following format: `{collectionURI}?{propertyName}{operator}{value}`. Currently,
+the equals operator is the only operator specified. Other operators (>, <,
+'like', 'and', 'or', etc.) maybe implemented.
 
 **Table 4.** Equals Operator, the Only Operator Specified for Searching a
 Collection of Resources
@@ -62,14 +62,14 @@ Paging is a mechanism that restricts the number of results returned by an
 operation and has proven critical to the efficient usage of Ed-Fi APIs.  The
 limit parameter _must_ be supported in the query string and allow the client to
 set the maximum number of records to return. If no value is supplied, the limit
-parameter _should _default to 25.
+parameter _should_ default to 25.
 
 The offset parameter _must_ be available to the client to specify how many
 records to skip when getting the result set. The value for offset _should_
 default to 0.
 
-When multiple records are being returned, the total count of all records _should
-be _returned, as part of the HTTP header information. 
+When multiple records are being returned, the total count of all
+records _should_ be returned, as part of the HTTP header information.
 
 For example, to get the first name and last name of a collection of available
 Students from positions 31 to 40:
