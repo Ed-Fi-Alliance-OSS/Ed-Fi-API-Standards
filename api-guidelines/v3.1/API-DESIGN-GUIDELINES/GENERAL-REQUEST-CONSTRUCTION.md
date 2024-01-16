@@ -12,9 +12,9 @@ collection form for the URI is referred to by the pluralized name of the
 individual resource. A specific resource is referenced by the collection name,
 followed by a slash and the resource's unique identifier. For example:
 
-* `/students`` refers to a collection of students
-* `/students/ffc0…a272`` refers to a specific student with an assigned
-  identifier of ffc0…a272
+* `/students` refers to a collection of students
+* `/students/ffc0…a272` refers to a specific student with an assigned identifier
+  of `ffc0…a272`.
 
 ## URI Construction and HTTP Verb Usage for Individual Records and Transactions
 
