@@ -6,7 +6,7 @@ for Ed-Fi REST API implementations.
 
 ## Other REST API Conventions and Features
 
-Three additional REST API features — case sensitivity, encryption, and version —
+Four additional REST API features — case sensitivity, encryption, version, and overposting —
 are discussed in the following table.
 
 **Table 7.** Additional REST API Features
@@ -16,7 +16,7 @@ are discussed in the following table.
 | Case Sensitivity | `/students?firstName=JOHN /students?FIRSTNAME=John`                                        | URIs, parameter names, and parameter values _must not_ be case sensitive. The two URI’s to the left will produce the same results. |
 | Encryption       | HTTPS                                                                                      | All calls to the API _must_ use SSL.                                                                                               |
 | Version          | `https://api.example.com/v3/ed-fi/students` or `https://example.com/api/v3/ed-fi/students` | The API major version number _should_  be specified in the base URI.                                                               |
-
+| Overposting          |  | _Should_ be strict about JSON payloads.                                                               |
 -----
 
 <a name="f9"></a>9. For more information on ETags, see IETF RFC 7232, Section
