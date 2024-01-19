@@ -3,7 +3,7 @@
 Descriptors in the Ed-Fi Data Standard are a set of mechanisms to support
 flexible enumerations or code sets. The following table defined the attibuts of an Ed-Fi Descriptor:
 
-**Table 5.** Descriptor Attributes
+**Table 3.** Descriptor Attributes
 
 | Attribute                | Return from GET | Needed for PUT/POST   | Notes                                                        |
 | ------------------------ | --------------- | -------------------- | ------------------------------------------------------------ |
