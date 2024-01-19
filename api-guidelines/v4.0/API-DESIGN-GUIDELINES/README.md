@@ -8,13 +8,16 @@ programmers.
 
 This section covers the following topics in detail:
 
-* [Resources](RESOURCES.md)
-* [HTTP Verbs](HTTP-VERBS.md)
-* [General Request Construction](GENERAL-REQUEST-CONSTRUCTION.md)
-* [Ed-Fi Descriptors](ED-FI-DESCRIPTORS.md)
-* [Query Operators](QUERY-OPERATORS.md)
-* [Response Codes](RESPONSE-CODES.md)
-* [ETags and Other REST API Conventions and
+  * [API Metadata](API-METADATA.md)
+  * [Data Strictness](DATA-STRICTNESS.md)
+  * [Resources](RESOURCES.md)
+  * [HTTP Verbs](HTTP-VERBS.md)
+  * [General Request Construction](GENERAL-REQUEST-CONSTRUCTION.md)
+  * [Ed-Fi Descriptors](ED-FI-DESCRIPTORS.md)
+  * [Query Operators](QUERY-OPERATORS.md)
+  * [Response Codes](RESPONSE-CODES.md)
+  * [Encryption](ENCRYPTION.md)
+  * [ETags and Other REST API Conventions and
   Features](ETAGS-OTHER-CONVENTIONS.md)
 
 ## API Guidelines Contents
