@@ -58,7 +58,7 @@ This query string value would return the first name and the address collection,
 but only provide the latitude and longitude properties on that address
 collection.
 
-### Paging
+## Paging
 
 Paging is a mechanism that restricts the number of results returned by an
 operation and has proven critical to the efficient usage of Ed-Fi APIs.  The
@@ -81,6 +81,28 @@ https://api.example.com/v1/students?fields=firstName,lastSurname&limit=10&offset
 ```
 
 Alternate approached to paging could be implemented, for example using keyset or cursor-based parameters.
+
+## Ordering
+
+Ordering is a mechanism that sorts the objects returned by one or more of the
+fields returned.  Ordering could be implemented with the use of URL query string
+parameters. If implemented, it must:
+
+* Take directionality as a parameter (ascending/descending).
+* Respect paging parameters.
+* Guarantee that repeated queries with the same order and paging parameters,
+  when no data changes have occurred, reliably return the same sequence of
+  objects.
+
+For example, an Ed-Fi API could return all Student School Associations from
+smallest School Id to largest with the following URL fragment:
+
+```none
+/ed-fi/studentSchoolAssociations?orderBy=SchoolId&direction=desc.
+```
+
+As an experimental feature, this example is merely one possibility, rather than
+a prescribed approach.
 
 ## API Guidelines Contents
 
