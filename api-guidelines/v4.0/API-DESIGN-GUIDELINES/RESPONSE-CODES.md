@@ -8,7 +8,7 @@ status of its request.
 
 The following response codes _must_ be used when responding to requests.
 
-**Table 6.** Response and Status Codes
+**Table 7.** Response and Status Codes
 
 | HTTP Response Code | Name                  | Reason(s)                                                                                                                                                                            |
 | ------------------ | --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -25,6 +25,8 @@ The following response codes _must_ be used when responding to requests.
 | 500                | Internal Server Error | Returned if the server encountered an unexpected error during the operation.                                                                                                         |
 
 The following response codes _could_ be used when responding to requests.
+
+**Table 8.** Optional Response Codes
 
 | HTTP Response Code | Name                   | Reason(s)                                                                                                         |
 | ------------------ | ---------------------- | ----------------------------------------------------------------------------------------------------------------- |
@@ -63,7 +65,6 @@ For example:
   * [HTTP Verbs](HTTP-VERBS.md)
   * [General Request Construction](GENERAL-REQUEST-CONSTRUCTION.md)
   * [Ed-Fi Descriptors](ED-FI-DESCRIPTORS.md)
-  * [Bulk Operations](BULK-OPERATIONS.md)
   * [Query Operators](QUERY-OPERATORS.md)
   * [Response Codes](RESPONSE-CODES.md)
   * [Encryption](ENCRYPTION.md)
