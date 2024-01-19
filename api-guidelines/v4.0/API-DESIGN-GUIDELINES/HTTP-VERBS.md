@@ -37,6 +37,8 @@ Ed-Fi REST API supports the following verbs:
 * [Key Characteristics](../KEY-CHARACTERISTICS.md)
 * [Requirement Levels](../REQUIREMENT-LEVELS.md)
 * [API Design Guidelines](../API-DESIGN-GUIDELINES/README.md)
+  * [API Metadata](API-METADATA.md)
+  * [Data Strictness](DATA-STRICTNESS.md)
   * [Resources](RESOURCES.md)
   * [HTTP Verbs](HTTP-VERBS.md)
   * [General Request Construction](GENERAL-REQUEST-CONSTRUCTION.md)
@@ -44,6 +46,7 @@ Ed-Fi REST API supports the following verbs:
   * [Bulk Operations](BULK-OPERATIONS.md)
   * [Query Operators](QUERY-OPERATORS.md)
   * [Response Codes](RESPONSE-CODES.md)
-* [ETags and Other REST API Conventions and
+  * [Encryption](ENCRYPTION.md)
+  * [ETags and Other REST API Conventions and
   Features](ETAGS-OTHER-CONVENTIONS.md)
 * [API Implementation Guidelines](../API-IMPLEMENTATION-GUIDELINES/README.md)
