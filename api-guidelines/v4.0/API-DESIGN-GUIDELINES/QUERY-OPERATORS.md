@@ -20,7 +20,7 @@ https://api.example.com/v3/ed-fi/students?firstName=john&lastSurname=Smith
 
 Not all properties are guaranteed to be searchable.  The Open API specification for the Ed-Fi API instance will define which properties are available.  All serachable properties in embedded objects must be dereferenced.  For example, a Student School Association document contains schoolReference: `{ schoolId: 12345 }`.  The equivalent query must be `/ed-fi/studentSchoolAssociations?schoolId=12345` not `/ed-fi/studentSchoolAssociations?schoolReference.schoolId=12345` 
 
-**Table 4.** Equals Operator, the Only Operator Specified for Searching a
+**Table 5.** Equals Operator, the Only Operator Specified for Searching a
 Collection of Resources
 
 | Operator | Description |
@@ -33,7 +33,7 @@ Selectors allow application developers to be more selective about how much data
 is returned in the resource representations. Implementation of selectors in an
 Ed-Fi REST API is optional (i.e., a _should_ requirement).
 
-**Table 5.** Selectors Allow Increased Selectivity in the Data that is Returned
+**Table 6.** Selectors Allow Increased Selectivity in the Data that is Returned
 
 | Parameter | Description                               |
 | --------- | ----------------------------------------- |
@@ -116,7 +116,6 @@ a prescribed approach.
   * [HTTP Verbs](HTTP-VERBS.md)
   * [General Request Construction](GENERAL-REQUEST-CONSTRUCTION.md)
   * [Ed-Fi Descriptors](ED-FI-DESCRIPTORS.md)
-  * [Bulk Operations](BULK-OPERATIONS.md)
   * [Query Operators](QUERY-OPERATORS.md)
   * [Response Codes](RESPONSE-CODES.md)
   * [Encryption](ENCRYPTION.md)
