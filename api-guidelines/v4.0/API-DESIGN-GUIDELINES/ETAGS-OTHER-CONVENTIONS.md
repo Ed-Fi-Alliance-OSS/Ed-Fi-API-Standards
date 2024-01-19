@@ -9,7 +9,7 @@ for Ed-Fi REST API implementations.
 Four additional REST API features — case sensitivity, encryption, version, and overposting —
 are discussed in the following table.
 
-**Table 7.** Additional REST API Features
+**Table 9.** Additional REST API Features
 
 | REST Feature     | Ed-Fi Implementation                                                                       | Explanation                                                                                                                        |
 | ---------------- | ------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------- |
@@ -32,7 +32,6 @@ are discussed in the following table.
   * [HTTP Verbs](HTTP-VERBS.md)
   * [General Request Construction](GENERAL-REQUEST-CONSTRUCTION.md)
   * [Ed-Fi Descriptors](ED-FI-DESCRIPTORS.md)
-  * [Bulk Operations](BULK-OPERATIONS.md)
   * [Query Operators](QUERY-OPERATORS.md)
   * [Response Codes](RESPONSE-CODES.md)
   * [Encryption](ENCRYPTION.md)
