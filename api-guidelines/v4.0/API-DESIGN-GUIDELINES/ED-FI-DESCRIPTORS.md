@@ -3,6 +3,8 @@
 Descriptors in the Ed-Fi Data Standard are a set of mechanisms to support
 flexible enumerations or code sets. The following table defined the attibuts of an Ed-Fi Descriptor:
 
+**Table 5.** Descriptor Attributes
+
 | Attribute                | Return from GET | Needed for PUT/POST   | Notes                                                        |
 | ------------------------ | --------------- | -------------------- | ------------------------------------------------------------ |
 | namespace                | required        | required             |                                                              |
@@ -22,7 +24,7 @@ flexible enumerations or code sets. The following table defined the attibuts of 
 Descriptors are also exposed as Resources of an Ed-Fi API and can be
 accessed and manipulated as follows:
 
-**Table 3.** Accessing and Manipulating Descriptors
+**Table 4.** Accessing and Manipulating Descriptors
 
 | Resource                 | POST                  | GET                                              | PUT                              | DELETE                           |
 | ------------------------ | --------------------- | ------------------------------------------------ | -------------------------------- | -------------------------------- |
@@ -89,7 +91,6 @@ specification](../../../api-specifications/descriptor-api).
   * [HTTP Verbs](HTTP-VERBS.md)
   * [General Request Construction](GENERAL-REQUEST-CONSTRUCTION.md)
   * [Ed-Fi Descriptors](ED-FI-DESCRIPTORS.md)
-  * [Bulk Operations](BULK-OPERATIONS.md)
   * [Query Operators](QUERY-OPERATORS.md)
   * [Response Codes](RESPONSE-CODES.md)
   * [Encryption](ENCRYPTION.md)
