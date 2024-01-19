@@ -3,19 +3,19 @@
 Descriptors in the Ed-Fi Data Standard are a set of mechanisms to support
 flexible enumerations or code sets. The following table defined the attibuts of an Ed-Fi Descriptor:
 
-| Attribute                | Requirement Level | Return from GET | Needed for PUT/POST   | Notes                                                        |
-| ------------------------ | ----------------- | ---------------- | -------------------- | ------------------------------------------------------------ |
-| namespace                | Must Have         | Must Have        | Must Have            |                                                              |
-| codeValue                | Must Have         | Must Have        | Must Have            | Value should be human readable                               |
-| shortDescription         | Must Have         |                  |                      |                                                              |
-| description              | Must Have         |                  |                      |                                                              |
-| effectiveBeginDate       | Must Have         |                  |                      | Date for display only, not validation                        |
-| effectiveEndDate         | Must Have         |                  |                      | Date for display only, not validation                        |
-| id                       | Must Have         |                  |                      |                                                              |
-| _etag                    | Should have       |                  |                      |                                                              |
-| xyzDescriptorId          | Could Have        |                  |                      |                                                              |
-| priorDescriptorId        | Could Have        |                  |                      |                                                              |
-| lastModfiedDateTime      | Could Have        |                  |                      | Date for display only, not validation                        |
+| Attribute                | Return from GET | Needed for PUT/POST   | Notes                                                        |
+| ------------------------ | --------------- | -------------------- | ------------------------------------------------------------ |
+| namespace                | required        | required             |                                                              |
+| codeValue                | required        | required             | Value should be human readable, e.g. prefer one or more words over a numeric code or random string.|
+| shortDescription         | required        | required             |                                                              |
+| description              | required        | optional             | Longer description that may contain additional normative usage guidance.|
+| effectiveBeginDate       | required        | optional             | Date for display only, not validation                        |
+| effectiveEndDate         | required        | optional             | Date for display only, not validation                        |
+| id                       | required        | Must not have on POST <br /> required on PUT|                                                              |
+| _etag                    | required        | optional             |                                                              |
+| xyzDescriptorId          | optional        | Must not have        | Retained only for backward-compliance with existing ODS/API implementations.|
+| priorDescriptorId        | optional        | optional             | Retained only for backward-compliance with existing ODS/API implementations.|
+| lastModfiedDateTime      | optional        | Must not have        | Date for display only, not validation                        |
 
 ## URI Construction and HTTP Verb Usage for Ed-Fi Descriptors
 
