@@ -1,7 +1,10 @@
 # Query Operators
 
-An Ed-Fi API should support searching capabilities with the possible use of
-selectors, paging, and views. These are discussed below.
+An Ed-Fi API _should_ support searching capabilities with the possible use of selectors, paging,
+and views. All capabilities that are supported, their configurations and their default values
+should be available from the API Metadata. When querying an Ed-Fi API must use just the
+property value as the natural key query term, for example rather than schoolResource.schoolId
+the query term must be ?schoolId=xyz. All possible capabilities are discussed below.
 
 ## Search
 
@@ -60,11 +63,11 @@ collection.
 
 Paging is a mechanism that restricts the number of results returned by an
 operation and has proven critical to the efficient usage of Ed-Fi APIs.  The
-limit parameter _must_ be supported in the query string and allow the client to
+limit parameter _should_ be supported in the query string and allow the client to
 set the maximum number of records to return. If no value is supplied, the limit
 parameter _should_ default to 25.
 
-The offset parameter _must_ be available to the client to specify how many
+The offset parameter _should_ be available to the client to specify how many
 records to skip when getting the result set. The value for offset _should_
 default to 0.
 
