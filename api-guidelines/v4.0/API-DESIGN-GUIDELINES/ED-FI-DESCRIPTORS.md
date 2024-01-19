@@ -1,22 +1,21 @@
 # Ed-Fi Descriptors
 
 Descriptors in the Ed-Fi Data Standard are a set of mechanisms to support
-flexible enumerations or code sets. Each Descriptor has the following
-attributes:
+flexible enumerations or code sets. The following table defined the attibuts of an Ed-Fi Descriptor:
 
-* namespace
-* codeValue
-* shortDescription
-* description
-* effectiveBeginDate
-* effectiveEndDate
-
-The GET of a resource _must_ return the namespace and codeValue for Descriptor
-enumerations. Other components of the Descriptor can be retrieved from the
-Descriptor resource.
-
-The PUT or POST of a resource _must_ specify the namespace and codeValue for
-each Descriptor value in a descriptor reference (described below).
+| Attribute                | Requirement Level | Return from GET | Needed for PUT/POST   | Notes                                                        |
+| ------------------------ | ----------------- | ---------------- | -------------------- | ------------------------------------------------------------ |
+| namespace                | Must Have         | Must Have        | Must Have            |                                                              |
+| codeValue                | Must Have         | Must Have        | Must Have            | Value should be human readable                               |
+| shortDescription         | Must Have         |                  |                      |                                                              |
+| description              | Must Have         |                  |                      |                                                              |
+| effectiveBeginDate       | Must Have         |                  |                      | Date for display only, not validation                        |
+| effectiveEndDate         | Must Have         |                  |                      | Date for display only, not validation                        |
+| id                       | Must Have         |                  |                      |                                                              |
+| _etag                    | Should have       |                  |                      |                                                              |
+| xyzDescriptorId          | Could Have        |                  |                      |                                                              |
+| priorDescriptorId        | Could Have        |                  |                      |                                                              |
+| lastModfiedDateTime      | Could Have        |                  |                      | Date for display only, not validation                        |
 
 ## URI Construction and HTTP Verb Usage for Ed-Fi Descriptors
 
