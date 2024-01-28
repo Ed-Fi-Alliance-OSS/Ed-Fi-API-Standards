@@ -1,4 +1,5 @@
 # Data Strictness
+
 The decisions for this section are to allow the least amount of friction to the
 data exchange while still ensuring data are valid.  
 
