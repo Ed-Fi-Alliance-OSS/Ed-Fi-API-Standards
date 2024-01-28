@@ -23,13 +23,17 @@ surname "Smith":
 https://api.example.com/v3/ed-fi/students?firstName=john&lastSurname=Smith
 ```
 
-Not all properties are guaranteed to be searchable.  The Open API specification
-for the Ed-Fi API instance will define which properties are available.  All
-serachable properties in embedded objects must be dereferenced.  For example, a
-Student School Association document contains schoolReference: `{ schoolId: 12345
-}`.  The equivalent query must be
-`/ed-fi/studentSchoolAssociations?schoolId=12345` not
-`/ed-fi/studentSchoolAssociations?schoolReference.schoolId=12345` 
+The Open API specification documents will show which properties are searchable.
+When a searchable parameter is nested under another object in the JSON
+payload, the Ed-Fi API specifications require the query string to use only the
+parameter name _without_ dereferencing the parent element name. For example, the
+JSON document for a `studentSchoolAssociation` includes `schoolId` nested below
+`schoolReference`. In the JsonPath query language, the query for a particular
+schoolId would then be `?schoolReference.schoolId=xyz`. However, the Ed-Fi API
+specifications predate and do not use JsonPath. Instead, they make a simplifying
+assumption that `schoolId` by itself is uniquely searchable without
+dereferencing the parent entity, `schoolReference`. Thus, the correct HTTP query
+term is therefore simply `?schoolId=xyz`.
 
 **Table 5.** Equals Operator, the Only Operator Specified for Searching a
 Collection of Resources
