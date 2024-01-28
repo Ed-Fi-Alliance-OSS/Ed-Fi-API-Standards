@@ -8,7 +8,7 @@ programmers.
 
 This section covers the following topics in detail:
 
-  * [API Metadata](API-METADATA.md)
+  * [Discover API](DISCOVERY-API.md)
   * [Data Strictness](DATA-STRICTNESS.md)
   * [Resources](RESOURCES.md)
   * [HTTP Verbs](HTTP-VERBS.md)
@@ -16,7 +16,6 @@ This section covers the following topics in detail:
   * [Ed-Fi Descriptors](ED-FI-DESCRIPTORS.md)
   * [Query Operators](QUERY-OPERATORS.md)
   * [Response Codes](RESPONSE-CODES.md)
-  * [Encryption](ENCRYPTION.md)
   * [ETags and Other REST API Conventions and
   Features](ETAGS-OTHER-CONVENTIONS.md)
 
