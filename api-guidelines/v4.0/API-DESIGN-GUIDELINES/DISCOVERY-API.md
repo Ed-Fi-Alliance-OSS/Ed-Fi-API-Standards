@@ -5,9 +5,10 @@
 The default response when retrieving the base endpoint on an Ed-Fi
 implementation must be a JSON document that provides information about the
 application version, suported data model(s), and URLs for additional metadata.
-Historically, this root-level metadata resource has been known as the "version
-endpoint".  The following sample JSON demonstrates the required elements, with
-an optional extension (TPDM).
+The following sample JSON comes from the Ed-Fi ODS/API for Suite 3, version 7.0,
+hosting Data Standard 5.0 with the TPDM extension (version 1.1). For more
+information, go to [Ed-Fi Discovery API
+specification](../../../api-specifications/discovery-api)
 
 ```json
 {
