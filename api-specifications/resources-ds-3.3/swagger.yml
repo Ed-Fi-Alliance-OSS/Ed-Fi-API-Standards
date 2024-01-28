@@ -5,7 +5,7 @@ consumes:
 definitions:
   credentialExtensions:
     properties:
-      TPDM:
+      tpdm:
         $ref: '#/definitions/tpdm_credentialExtension'
     type: object
   deletedResource:
@@ -14301,12 +14301,12 @@ definitions:
     type: object
   schoolExtensions:
     properties:
-      TPDM:
+      tpdm:
         $ref: '#/definitions/tpdm_schoolExtension'
     type: object
   surveyResponseExtensions:
     properties:
-      TPDM:
+      tpdm:
         $ref: '#/definitions/tpdm_surveyResponseExtension'
     type: object
   tpdm_candidate:
