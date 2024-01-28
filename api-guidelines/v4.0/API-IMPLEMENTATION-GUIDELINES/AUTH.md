@@ -28,18 +28,6 @@ _must_ allow application-only authentication. When user credentials are
 available, the API _must_ require both application and user credentials. These
 situations are described below.
 
-### Application Authentication
-
-In an Ed-Fi REST API, an application is identified when it provides credentials
-and receives a token that is subsequently used for each interaction during a
-given period of time (often called a session). An Ed-Fi REST API _should_
-provide a method of application authentication. Two-legged OAuth using the
-client credentials grant flow is the _recommended_ implementation for
-application authentication.
-
-Applications accessing an Ed-Fi REST API _should_ be fully vetted to perform as
-expected before production application credentials are issued.
-
 ### System Applications
 
 Some classes of applications do not naturally operate in the context of a user;
