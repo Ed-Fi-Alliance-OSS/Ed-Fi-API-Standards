@@ -86,7 +86,7 @@ Students from positions 31 to 40:
 https://api.example.com/v1/students?fields=firstName,lastSurname&limit=10&offset=30
 ```
 
-Alternate approached to paging could be implemented, for example using keyset or
+Alternate approaches to paging could be implemented, for example using keyset or
 cursor-based parameters.
 
 ## Ordering
