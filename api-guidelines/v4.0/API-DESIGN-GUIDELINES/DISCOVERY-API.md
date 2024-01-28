@@ -1,4 +1,4 @@
-# API Metadata
+# Discovery API
 
 ## Version Endpoint
 
