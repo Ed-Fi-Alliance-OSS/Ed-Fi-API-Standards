@@ -34,9 +34,13 @@ an optional extension (TPDM).
 }
 ```
 
-While the "suite" string traditionally differentiated between ODS/API 2.x and
-3.x+, it could also be used for alternate implementations.  For example, the
-value could be "meadowlark":"3".
+The "suite" string traditionally differentiated between ODS/API 2.x and 3.x+.
+The numbers "2" and "3" should only be used for the Ed-Fi ODS/API software.
+Other Ed-Fi compliant applications should provide their own moniker for the
+"suite". This is the one programmatic means for an API client to determine which
+software it is working with. In day-to-day interactions the software
+implementing the API's should not matter, but this information could be useful
+in debugging situations.
 
 Other URL values can also be included, for example:
 
