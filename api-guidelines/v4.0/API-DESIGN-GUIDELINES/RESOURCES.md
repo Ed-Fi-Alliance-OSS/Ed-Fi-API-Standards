@@ -110,11 +110,11 @@ example, if the Student resource has been extended in the data model supported
 by the API platform host, an API consumer requesting a student will receive the
 extended resource.
 
-An Ed-Fi API resource _must_ follow a specific pattern for extensibility in
-its structure in order to distinguish extension attributes from native
-attributes. Extensions _must_ be denoted by use of the reserved term `_ext` and
-namespaced. For API users, this both clearly distinguishes these attributes from
-native attributes that originate from the UDM, and provides (via the namespace)
+An Ed-Fi API resource _must_ follow a specific pattern for extensibility in its
+structure in order to distinguish extension attributes from native attributes.
+Extensions _must_ be denoted by use of the reserved term `_ext` and namespaced.
+For API users, this both clearly distinguishes these attributes from native
+attributes that originate from the UDM, and provides (via the namespace)
 information as to the origin or governance of the extension. The example below
 shows the JSON for a Staff resource that has been extended using a "_grandbend_"
 namespace.

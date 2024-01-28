@@ -15,12 +15,12 @@ of who is known as authentication; the what is authorization.
 The process of authentication provides the means of reliably identifying
 applications and users to an Ed-Fi REST API implementation. Both applications
 and users require authentication in order to maintain secure data. The OAuth 2
-specification[\[10\]](#f10)is used by an
-Ed-Fi REST API for authentication. This specification is broad enough to handle
-both private and public identity providers. An identity provider issues
-identification information for all providers desiring interaction with the
-system. An authentication module verifies a security token as an alternative to
-explicitly authenticating the user.
+specification[\[10\]](#f10)is used by an Ed-Fi REST API for authentication. This
+specification is broad enough to handle both private and public identity
+providers. An identity provider issues identification information for all
+providers desiring interaction with the system. An authentication module
+verifies a security token as an alternative to explicitly authenticating the
+user.
 
 Both application authentication and user authentication _should_ be used. When
 applications do not have user authentication associated with API calls, the API

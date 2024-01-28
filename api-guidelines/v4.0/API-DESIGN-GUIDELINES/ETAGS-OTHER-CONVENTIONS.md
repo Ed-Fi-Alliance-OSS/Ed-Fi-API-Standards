@@ -6,8 +6,8 @@ for Ed-Fi REST API implementations.
 
 ## Other REST API Conventions and Features
 
-Four additional REST API features — case sensitivity, encryption, version, and overposting —
-are discussed in the following table.
+Four additional REST API features — case sensitivity, encryption, version, and
+overposting — are discussed in the following table.
 
 **Table 9.** Additional REST API Features
 

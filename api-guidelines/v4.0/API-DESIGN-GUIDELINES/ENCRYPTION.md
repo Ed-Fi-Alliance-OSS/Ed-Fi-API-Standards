@@ -1,6 +1,7 @@
 # Encryption
 
-All client requests to an Ed-Fi API over a public network must use Transport Layer Security (TLS). Data at rest should be stored with disk level encryption.
+All client requests to an Ed-Fi API over a public network must use Transport
+Layer Security (TLS). Data at rest should be stored with disk level encryption.
 
 ## API Guidelines Contents
 

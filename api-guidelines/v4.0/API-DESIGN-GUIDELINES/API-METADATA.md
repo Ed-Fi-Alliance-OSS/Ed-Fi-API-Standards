@@ -2,7 +2,12 @@
 
 ## Version Endpoint
 
-The default response when retrieving the base endpoint on an Ed-Fi implementation must be a JSON document that provides information about the application version, suported data model(s), and URLs for additional metadata.  Historically, this root-level metadata resource has been known as the "version endpoint".  The following sample JSON demonstrates the required elements, with an optional extension (TPDM).
+The default response when retrieving the base endpoint on an Ed-Fi
+implementation must be a JSON document that provides information about the
+application version, suported data model(s), and URLs for additional metadata.
+Historically, this root-level metadata resource has been known as the "version
+endpoint".  The following sample JSON demonstrates the required elements, with
+an optional extension (TPDM).
 
 ```json
 {
@@ -29,7 +34,9 @@ The default response when retrieving the base endpoint on an Ed-Fi implementatio
 }
 ```
 
-While the "suite" string traditionally differentiated between ODS/API 2.x and 3.x+, it could also be used for alternate implementations.  For example, the value could be "meadowlark":"3".
+While the "suite" string traditionally differentiated between ODS/API 2.x and
+3.x+, it could also be used for alternate implementations.  For example, the
+value could be "meadowlark":"3".
 
 Other URL values can also be included, for example:
 

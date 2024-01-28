@@ -1,7 +1,8 @@
 # Ed-Fi Descriptors
 
 Descriptors in the Ed-Fi Data Standard are a set of mechanisms to support
-flexible enumerations or code sets. The following table defined the attibuts of an Ed-Fi Descriptor:
+flexible enumerations or code sets. The following table defined the attibuts of
+an Ed-Fi Descriptor:
 
 **Table 3.** Descriptor Attributes
 
@@ -21,8 +22,8 @@ flexible enumerations or code sets. The following table defined the attibuts of 
 
 ## URI Construction and HTTP Verb Usage for Ed-Fi Descriptors
 
-Descriptors are also exposed as Resources of an Ed-Fi API and can be
-accessed and manipulated as follows:
+Descriptors are also exposed as Resources of an Ed-Fi API and can be accessed
+and manipulated as follows:
 
 **Table 4.** Accessing and Manipulating Descriptors
 
