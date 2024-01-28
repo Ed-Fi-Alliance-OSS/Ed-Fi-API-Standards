@@ -31,12 +31,6 @@ assumption that `schoolId` by itself is uniquely searchable without
 dereferencing the parent entity, `schoolReference`. Thus, the correct HTTP query
 term is therefore simply `?schoolId=xyz`.
 
-**Table 5.** Equals Operator, the Only Operator Specified for Searching a
-Collection of Resources
-
-| Operator | Description |
-| -------- | ----------- |
-| `=`      | Equality    |
 
 ## Selectors
 
@@ -44,7 +38,7 @@ Selectors allow application developers to be more selective about how much data
 is returned in the resource representations. Implementation of selectors in an
 Ed-Fi REST API is optional (i.e., a _should_ requirement).
 
-**Table 6.** Selectors Allow Increased Selectivity in the Data that is Returned
+**Table 5.** Selectors Allow Increased Selectivity in the Data that is Returned
 
 | Parameter | Description                               |
 | --------- | ----------------------------------------- |

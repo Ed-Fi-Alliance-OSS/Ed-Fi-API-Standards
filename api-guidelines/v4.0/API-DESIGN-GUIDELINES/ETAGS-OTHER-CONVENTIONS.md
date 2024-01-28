@@ -8,7 +8,7 @@ for Ed-Fi REST API implementations.
 
 Two additional REST API features — case sensitivity, and version — are discussed in the following table.
 
-**Table 9.** Additional REST API Features
+**Table 8.** Additional REST API Features
 
 | REST Feature     | Ed-Fi Implementation                                                                       | Explanation                                                                                                                        |
 | ---------------- | ------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------- |

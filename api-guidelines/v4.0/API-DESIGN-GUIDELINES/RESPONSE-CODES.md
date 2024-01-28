@@ -8,7 +8,7 @@ status of its request.
 
 The following response codes _must_ be used when responding to requests.
 
-**Table 7.** Response and Status Codes
+**Table 6.** Response and Status Codes
 
 | HTTP Response Code | Name                  | Reason(s)                                                                                                                                                                            |
 | ------------------ | --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -26,7 +26,7 @@ The following response codes _must_ be used when responding to requests.
 
 The following response codes _could_ be used when responding to requests.
 
-**Table 8.** Optional Response Codes
+**Table 7.** Optional Response Codes
 
 | HTTP Response Code | Name                   | Reason(s)                                                                                                         |
 | ------------------ | ---------------------- | ----------------------------------------------------------------------------------------------------------------- |
