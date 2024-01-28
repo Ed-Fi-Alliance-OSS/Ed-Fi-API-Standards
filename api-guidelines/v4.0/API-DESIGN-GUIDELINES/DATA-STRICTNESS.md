@@ -12,7 +12,7 @@ proper formatting of `datetime` type fields.
 
 ## Case Sensitivity
 
-All API endpoints and queries must be case insensitive to ensure full
+All API routes and query string parameters must be case insensitive to ensure full
 compatibility with all backend data sources.
 
 ## Schema Validation
