@@ -3,9 +3,11 @@
 An Ed-Fi API _should_ support searching capabilities with the possible use of
 filters, paging, and ordering. These are discussed below.  Information about all
 supported capabilities, their configurations, and their default values should be
-available from the API Metadata. <br /><br /> When querying, an Ed-Fi API must
-use just the property value as the natural key query term, for example rather
-than schoolResource.schoolId the query term must be ?schoolId=xyz. 
+available from the API Metadata. 
+
+When querying, an Ed-Fi API must use just the property value as the natural key
+query term, for example rather than schoolResource.schoolId the query term must
+be ?schoolId=xyz. 
 
 ## Search
 
