@@ -6,8 +6,9 @@ data exchange while still ensuring data are valid.
 ## DateTime
 
 All API endpoints with date/time properties should require both the date and
-time, not just a date.  The data should include the timezone and should always
-be transmitted in ISO format.
+time, not just a date. The data should include the timezone/offset. See 
+[RFC 3339](https://www.rfc-editor.org/rfc/rfc3339) for detailed guidance on
+proper formatting of `datetime` type fields.
 
 ## Case Sensitivity
 
