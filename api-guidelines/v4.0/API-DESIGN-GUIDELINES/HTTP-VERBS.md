@@ -19,8 +19,8 @@ Ed-Fi REST API supports the following verbs:
 * **PUT** An HTTP PUT _must_ perform an idempotent update of an existing
   resource. PUT performs a full replacement of the existing resource with the
   supplied value. A PUT against a nonexistent resource _must not_ create a new
-  resource under the provided identifier. PUT is a _required_ verb for non-read-only
-  Resources.
+  resource under the provided identifier. PUT is a _required_ verb for
+  non-read-only Resources.
 * **DELETE** An HTTP DELETE deletes an existing individual resource. DELETE is a
   _required_ verb for non-read-only Resources.
 * **PATCH** An HTTP PATCH performs a partial update on an existing individual
@@ -37,13 +37,14 @@ Ed-Fi REST API supports the following verbs:
 * [Key Characteristics](../KEY-CHARACTERISTICS.md)
 * [Requirement Levels](../REQUIREMENT-LEVELS.md)
 * [API Design Guidelines](../API-DESIGN-GUIDELINES/README.md)
+  * [Discovery API](DISCOVERY-API.md)
+  * [Data Strictness](DATA-STRICTNESS.md)
   * [Resources](RESOURCES.md)
   * [HTTP Verbs](HTTP-VERBS.md)
   * [General Request Construction](GENERAL-REQUEST-CONSTRUCTION.md)
   * [Ed-Fi Descriptors](ED-FI-DESCRIPTORS.md)
-  * [Bulk Operations](BULK-OPERATIONS.md)
   * [Query Operators](QUERY-OPERATORS.md)
   * [Response Codes](RESPONSE-CODES.md)
-* [ETags and Other REST API Conventions and
+  * [ETags and Other REST API Conventions and
   Features](ETAGS-OTHER-CONVENTIONS.md)
 * [API Implementation Guidelines](../API-IMPLEMENTATION-GUIDELINES/README.md)
