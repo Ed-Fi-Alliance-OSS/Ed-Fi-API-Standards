@@ -1,29 +1,31 @@
 # Ed-Fi Descriptors
 
 Descriptors in the Ed-Fi Data Standard are a set of mechanisms to support
-flexible enumerations or code sets. Each Descriptor has the following
-attributes:
+flexible enumerations or code sets. The following table defined the attibuts of
+an Ed-Fi Descriptor:
 
-* namespace
-* codeValue
-* shortDescription
-* description
-* effectiveBeginDate
-* effectiveEndDate
+**Table 3.** Descriptor Attributes
 
-The GET of a resource _must_ return the namespace and codeValue for Descriptor
-enumerations. Other components of the Descriptor can be retrieved from the
-Descriptor resource.
-
-The PUT or POST of a resource _must_ specify the namespace and codeValue for
-each Descriptor value in a descriptor reference (described below).
+| Attribute                | Return from GET | Needed for PUT/POST   | Notes                                                        |
+| ------------------------ | --------------- | -------------------- | ------------------------------------------------------------ |
+| namespace                | required        | required             |                                                              |
+| codeValue                | required        | required             | Value should be human readable, e.g. prefer one or more words over a numeric code or random string.|
+| shortDescription         | required        | required             |                                                              |
+| description              | required        | optional             | Longer description that may contain additional normative usage guidance.|
+| effectiveBeginDate       | required        | optional             | Date for display only, not validation                        |
+| effectiveEndDate         | required        | optional             | Date for display only, not validation                        |
+| id                       | required        | Must not have on POST <br /> required on PUT|                                                              |
+| _etag                    | required        | optional             |                                                              |
+| xyzDescriptorId          | optional        | Must not have        | Retained only for backward-compliance with existing ODS/API implementations.|
+| priorDescriptorId        | optional        | optional             | Retained only for backward-compliance with existing ODS/API implementations.|
+| lastModfiedDateTime      | optional        | Must not have        | Date for display only, not validation                        |
 
 ## URI Construction and HTTP Verb Usage for Ed-Fi Descriptors
 
-Descriptors are also exposed as Resources of an Ed-Fi API and can be
-accessed and manipulated as follows:
+Descriptors are also exposed as Resources of an Ed-Fi API and can be accessed
+and manipulated as follows:
 
-**Table 3.** Accessing and Manipulating Descriptors
+**Table 4.** Accessing and Manipulating Descriptors
 
 | Resource                 | POST                  | GET                                              | PUT                              | DELETE                           |
 | ------------------------ | --------------------- | ------------------------------------------------ | -------------------------------- | -------------------------------- |
@@ -84,13 +86,14 @@ specification](../../../api-specifications/descriptor-api).
 * [Key Characteristics](../KEY-CHARACTERISTICS.md)
 * [Requirement Levels](../REQUIREMENT-LEVELS.md)
 * [API Design Guidelines](../API-DESIGN-GUIDELINES/README.md)
+  * [Discovery API](DISCOVERY-API.md)
+  * [Data Strictness](DATA-STRICTNESS.md)
   * [Resources](RESOURCES.md)
   * [HTTP Verbs](HTTP-VERBS.md)
   * [General Request Construction](GENERAL-REQUEST-CONSTRUCTION.md)
   * [Ed-Fi Descriptors](ED-FI-DESCRIPTORS.md)
-  * [Bulk Operations](BULK-OPERATIONS.md)
   * [Query Operators](QUERY-OPERATORS.md)
   * [Response Codes](RESPONSE-CODES.md)
-* [ETags and Other REST API Conventions and
+  * [ETags and Other REST API Conventions and
   Features](ETAGS-OTHER-CONVENTIONS.md)
 * [API Implementation Guidelines](../API-IMPLEMENTATION-GUIDELINES/README.md)
