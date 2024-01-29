@@ -110,11 +110,11 @@ example, if the Student resource has been extended in the data model supported
 by the API platform host, an API consumer requesting a student will receive the
 extended resource.
 
-An Ed-Fi API resource _must_ follow a specific pattern for extensibility in
-its structure in order to distinguish extension attributes from native
-attributes. Extensions _must_ be denoted by use of the reserved term `_ext` and
-namespaced. For API users, this both clearly distinguishes these attributes from
-native attributes that originate from the UDM, and provides (via the namespace)
+An Ed-Fi API resource _must_ follow a specific pattern for extensibility in its
+structure in order to distinguish extension attributes from native attributes.
+Extensions _must_ be denoted by use of the reserved term `_ext` and namespaced.
+For API users, this both clearly distinguishes these attributes from native
+attributes that originate from the UDM, and provides (via the namespace)
 information as to the origin or governance of the extension. The example below
 shows the JSON for a Staff resource that has been extended using a "_grandbend_"
 namespace.
@@ -183,13 +183,14 @@ discussed in the Ed-Fi ODS / API documentation, available
 * [Key Characteristics](../KEY-CHARACTERISTICS.md)
 * [Requirement Levels](../REQUIREMENT-LEVELS.md)
 * [API Design Guidelines](../API-DESIGN-GUIDELINES/README.md)
+  * [Discovery API](DISCOVERY-API.md)
+  * [Data Strictness](DATA-STRICTNESS.md)
   * [Resources](RESOURCES.md)
   * [HTTP Verbs](HTTP-VERBS.md)
   * [General Request Construction](GENERAL-REQUEST-CONSTRUCTION.md)
   * [Ed-Fi Descriptors](ED-FI-DESCRIPTORS.md)
-  * [Bulk Operations](BULK-OPERATIONS.md)
   * [Query Operators](QUERY-OPERATORS.md)
   * [Response Codes](RESPONSE-CODES.md)
-* [ETags and Other REST API Conventions and
+  * [ETags and Other REST API Conventions and
   Features](ETAGS-OTHER-CONVENTIONS.md)
 * [API Implementation Guidelines](../API-IMPLEMENTATION-GUIDELINES/README.md)
