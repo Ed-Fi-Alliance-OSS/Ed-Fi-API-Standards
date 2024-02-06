@@ -15,24 +15,8 @@ info:
     name: Apache 2.0
     url: https://www.apache.org/licenses/LICENSE-2.0
 
-servers:
-  - url: https://api.ed-fi.org/v7.1
-    description: ODS/API v7.1
-  - url: https://api.ed-fi.org/v7.0
-    description: ODS/API v7.0
-  - url: https://api.ed-fi.org/v6.1
-    description: ODS/API v6.1
-  - url: https://api.ed-fi.org/v6.0
-    description: ODS/API v6.0
-  - url: https://api.ed-fi.org/v5.3
-    description: ODS/API v5.3
-  - url: https://api.ed-fi.org/v5.2
-    description: ODS/API v5.2
-  - url: https://api.ed-fi.org/v5.1
-    description: ODS/API v5.1
-
 paths:
-  /api:
+  /:
     get:
       description: High-level metadata for the Ed-Fi API implementation.
       responses:
@@ -42,7 +26,7 @@ paths:
             application/json:
               schema:
                 $ref: "#/components/schemas/metadataRoot"
-  /api/metadata:
+  /metadata:
     get:
       description: OpenAPI specifications for interfaces supported by this application.
       responses:
@@ -54,7 +38,7 @@ paths:
                 type: array
                 items:
                   $ref: "#/components/schemas/apiSpecLink"
-  /api/metadata/data/v3/dependencies:
+  /metadata/data/v3/dependencies:
     get:
       description: This endpoint will provide developers with the data needed to load resources in the appropriate order.
       responses:
@@ -82,16 +66,16 @@ components:
       properties:
         version:
           type: string
-          example: 7.0
+          example: 7.1
         informationalVersion:
           type: string
-          example: 7.0
+          example: 7.1
         suite:
           type: string
           example: 3
         build:
           type: string
-          example: 7.0.2250.0
+          example: 7.1.2250.0
         dataModels:
           type: array
           items:
@@ -119,33 +103,33 @@ components:
           properties:
             dependencies:
               type: string
-              example: "https://api.ed-fi.org/v7.0/api/metadata/data/v3/dependencies"
+              example: "https://api.ed-fi.org/v7.1/api/metadata/data/v3/dependencies"
             openApiMetadata:
               type: string
-              example: "https://api.ed-fi.org/v7.0/api/metadata"
+              example: "https://api.ed-fi.org/v7.1/api/metadata"
             oauth:
               type: string
-              example: "https://api.ed-fi.org/v7.0/api/oauth/token"
+              example: "https://api.ed-fi.org/v7.1/api/oauth/token"
             dataManagementApi:
               type: string
               description: Base path for all resources
-              example: "https://api.ed-fi.org/v7.0/api/data/v3"
+              example: "https://api.ed-fi.org/v7.1/api/data/v3"
             xsdMetadata:
               type: string
               description: link for downloading XSD files
-              example: "https://api.ed-fi.org/v7.0/api/metadata/xsd"
+              example: "https://api.ed-fi.org/v7.1/api/metadata/xsd"
             changeQueries:
               type: string
               description: Base path for the Change Queries API
-              example: "https://api.ed-fi.org/v7.0/api/changeQueries/v1"
+              example: "https://api.ed-fi.org/v7.1/api/changeQueries/v1"
             composites:
               type: string
               description: Base path for the Composites API
-              example: "https://api.ed-fi.org/v7.0/api/composites/v1"
+              example: "https://api.ed-fi.org/v7.1/api/composites/v1"
             identity:
               type: string
               description: Base path for the Identity API
-              example: "https://api.ed-fi.org/v7.0/api/identity/v2"
+              example: "https://api.ed-fi.org/v7.1/api/identity/v2"
 
     apiSpecLink:
       type: object
@@ -159,7 +143,7 @@ components:
           example: Resources
         endpointUri:
           type: string
-          example: "https://api.ed-fi.org/v7.0/api/metadata/data/v3/resources/swagger.json"
+          example: "https://api.ed-fi.org/v7.1/api/metadata/data/v3/resources/swagger.json"
         prefix:
           type: string
 
