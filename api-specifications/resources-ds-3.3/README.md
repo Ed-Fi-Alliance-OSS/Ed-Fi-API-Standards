@@ -7,4 +7,14 @@ These file represent the core Resource API generated for [Ed-Fi Data Standard
 3.3](https://techdocs.ed-fi.org/display/EFDS33/Ed-Fi+Data+Standard+v3.3)
 
 * [OpenAPI specification](resources-ds-3.3.yml)
-* [Postman collection](resources-ds-3.3.postman.json)
+
+No Postman file has been saved for this specification. The exported file is
+close to 20 MB, which is excessive for a Git repository. Furthermore, we do not
+have any test automation for that as of yet; the examples in the OpenAPI spec
+are insufficient for auto-generating tests. Since there are not tests, there is
+no advantage to sharing a Postman file here. Anyone with Postman can import the
+OpenAPI specification file directly on their machine.
+
+For local Postman generation, please see
+[Import, Cleaning, and Export with Postman](../../docs/IMPORT-EXPORT-POSTMAN.md)
+for tips on changing the `baseUrl` variable and setting up token authentication.
