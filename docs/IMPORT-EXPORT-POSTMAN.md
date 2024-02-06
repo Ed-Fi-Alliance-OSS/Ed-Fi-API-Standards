@@ -1,5 +1,10 @@
 # Import, Cleaning, and Export with Postman
 
+> [!TIP]
+> These instructions are only applicable when manually importing OpenAPI to
+> Postman, instead of using the [auto-generation with
+> Portman](./AUTO-GEN-TESTS.md) approach.
+
 ## Import Into Postman
 
 1. In Postman, click the import button.
