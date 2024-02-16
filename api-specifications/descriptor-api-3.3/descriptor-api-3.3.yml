@@ -42794,12 +42794,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        absenceEventCategoryDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -42843,12 +42837,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        academicHonorCategoryDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -42892,12 +42880,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        academicSubjectDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -42941,12 +42923,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        accommodationDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -42990,12 +42966,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        accountClassificationDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -43039,12 +43009,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        achievementCategoryDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -43088,12 +43052,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        additionalCreditTypeDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -43137,12 +43095,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        addressTypeDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -43186,12 +43138,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        administrationEnvironmentDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -43235,12 +43181,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        administrativeFundingControlDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -43284,12 +43224,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        ancestryEthnicOriginDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -43333,12 +43267,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        assessmentCategoryDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -43382,12 +43310,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        assessmentIdentificationSystemDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -43431,12 +43353,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        assessmentItemCategoryDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -43480,12 +43396,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        assessmentItemResultDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -43529,12 +43439,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        assessmentPeriodDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -43578,12 +43482,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        assessmentReportingMethodDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -43627,12 +43525,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        attemptStatusDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -43676,12 +43568,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        attendanceEventCategoryDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -43725,12 +43611,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        barrierToInternetAccessInResidenceDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -43774,12 +43654,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        behaviorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -43823,12 +43697,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        calendarEventDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -43872,12 +43740,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        calendarTypeDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -43921,12 +43783,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        careerPathwayDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -43970,12 +43826,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        charterApprovalAgencyTypeDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -44019,12 +43869,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        charterStatusDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -44068,12 +43912,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        citizenshipStatusDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -44117,12 +43955,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        classroomPositionDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -44166,12 +43998,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        cohortScopeDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -44215,12 +44041,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        cohortTypeDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -44264,12 +44084,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        cohortYearTypeDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -44313,12 +44127,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        competencyLevelDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -44362,12 +44170,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        contactTypeDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -44411,12 +44213,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        contentClassDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -44460,12 +44256,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        continuationOfServicesReasonDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -44509,12 +44299,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        costRateDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -44558,12 +44342,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        countryDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -44607,12 +44385,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        courseAttemptResultDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -44656,12 +44428,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        courseDefinedByDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -44705,12 +44471,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        courseGPAApplicabilityDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -44754,12 +44514,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        courseIdentificationSystemDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -44803,12 +44557,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        courseLevelCharacteristicDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -44852,12 +44600,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        courseRepeatCodeDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -44901,12 +44643,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        credentialFieldDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -44950,12 +44686,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        credentialTypeDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -44999,12 +44729,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        creditCategoryDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -45048,12 +44772,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        creditTypeDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -45097,12 +44815,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        cteProgramServiceDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -45146,12 +44858,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        curriculumUsedDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -45195,12 +44901,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        deliveryMethodDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -45244,12 +44944,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        diagnosisDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -45293,12 +44987,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        diplomaLevelDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -45342,12 +45030,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        diplomaTypeDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -45391,12 +45073,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        disabilityDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -45440,12 +45116,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        disabilityDesignationDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -45489,12 +45159,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        disabilityDeterminationSourceTypeDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -45538,12 +45202,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        disciplineActionLengthDifferenceReasonDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -45587,12 +45245,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        disciplineDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -45636,12 +45288,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        disciplineIncidentParticipationCodeDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -45685,12 +45331,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        educationalEnvironmentDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -45734,12 +45374,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        educationOrganizationCategoryDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -45783,12 +45417,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        educationOrganizationIdentificationSystemDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -45832,12 +45460,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        educationPlanDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -45881,12 +45503,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        electronicMailTypeDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -45930,12 +45546,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        employmentStatusDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -45979,12 +45589,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        entryGradeLevelReasonDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -46028,12 +45632,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        entryTypeDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -46077,12 +45675,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        eventCircumstanceDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -46126,12 +45718,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        exitWithdrawTypeDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -46175,12 +45761,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        gradebookEntryTypeDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -46224,12 +45804,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        gradeLevelDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -46273,12 +45847,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        gradePointAverageTypeDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -46322,12 +45890,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        gradeTypeDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -46371,12 +45933,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        gradingPeriodDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -46420,12 +45976,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        graduationPlanTypeDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -46469,12 +46019,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        gunFreeSchoolsActReportingStatusDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -46518,12 +46062,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        homelessPrimaryNighttimeResidenceDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -46567,12 +46105,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        homelessProgramServiceDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -46616,12 +46148,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        identificationDocumentUseDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -46665,12 +46191,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        incidentLocationDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -46714,12 +46234,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        indicatorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -46763,12 +46277,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        indicatorGroupDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -46812,12 +46320,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        indicatorLevelDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -46861,12 +46363,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        institutionTelephoneNumberTypeDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -46910,12 +46406,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        interactivityStyleDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -46959,12 +46449,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        internetAccessDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -47008,12 +46492,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        internetAccessTypeInResidenceDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -47057,12 +46535,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        internetPerformanceInResidenceDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -47106,12 +46578,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        interventionClassDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -47155,12 +46621,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        interventionEffectivenessRatingDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -47204,12 +46664,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        languageDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -47253,12 +46707,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        languageInstructionProgramServiceDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -47302,12 +46750,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        languageUseDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -47351,12 +46793,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        learningStandardCategoryDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -47400,12 +46836,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        learningStandardEquivalenceStrengthDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -47449,12 +46879,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        learningStandardScopeDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -47498,12 +46922,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        levelOfEducationDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -47547,12 +46965,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        licenseStatusDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -47596,12 +47008,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        licenseTypeDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -47645,12 +47051,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        limitedEnglishProficiencyDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -47694,12 +47094,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        localeDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -47743,12 +47137,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        localEducationAgencyCategoryDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -47792,12 +47180,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        magnetSpecialProgramEmphasisSchoolDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -47841,12 +47223,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        mediumOfInstructionDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -47890,12 +47266,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        methodCreditEarnedDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -47939,12 +47309,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        migrantEducationProgramServiceDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -47988,12 +47352,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        monitoredDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -48037,12 +47395,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        neglectedOrDelinquentProgramDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -48086,12 +47438,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        neglectedOrDelinquentProgramServiceDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -48135,12 +47481,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        networkPurposeDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -48184,12 +47524,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        oldEthnicityDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -48233,12 +47567,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        operationalStatusDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -48282,12 +47610,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        otherNameTypeDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -48331,12 +47653,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        participationDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -48380,12 +47696,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        participationStatusDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -48429,12 +47739,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        performanceBaseConversionDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -48478,12 +47782,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        performanceLevelDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -48527,12 +47825,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        personalInformationVerificationDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -48576,12 +47868,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        platformTypeDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -48625,12 +47911,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        populationServedDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -48674,12 +47954,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        postingResultDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -48723,12 +47997,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        postSecondaryEventCategoryDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -48772,12 +48040,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        postSecondaryInstitutionLevelDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -48821,12 +48083,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        primaryLearningDeviceAccessDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -48870,12 +48126,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        primaryLearningDeviceAwayFromSchoolDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -48919,12 +48169,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        primaryLearningDeviceProviderDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -48968,12 +48212,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        proficiencyDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -49017,12 +48255,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        programAssignmentDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -49066,12 +48298,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        programCharacteristicDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -49115,12 +48341,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        programSponsorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -49164,12 +48384,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        programTypeDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -49213,12 +48427,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        progressDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -49262,12 +48470,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        progressLevelDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -49311,12 +48513,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        providerCategoryDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -49360,12 +48556,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        providerProfitabilityDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -49409,12 +48599,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        providerStatusDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -49458,12 +48642,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        publicationStatusDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -49507,12 +48685,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        questionFormDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -49556,12 +48728,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        raceDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -49605,12 +48771,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        reasonExitedDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -49654,12 +48814,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        reasonNotTestedDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -49703,12 +48857,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        recognitionTypeDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -49752,12 +48900,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        relationDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -49801,12 +48943,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        repeatIdentifierDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -49850,12 +48986,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        reporterDescriptionDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -49899,12 +49029,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        residencyStatusDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -49948,12 +49072,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        responseIndicatorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -49997,12 +49115,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        responsibilityDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -50046,12 +49158,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        restraintEventReasonDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -50095,12 +49201,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        resultDatatypeTypeDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -50144,12 +49244,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        retestIndicatorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -50193,12 +49287,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        schoolCategoryDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -50242,12 +49330,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        schoolChoiceImplementStatusDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -50291,12 +49373,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        schoolFoodServiceProgramServiceDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -50340,12 +49416,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        schoolTypeDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -50389,12 +49459,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        sectionCharacteristicDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -50438,12 +49502,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        separationDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -50487,12 +49545,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        separationReasonDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -50536,12 +49588,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        serviceDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -50585,12 +49631,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        sexDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -50634,12 +49674,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        sourceSystemDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -50683,12 +49717,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        specialEducationProgramServiceDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -50732,12 +49760,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        specialEducationSettingDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -50781,12 +49803,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        staffClassificationDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -50830,12 +49846,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        staffIdentificationSystemDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -50879,12 +49889,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        staffLeaveEventCategoryDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -50928,12 +49932,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        stateAbbreviationDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -50977,12 +49975,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        studentCharacteristicDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -51026,12 +50018,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        studentIdentificationSystemDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -51075,12 +50061,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        studentParticipationCodeDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -51124,12 +50104,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        surveyCategoryDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -51173,12 +50147,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        surveyLevelDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -51222,12 +50190,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        teachingCredentialBasisDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -51271,12 +50233,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        teachingCredentialDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -51320,12 +50276,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        technicalSkillsAssessmentDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -51369,12 +50319,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        telephoneNumberTypeDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -51418,12 +50362,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        termDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -51467,12 +50405,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        titleIPartAParticipantDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -51516,12 +50448,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        titleIPartAProgramServiceDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -51565,12 +50491,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        titleIPartASchoolDesignationDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -51614,12 +50534,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        tribalAffiliationDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -51663,12 +50577,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        visaDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -51712,12 +50620,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        weaponDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -51771,12 +50673,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        accreditationStatusDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -51820,12 +50716,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        aidTypeDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -51869,12 +50759,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        certificationRouteDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -51918,12 +50802,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        coteachingStyleObservedDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -51967,12 +50845,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        credentialStatusDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -52016,12 +50888,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        educatorRoleDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -52065,12 +50931,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        englishLanguageExamDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -52114,12 +50974,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        eppProgramPathwayDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -52163,12 +51017,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        evaluationElementRatingLevelDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -52212,12 +51060,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        evaluationPeriodDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -52261,12 +51103,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        evaluationRatingLevelDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -52310,12 +51146,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        evaluationRatingStatusDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -52359,12 +51189,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        evaluationTypeDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -52408,12 +51232,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        genderDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -52457,12 +51275,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        objectiveRatingLevelDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -52506,12 +51318,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        performanceEvaluationRatingLevelDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -52555,12 +51361,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        performanceEvaluationTypeDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -52604,12 +51404,6 @@ components:
         id:
           type: string
           description: A resource identifier that uniquely identifies the resource.
-        rubricRatingLevelDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string

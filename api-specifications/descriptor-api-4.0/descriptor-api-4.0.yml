@@ -47291,13 +47291,6 @@ components:
         id:
           type: string
           description: ''
-        absenceEventCategoryDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -47348,13 +47341,6 @@ components:
         id:
           type: string
           description: ''
-        academicHonorCategoryDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -47405,13 +47391,6 @@ components:
         id:
           type: string
           description: ''
-        academicSubjectDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -47462,13 +47441,6 @@ components:
         id:
           type: string
           description: ''
-        accommodationDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -47519,13 +47491,6 @@ components:
         id:
           type: string
           description: ''
-        accountTypeDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -47576,13 +47541,6 @@ components:
         id:
           type: string
           description: ''
-        achievementCategoryDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -47633,13 +47591,6 @@ components:
         id:
           type: string
           description: ''
-        additionalCreditTypeDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -47690,13 +47641,6 @@ components:
         id:
           type: string
           description: ''
-        addressTypeDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -47747,13 +47691,6 @@ components:
         id:
           type: string
           description: ''
-        administrationEnvironmentDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -47804,13 +47741,6 @@ components:
         id:
           type: string
           description: ''
-        administrativeFundingControlDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -47861,13 +47791,6 @@ components:
         id:
           type: string
           description: ''
-        ancestryEthnicOriginDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -47918,13 +47841,6 @@ components:
         id:
           type: string
           description: ''
-        assessmentCategoryDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -47975,13 +47891,6 @@ components:
         id:
           type: string
           description: ''
-        assessmentIdentificationSystemDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -48032,13 +47941,6 @@ components:
         id:
           type: string
           description: ''
-        assessmentItemCategoryDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -48089,13 +47991,6 @@ components:
         id:
           type: string
           description: ''
-        assessmentItemResultDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -48146,13 +48041,6 @@ components:
         id:
           type: string
           description: ''
-        assessmentPeriodDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -48203,13 +48091,6 @@ components:
         id:
           type: string
           description: ''
-        assessmentReportingMethodDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -48260,13 +48141,6 @@ components:
         id:
           type: string
           description: ''
-        assignmentLateStatusDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -48317,13 +48191,6 @@ components:
         id:
           type: string
           description: ''
-        attemptStatusDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -48374,13 +48241,6 @@ components:
         id:
           type: string
           description: ''
-        attendanceEventCategoryDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -48431,13 +48291,6 @@ components:
         id:
           type: string
           description: ''
-        barrierToInternetAccessInResidenceDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -48488,13 +48341,6 @@ components:
         id:
           type: string
           description: ''
-        behaviorDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -48545,13 +48391,6 @@ components:
         id:
           type: string
           description: ''
-        calendarEventDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -48602,13 +48441,6 @@ components:
         id:
           type: string
           description: ''
-        calendarTypeDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -48659,13 +48491,6 @@ components:
         id:
           type: string
           description: ''
-        careerPathwayDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -48716,13 +48541,6 @@ components:
         id:
           type: string
           description: ''
-        charterApprovalAgencyTypeDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -48773,13 +48591,6 @@ components:
         id:
           type: string
           description: ''
-        charterStatusDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -48830,13 +48641,6 @@ components:
         id:
           type: string
           description: ''
-        citizenshipStatusDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -48887,13 +48691,6 @@ components:
         id:
           type: string
           description: ''
-        classroomPositionDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -48944,13 +48741,6 @@ components:
         id:
           type: string
           description: ''
-        cohortScopeDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -49001,13 +48791,6 @@ components:
         id:
           type: string
           description: ''
-        cohortTypeDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -49058,13 +48841,6 @@ components:
         id:
           type: string
           description: ''
-        cohortYearTypeDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -49115,13 +48891,6 @@ components:
         id:
           type: string
           description: ''
-        competencyLevelDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -49172,13 +48941,6 @@ components:
         id:
           type: string
           description: ''
-        contactTypeDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -49229,13 +48991,6 @@ components:
         id:
           type: string
           description: ''
-        contentClassDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -49286,13 +49041,6 @@ components:
         id:
           type: string
           description: ''
-        continuationOfServicesReasonDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -49343,13 +49091,6 @@ components:
         id:
           type: string
           description: ''
-        costRateDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -49400,13 +49141,6 @@ components:
         id:
           type: string
           description: ''
-        countryDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -49457,13 +49191,6 @@ components:
         id:
           type: string
           description: ''
-        courseAttemptResultDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -49514,13 +49241,6 @@ components:
         id:
           type: string
           description: ''
-        courseDefinedByDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -49571,13 +49291,6 @@ components:
         id:
           type: string
           description: ''
-        courseGPAApplicabilityDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -49628,13 +49341,6 @@ components:
         id:
           type: string
           description: ''
-        courseIdentificationSystemDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -49685,13 +49391,6 @@ components:
         id:
           type: string
           description: ''
-        courseLevelCharacteristicDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -49742,13 +49441,6 @@ components:
         id:
           type: string
           description: ''
-        courseRepeatCodeDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -49799,13 +49491,6 @@ components:
         id:
           type: string
           description: ''
-        credentialFieldDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -49856,13 +49541,6 @@ components:
         id:
           type: string
           description: ''
-        credentialTypeDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -49913,13 +49591,6 @@ components:
         id:
           type: string
           description: ''
-        creditCategoryDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -49970,13 +49641,6 @@ components:
         id:
           type: string
           description: ''
-        creditTypeDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -50027,13 +49691,6 @@ components:
         id:
           type: string
           description: ''
-        cteProgramServiceDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -50084,13 +49741,6 @@ components:
         id:
           type: string
           description: ''
-        curriculumUsedDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -50141,13 +49791,6 @@ components:
         id:
           type: string
           description: ''
-        deliveryMethodDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -50198,13 +49841,6 @@ components:
         id:
           type: string
           description: ''
-        diagnosisDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -50255,13 +49891,6 @@ components:
         id:
           type: string
           description: ''
-        diplomaLevelDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -50312,13 +49941,6 @@ components:
         id:
           type: string
           description: ''
-        diplomaTypeDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -50369,13 +49991,6 @@ components:
         id:
           type: string
           description: ''
-        disabilityDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -50426,13 +50041,6 @@ components:
         id:
           type: string
           description: ''
-        disabilityDesignationDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -50483,13 +50091,6 @@ components:
         id:
           type: string
           description: ''
-        disabilityDeterminationSourceTypeDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -50540,13 +50141,6 @@ components:
         id:
           type: string
           description: ''
-        disciplineActionLengthDifferenceReasonDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -50597,13 +50191,6 @@ components:
         id:
           type: string
           description: ''
-        disciplineDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -50654,13 +50241,6 @@ components:
         id:
           type: string
           description: ''
-        disciplineIncidentParticipationCodeDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -50711,13 +50291,6 @@ components:
         id:
           type: string
           description: ''
-        educationalEnvironmentDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -50768,13 +50341,6 @@ components:
         id:
           type: string
           description: ''
-        educationOrganizationAssociationTypeDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -50825,13 +50391,6 @@ components:
         id:
           type: string
           description: ''
-        educationOrganizationCategoryDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -50882,13 +50441,6 @@ components:
         id:
           type: string
           description: ''
-        educationOrganizationIdentificationSystemDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -50939,13 +50491,6 @@ components:
         id:
           type: string
           description: ''
-        educationPlanDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -50996,13 +50541,6 @@ components:
         id:
           type: string
           description: ''
-        electronicMailTypeDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -51053,13 +50591,6 @@ components:
         id:
           type: string
           description: ''
-        employmentStatusDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -51110,13 +50641,6 @@ components:
         id:
           type: string
           description: ''
-        entryGradeLevelReasonDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -51167,13 +50691,6 @@ components:
         id:
           type: string
           description: ''
-        entryTypeDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -51224,13 +50741,6 @@ components:
         id:
           type: string
           description: ''
-        eventCircumstanceDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -51281,13 +50791,6 @@ components:
         id:
           type: string
           description: ''
-        exitWithdrawTypeDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -51338,13 +50841,6 @@ components:
         id:
           type: string
           description: ''
-        financialCollectionDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -51395,13 +50891,6 @@ components:
         id:
           type: string
           description: ''
-        gradebookEntryTypeDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -51452,13 +50941,6 @@ components:
         id:
           type: string
           description: ''
-        gradeLevelDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -51509,13 +50991,6 @@ components:
         id:
           type: string
           description: ''
-        gradePointAverageTypeDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -51566,13 +51041,6 @@ components:
         id:
           type: string
           description: ''
-        gradeTypeDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -51623,13 +51091,6 @@ components:
         id:
           type: string
           description: ''
-        gradingPeriodDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -51680,13 +51141,6 @@ components:
         id:
           type: string
           description: ''
-        graduationPlanTypeDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -51737,13 +51191,6 @@ components:
         id:
           type: string
           description: ''
-        gunFreeSchoolsActReportingStatusDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -51794,13 +51241,6 @@ components:
         id:
           type: string
           description: ''
-        homelessPrimaryNighttimeResidenceDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -51851,13 +51291,6 @@ components:
         id:
           type: string
           description: ''
-        homelessProgramServiceDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -51908,13 +51341,6 @@ components:
         id:
           type: string
           description: ''
-        identificationDocumentUseDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -51965,13 +51391,6 @@ components:
         id:
           type: string
           description: ''
-        incidentLocationDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -52022,13 +51441,6 @@ components:
         id:
           type: string
           description: ''
-        indicatorDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -52079,13 +51491,6 @@ components:
         id:
           type: string
           description: ''
-        indicatorGroupDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -52136,13 +51541,6 @@ components:
         id:
           type: string
           description: ''
-        indicatorLevelDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -52193,13 +51591,6 @@ components:
         id:
           type: string
           description: ''
-        institutionTelephoneNumberTypeDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -52250,13 +51641,6 @@ components:
         id:
           type: string
           description: ''
-        interactivityStyleDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -52307,13 +51691,6 @@ components:
         id:
           type: string
           description: ''
-        internetAccessDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -52364,13 +51741,6 @@ components:
         id:
           type: string
           description: ''
-        internetAccessTypeInResidenceDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -52421,13 +51791,6 @@ components:
         id:
           type: string
           description: ''
-        internetPerformanceInResidenceDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -52478,13 +51841,6 @@ components:
         id:
           type: string
           description: ''
-        interventionClassDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -52535,13 +51891,6 @@ components:
         id:
           type: string
           description: ''
-        interventionEffectivenessRatingDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -52592,13 +51941,6 @@ components:
         id:
           type: string
           description: ''
-        languageDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -52649,13 +51991,6 @@ components:
         id:
           type: string
           description: ''
-        languageInstructionProgramServiceDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -52706,13 +52041,6 @@ components:
         id:
           type: string
           description: ''
-        languageUseDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -52763,13 +52091,6 @@ components:
         id:
           type: string
           description: ''
-        learningStandardCategoryDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -52820,13 +52141,6 @@ components:
         id:
           type: string
           description: ''
-        learningStandardEquivalenceStrengthDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -52877,13 +52191,6 @@ components:
         id:
           type: string
           description: ''
-        learningStandardScopeDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -52934,13 +52241,6 @@ components:
         id:
           type: string
           description: ''
-        levelOfEducationDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -52991,13 +52291,6 @@ components:
         id:
           type: string
           description: ''
-        licenseStatusDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -53048,13 +52341,6 @@ components:
         id:
           type: string
           description: ''
-        licenseTypeDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -53105,13 +52391,6 @@ components:
         id:
           type: string
           description: ''
-        limitedEnglishProficiencyDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -53162,13 +52441,6 @@ components:
         id:
           type: string
           description: ''
-        localeDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -53219,13 +52491,6 @@ components:
         id:
           type: string
           description: ''
-        localEducationAgencyCategoryDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -53276,13 +52541,6 @@ components:
         id:
           type: string
           description: ''
-        magnetSpecialProgramEmphasisSchoolDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -53333,13 +52591,6 @@ components:
         id:
           type: string
           description: ''
-        mediumOfInstructionDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -53390,13 +52641,6 @@ components:
         id:
           type: string
           description: ''
-        methodCreditEarnedDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -53447,13 +52691,6 @@ components:
         id:
           type: string
           description: ''
-        migrantEducationProgramServiceDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -53504,13 +52741,6 @@ components:
         id:
           type: string
           description: ''
-        modelEntityDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -53561,13 +52791,6 @@ components:
         id:
           type: string
           description: ''
-        monitoredDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -53618,13 +52841,6 @@ components:
         id:
           type: string
           description: ''
-        neglectedOrDelinquentProgramDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -53675,13 +52891,6 @@ components:
         id:
           type: string
           description: ''
-        neglectedOrDelinquentProgramServiceDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -53732,13 +52941,6 @@ components:
         id:
           type: string
           description: ''
-        networkPurposeDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -53789,13 +52991,6 @@ components:
         id:
           type: string
           description: ''
-        oldEthnicityDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -53846,13 +53041,6 @@ components:
         id:
           type: string
           description: ''
-        operationalStatusDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -53903,13 +53091,6 @@ components:
         id:
           type: string
           description: ''
-        otherNameTypeDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -53960,13 +53141,6 @@ components:
         id:
           type: string
           description: ''
-        participationDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -54017,13 +53191,6 @@ components:
         id:
           type: string
           description: ''
-        participationStatusDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -54074,13 +53241,6 @@ components:
         id:
           type: string
           description: ''
-        performanceBaseConversionDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -54131,13 +53291,6 @@ components:
         id:
           type: string
           description: ''
-        performanceLevelDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -54188,13 +53341,6 @@ components:
         id:
           type: string
           description: ''
-        personalInformationVerificationDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -54245,13 +53391,6 @@ components:
         id:
           type: string
           description: ''
-        platformTypeDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -54302,13 +53441,6 @@ components:
         id:
           type: string
           description: ''
-        populationServedDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -54359,13 +53491,6 @@ components:
         id:
           type: string
           description: ''
-        postingResultDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -54416,13 +53541,6 @@ components:
         id:
           type: string
           description: ''
-        postSecondaryEventCategoryDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -54473,13 +53591,6 @@ components:
         id:
           type: string
           description: ''
-        postSecondaryInstitutionLevelDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -54530,13 +53641,6 @@ components:
         id:
           type: string
           description: ''
-        primaryLearningDeviceAccessDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -54587,13 +53691,6 @@ components:
         id:
           type: string
           description: ''
-        primaryLearningDeviceAwayFromSchoolDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -54644,13 +53741,6 @@ components:
         id:
           type: string
           description: ''
-        primaryLearningDeviceProviderDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -54701,13 +53791,6 @@ components:
         id:
           type: string
           description: ''
-        proficiencyDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -54758,13 +53841,6 @@ components:
         id:
           type: string
           description: ''
-        programAssignmentDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -54815,13 +53891,6 @@ components:
         id:
           type: string
           description: ''
-        programCharacteristicDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -54872,13 +53941,6 @@ components:
         id:
           type: string
           description: ''
-        programSponsorDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -54929,13 +53991,6 @@ components:
         id:
           type: string
           description: ''
-        programTypeDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -54986,13 +54041,6 @@ components:
         id:
           type: string
           description: ''
-        progressDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -55043,13 +54091,6 @@ components:
         id:
           type: string
           description: ''
-        progressLevelDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -55100,13 +54141,6 @@ components:
         id:
           type: string
           description: ''
-        providerCategoryDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -55157,13 +54191,6 @@ components:
         id:
           type: string
           description: ''
-        providerProfitabilityDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -55214,13 +54241,6 @@ components:
         id:
           type: string
           description: ''
-        providerStatusDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -55271,13 +54291,6 @@ components:
         id:
           type: string
           description: ''
-        publicationStatusDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -55328,13 +54341,6 @@ components:
         id:
           type: string
           description: ''
-        questionFormDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -55385,13 +54391,6 @@ components:
         id:
           type: string
           description: ''
-        raceDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -55442,13 +54441,6 @@ components:
         id:
           type: string
           description: ''
-        reasonExitedDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -55499,13 +54491,6 @@ components:
         id:
           type: string
           description: ''
-        reasonNotTestedDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -55556,13 +54541,6 @@ components:
         id:
           type: string
           description: ''
-        recognitionTypeDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -55613,13 +54591,6 @@ components:
         id:
           type: string
           description: ''
-        relationDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -55670,13 +54641,6 @@ components:
         id:
           type: string
           description: ''
-        repeatIdentifierDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -55727,13 +54691,6 @@ components:
         id:
           type: string
           description: ''
-        reporterDescriptionDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -55784,13 +54741,6 @@ components:
         id:
           type: string
           description: ''
-        reportingTagDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -55841,13 +54791,6 @@ components:
         id:
           type: string
           description: ''
-        residencyStatusDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -55898,13 +54841,6 @@ components:
         id:
           type: string
           description: ''
-        responseIndicatorDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -55955,13 +54891,6 @@ components:
         id:
           type: string
           description: ''
-        responsibilityDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -56012,13 +54941,6 @@ components:
         id:
           type: string
           description: ''
-        restraintEventReasonDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -56069,13 +54991,6 @@ components:
         id:
           type: string
           description: ''
-        resultDatatypeTypeDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -56126,13 +55041,6 @@ components:
         id:
           type: string
           description: ''
-        retestIndicatorDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -56183,13 +55091,6 @@ components:
         id:
           type: string
           description: ''
-        schoolCategoryDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -56240,13 +55141,6 @@ components:
         id:
           type: string
           description: ''
-        schoolChoiceImplementStatusDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -56297,13 +55191,6 @@ components:
         id:
           type: string
           description: ''
-        schoolFoodServiceProgramServiceDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -56354,13 +55241,6 @@ components:
         id:
           type: string
           description: ''
-        schoolTypeDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -56411,13 +55291,6 @@ components:
         id:
           type: string
           description: ''
-        sectionCharacteristicDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -56468,13 +55341,6 @@ components:
         id:
           type: string
           description: ''
-        separationDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -56525,13 +55391,6 @@ components:
         id:
           type: string
           description: ''
-        separationReasonDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -56582,13 +55441,6 @@ components:
         id:
           type: string
           description: ''
-        serviceDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -56639,13 +55491,6 @@ components:
         id:
           type: string
           description: ''
-        sexDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -56696,13 +55541,6 @@ components:
         id:
           type: string
           description: ''
-        sourceSystemDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -56753,13 +55591,6 @@ components:
         id:
           type: string
           description: ''
-        specialEducationProgramServiceDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -56810,13 +55641,6 @@ components:
         id:
           type: string
           description: ''
-        specialEducationSettingDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -56867,13 +55691,6 @@ components:
         id:
           type: string
           description: ''
-        staffClassificationDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -56924,13 +55741,6 @@ components:
         id:
           type: string
           description: ''
-        staffIdentificationSystemDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -56981,13 +55791,6 @@ components:
         id:
           type: string
           description: ''
-        staffLeaveEventCategoryDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -57038,13 +55841,6 @@ components:
         id:
           type: string
           description: ''
-        stateAbbreviationDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -57095,13 +55891,6 @@ components:
         id:
           type: string
           description: ''
-        studentCharacteristicDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -57152,13 +55941,6 @@ components:
         id:
           type: string
           description: ''
-        studentIdentificationSystemDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -57209,13 +55991,6 @@ components:
         id:
           type: string
           description: ''
-        studentParticipationCodeDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -57266,13 +56041,6 @@ components:
         id:
           type: string
           description: ''
-        submissionStatusDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -57323,13 +56091,6 @@ components:
         id:
           type: string
           description: ''
-        surveyCategoryDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -57380,13 +56141,6 @@ components:
         id:
           type: string
           description: ''
-        surveyLevelDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -57437,13 +56191,6 @@ components:
         id:
           type: string
           description: ''
-        teachingCredentialBasisDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -57494,13 +56241,6 @@ components:
         id:
           type: string
           description: ''
-        teachingCredentialDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -57551,13 +56291,6 @@ components:
         id:
           type: string
           description: ''
-        technicalSkillsAssessmentDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -57608,13 +56341,6 @@ components:
         id:
           type: string
           description: ''
-        telephoneNumberTypeDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -57665,13 +56391,6 @@ components:
         id:
           type: string
           description: ''
-        termDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -57722,13 +56441,6 @@ components:
         id:
           type: string
           description: ''
-        titleIPartAParticipantDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -57779,13 +56491,6 @@ components:
         id:
           type: string
           description: ''
-        titleIPartAProgramServiceDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -57836,13 +56541,6 @@ components:
         id:
           type: string
           description: ''
-        titleIPartASchoolDesignationDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -57893,13 +56591,6 @@ components:
         id:
           type: string
           description: ''
-        tribalAffiliationDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -57950,13 +56641,6 @@ components:
         id:
           type: string
           description: ''
-        visaDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -58007,13 +56691,6 @@ components:
         id:
           type: string
           description: ''
-        weaponDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -58073,13 +56750,6 @@ components:
         id:
           type: string
           description: ''
-        accreditationStatusDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -58130,13 +56800,6 @@ components:
         id:
           type: string
           description: ''
-        aidTypeDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -58187,13 +56850,6 @@ components:
         id:
           type: string
           description: ''
-        certificationRouteDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -58244,13 +56900,6 @@ components:
         id:
           type: string
           description: ''
-        coteachingStyleObservedDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -58301,13 +56950,6 @@ components:
         id:
           type: string
           description: ''
-        credentialStatusDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -58358,13 +57000,6 @@ components:
         id:
           type: string
           description: ''
-        educatorRoleDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -58415,13 +57050,6 @@ components:
         id:
           type: string
           description: ''
-        englishLanguageExamDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -58472,13 +57100,6 @@ components:
         id:
           type: string
           description: ''
-        eppProgramPathwayDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -58529,13 +57150,6 @@ components:
         id:
           type: string
           description: ''
-        evaluationElementRatingLevelDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -58586,13 +57200,6 @@ components:
         id:
           type: string
           description: ''
-        evaluationPeriodDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -58643,13 +57250,6 @@ components:
         id:
           type: string
           description: ''
-        evaluationRatingLevelDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -58700,13 +57300,6 @@ components:
         id:
           type: string
           description: ''
-        evaluationRatingStatusDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -58757,13 +57350,6 @@ components:
         id:
           type: string
           description: ''
-        evaluationTypeDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -58814,13 +57400,6 @@ components:
         id:
           type: string
           description: ''
-        genderDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -58871,13 +57450,6 @@ components:
         id:
           type: string
           description: ''
-        objectiveRatingLevelDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -58928,13 +57500,6 @@ components:
         id:
           type: string
           description: ''
-        performanceEvaluationRatingLevelDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -58985,13 +57550,6 @@ components:
         id:
           type: string
           description: ''
-        performanceEvaluationTypeDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
@@ -59042,13 +57600,6 @@ components:
         id:
           type: string
           description: ''
-        rubricRatingLevelDescriptorId:
-          type: integer
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          format: int32
-          x-Ed-Fi-isIdentity: true
         codeValue:
           maxLength: 50
           type: string
