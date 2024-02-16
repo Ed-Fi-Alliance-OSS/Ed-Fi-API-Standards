@@ -54,11 +54,12 @@ collection after import.
 1. In Postman, click the `...` button to the right of the collection name and
    choose "Edit".
 2. Choose the Authorization tab.
-3. Under the section "Configure New Token"
-   1. Change the "Token Name" to `edFiToken`
-   2. Change the "Access Token URL" to `{{baseUrl}}/oauth/token`
+3. Under the section "Configure New Token".
+   1. Change the "Token Name" to `edFiToken`.
+   2. Change the "Access Token URL" to `{{baseUrl}}/oauth/token`.
       1. Note that this is `baseUrl`, not `resourcesBaseUrl`.
-   3. Change the "Client ID" to `{{edFiClientId}}`
-   4. Test by clicking the "Get New Access Token" button.
+   3. Change the "Client ID" to `{{edFiClientId}}`.
+   4. Change the "Client Secret" to `{{edFiClientSecret}}`.
+   5. Test by clicking the "Get New Access Token" button.
 4. Save the changes.
 5. Re-export the file to replace the original.

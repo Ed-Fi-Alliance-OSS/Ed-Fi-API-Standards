@@ -8,6 +8,10 @@ format.
   * [Resource API (3.3)](./resources-ds-3.3/)
   * [Resource API (4.0)](./resources-ds-4.0/)
   * [Resources API (5.0)](./resources-ds-5.0/)
+* Ed-Fi Descriptor API
+  * [Descriptor API (3.3)](./descriptor-api-3.3/)
+  * [Descriptor API (4.0)](./descriptor-api-4.0/)
+  * [Descriptor API (5.0)](./descriptor-api-5.0/)
 
 Additionally, there are Postman environment files for the supported "production"
 services, and some of the specifications have a basic set of conformance tests
