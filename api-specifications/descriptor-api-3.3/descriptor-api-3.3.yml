@@ -42825,11 +42825,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -42879,11 +42874,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -42933,11 +42923,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -42987,11 +42972,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -43041,11 +43021,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -43095,11 +43070,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -43149,11 +43119,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -43203,11 +43168,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -43257,11 +43217,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -43311,11 +43266,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -43365,11 +43315,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -43419,11 +43364,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -43473,11 +43413,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -43527,11 +43462,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -43581,11 +43511,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -43635,11 +43560,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -43689,11 +43609,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -43743,11 +43658,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -43797,11 +43707,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -43851,11 +43756,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -43905,11 +43805,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -43959,11 +43854,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -44013,11 +43903,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -44067,11 +43952,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -44121,11 +44001,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -44175,11 +44050,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -44229,11 +44099,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -44283,11 +44148,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -44337,11 +44197,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -44391,11 +44246,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -44445,11 +44295,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -44499,11 +44344,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -44553,11 +44393,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -44607,11 +44442,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -44661,11 +44491,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -44715,11 +44540,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -44769,11 +44589,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -44823,11 +44638,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -44877,11 +44687,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -44931,11 +44736,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -44985,11 +44785,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -45039,11 +44834,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -45093,11 +44883,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -45147,11 +44932,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -45201,11 +44981,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -45255,11 +45030,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -45309,11 +45079,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -45363,11 +45128,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -45417,11 +45177,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -45471,11 +45226,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -45525,11 +45275,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -45579,11 +45324,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -45633,11 +45373,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -45687,11 +45422,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -45741,11 +45471,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -45795,11 +45520,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -45849,11 +45569,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -45903,11 +45618,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -45957,11 +45667,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -46011,11 +45716,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -46065,11 +45765,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -46119,11 +45814,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -46173,11 +45863,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -46227,11 +45912,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -46281,11 +45961,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -46335,11 +46010,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -46389,11 +46059,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -46443,11 +46108,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -46497,11 +46157,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -46551,11 +46206,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -46605,11 +46255,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -46659,11 +46304,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -46713,11 +46353,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -46767,11 +46402,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -46821,11 +46451,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -46875,11 +46500,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -46929,11 +46549,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -46983,11 +46598,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -47037,11 +46647,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -47091,11 +46696,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -47145,11 +46745,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -47199,11 +46794,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -47253,11 +46843,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -47307,11 +46892,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -47361,11 +46941,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -47415,11 +46990,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -47469,11 +47039,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -47523,11 +47088,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -47577,11 +47137,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -47631,11 +47186,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -47685,11 +47235,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -47739,11 +47284,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -47793,11 +47333,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -47847,11 +47382,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -47901,11 +47431,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -47955,11 +47480,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -48009,11 +47529,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -48063,11 +47578,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -48117,11 +47627,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -48171,11 +47676,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -48225,11 +47725,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -48279,11 +47774,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -48333,11 +47823,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -48387,11 +47872,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -48441,11 +47921,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -48495,11 +47970,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -48549,11 +48019,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -48603,11 +48068,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -48657,11 +48117,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -48711,11 +48166,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -48765,11 +48215,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -48819,11 +48264,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -48873,11 +48313,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -48927,11 +48362,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -48981,11 +48411,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -49035,11 +48460,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -49089,11 +48509,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -49143,11 +48558,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -49197,11 +48607,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -49251,11 +48656,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -49305,11 +48705,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -49359,11 +48754,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -49413,11 +48803,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -49467,11 +48852,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -49521,11 +48901,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -49575,11 +48950,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -49629,11 +48999,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -49683,11 +49048,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -49737,11 +49097,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -49791,11 +49146,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -49845,11 +49195,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -49899,11 +49244,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -49953,11 +49293,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -50007,11 +49342,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -50061,11 +49391,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -50115,11 +49440,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -50169,11 +49489,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -50223,11 +49538,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -50277,11 +49587,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -50331,11 +49636,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -50385,11 +49685,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -50439,11 +49734,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -50493,11 +49783,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -50547,11 +49832,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -50601,11 +49881,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -50655,11 +49930,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -50709,11 +49979,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -50763,11 +50028,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -50817,11 +50077,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -50871,11 +50126,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -50925,11 +50175,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -50979,11 +50224,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -51033,11 +50273,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -51087,11 +50322,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -51141,11 +50371,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -51195,11 +50420,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -51249,11 +50469,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -51303,11 +50518,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -51357,11 +50567,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -51411,11 +50616,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -51465,11 +50665,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -51519,11 +50714,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -51573,11 +50763,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -51627,11 +50812,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -51681,11 +50861,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -51735,11 +50910,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -51789,11 +50959,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -51843,11 +51008,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -51897,11 +51057,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -51951,11 +51106,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -52005,11 +51155,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -52059,11 +51204,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -52113,11 +51253,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -52167,11 +51302,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -52221,11 +51351,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -52275,11 +51400,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -52329,11 +51449,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -52383,11 +51498,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -52437,11 +51547,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -52491,11 +51596,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -52545,11 +51645,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -52599,11 +51694,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -52653,11 +51743,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -52717,11 +51802,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -52771,11 +51851,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -52825,11 +51900,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -52879,11 +51949,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -52933,11 +51998,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -52987,11 +52047,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -53041,11 +52096,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -53095,11 +52145,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -53149,11 +52194,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -53203,11 +52243,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -53257,11 +52292,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -53311,11 +52341,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -53365,11 +52390,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -53419,11 +52439,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -53473,11 +52488,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -53527,11 +52537,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -53581,11 +52586,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
@@ -53635,11 +52635,6 @@ components:
             \ (http, ftp, file, etc.) for the source of the descriptor definition.\
             \ Best practice is for this source to be the descriptor file itself, so\
             \ that it can be machine-readable and be fetched in real-time, if necessary."
-        priorDescriptorId:
-          type: integer
-          description: "A unique identifier used as Primary Key, not derived from\
-            \ business logic, when acting as Foreign Key, references the parent table."
-          format: int32
         shortDescription:
           maxLength: 75
           type: string
