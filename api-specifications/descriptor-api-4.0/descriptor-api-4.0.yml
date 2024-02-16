@@ -884,10 +884,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -1123,10 +1120,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -1362,10 +1356,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -1601,10 +1592,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -1840,10 +1828,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -2079,10 +2064,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -2318,10 +2300,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -2557,10 +2536,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -2796,10 +2772,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -3036,10 +3009,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -3279,10 +3249,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -3518,10 +3485,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -3757,10 +3721,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -3996,10 +3957,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -4241,10 +4199,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -4480,10 +4435,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -4719,10 +4671,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -4958,10 +4907,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -5198,10 +5144,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -5437,10 +5380,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -5676,10 +5616,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -5915,10 +5852,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -6160,10 +6094,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -6399,10 +6330,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -6638,10 +6566,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -6877,10 +6802,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -7116,10 +7038,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -7355,10 +7274,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -7595,10 +7511,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -7834,10 +7747,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -8073,10 +7983,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -8312,10 +8219,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -8551,10 +8455,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -8790,10 +8691,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -9029,10 +8927,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -9268,10 +9163,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -9507,10 +9399,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -9746,10 +9635,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -9989,10 +9875,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -10228,10 +10111,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -10467,10 +10347,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -10706,10 +10583,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -10945,10 +10819,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -11184,10 +11055,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -11423,10 +11291,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -11663,10 +11528,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -11904,10 +11766,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -12143,10 +12002,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -12382,10 +12238,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -12621,10 +12474,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -12860,10 +12710,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -13099,10 +12946,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -13338,10 +13182,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -13577,10 +13418,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -13816,10 +13654,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -14055,10 +13890,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -14294,10 +14126,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -14533,10 +14362,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -14772,10 +14598,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -15011,10 +14834,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -15250,10 +15070,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -15495,10 +15312,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -15740,10 +15554,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -15979,10 +15790,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -16224,10 +16032,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -16463,10 +16268,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -16708,10 +16510,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -16953,10 +16752,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -17198,10 +16994,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -17437,10 +17230,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -17676,10 +17466,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -17915,10 +17702,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -18154,10 +17938,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -18393,10 +18174,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -18632,10 +18410,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -18871,10 +18646,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -19110,10 +18882,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -19353,10 +19122,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -19592,10 +19358,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -19831,10 +19594,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -20070,10 +19830,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -20309,10 +20066,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -20548,10 +20302,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -20787,10 +20538,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -21026,10 +20774,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -21265,10 +21010,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -21504,10 +21246,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -21743,10 +21482,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -21982,10 +21718,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -22221,10 +21954,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -22460,10 +22190,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -22699,10 +22426,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -22944,10 +22668,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -23189,10 +22910,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -23428,10 +23146,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -23668,10 +23383,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -23907,10 +23619,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -24146,10 +23855,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -24385,10 +24091,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -24624,10 +24327,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -24869,10 +24569,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -25108,10 +24805,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -25347,10 +25041,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -25592,10 +25283,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -25837,10 +25525,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -26076,10 +25761,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -26321,10 +26003,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -26560,10 +26239,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -26805,10 +26481,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -27044,10 +26717,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -27283,10 +26953,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -27528,10 +27195,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -27767,10 +27431,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -28006,10 +27667,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -28245,10 +27903,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -28484,10 +28139,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -28724,10 +28376,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -28963,10 +28612,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -29206,10 +28852,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -29451,10 +29094,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -29690,10 +29330,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -29929,10 +29566,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -30174,10 +29808,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -30413,10 +30044,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -30652,10 +30280,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -30895,10 +30520,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -31140,10 +30762,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -31379,10 +30998,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -31618,10 +31234,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -31857,10 +31470,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -32096,10 +31706,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -32335,10 +31942,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -32574,10 +32178,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -32813,10 +32414,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -33053,10 +32651,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -33298,10 +32893,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -33538,10 +33130,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -33777,10 +33366,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -34022,10 +33608,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -34261,10 +33844,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -34500,10 +34080,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -34739,10 +34316,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -34979,10 +34553,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -35224,10 +34795,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -35465,10 +35033,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -35710,10 +35275,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -35955,10 +35517,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -36194,10 +35753,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -36433,10 +35989,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -36672,10 +36225,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -36911,10 +36461,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -37150,10 +36697,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -37389,10 +36933,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -37628,10 +37169,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -37909,10 +37447,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -38148,10 +37683,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -38387,10 +37919,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -38626,10 +38155,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -38865,10 +38391,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -39104,10 +38627,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -39343,10 +38863,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -39582,10 +39099,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -39821,10 +39335,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -40061,10 +39572,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -40300,10 +39808,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -40539,10 +40044,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -40778,10 +40280,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -41017,10 +40516,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -41256,10 +40752,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -41495,10 +40988,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -41734,10 +41224,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -41973,10 +41460,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -42212,10 +41696,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -42451,10 +41932,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -42690,10 +42168,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -42931,10 +42406,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -43176,10 +42648,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -43415,10 +42884,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -43654,10 +43120,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -43893,10 +43356,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -44132,10 +43592,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -44371,10 +43828,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -44610,10 +44064,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -44849,10 +44300,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -45094,10 +44542,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -45333,10 +44778,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -45572,10 +45014,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -45812,10 +45251,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -46051,10 +45487,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -46290,10 +45723,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -46529,10 +45959,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -46770,10 +46197,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -47009,10 +46433,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -47248,10 +46669,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -47487,10 +46905,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -47726,10 +47141,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -47965,10 +47377,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -48204,10 +47613,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -48444,10 +47850,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -48683,10 +48086,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -48922,10 +48322,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -49161,10 +48558,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -49401,10 +48795,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -49644,10 +49035,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -49883,10 +49271,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -50122,10 +49507,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -50361,10 +49743,7 @@ paths:
         required: true
       responses:
         '204':
-          description: >-
-            The resource was updated.  An updated ETag value is available in the
-            ETag header of the response.
-          content: {}
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':

@@ -773,9 +773,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -996,9 +995,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -1219,9 +1217,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -1443,9 +1440,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -1666,9 +1662,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -1889,9 +1884,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -2112,9 +2106,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -2335,9 +2328,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -2558,9 +2550,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -2781,9 +2772,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -3004,9 +2994,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -3227,9 +3216,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -3450,9 +3438,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -3673,9 +3660,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -3896,9 +3882,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -4119,9 +4104,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -4342,9 +4326,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -4565,9 +4548,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -4788,9 +4770,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -5011,9 +4992,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -5234,9 +5214,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -5457,9 +5436,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -5680,9 +5658,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -5903,9 +5880,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -6126,9 +6102,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -6349,9 +6324,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -6572,9 +6546,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -6795,9 +6768,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -7018,9 +6990,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -7241,9 +7212,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -7464,9 +7434,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -7687,9 +7656,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -7910,9 +7878,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -8133,9 +8100,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -8356,9 +8322,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -8579,9 +8544,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -8802,9 +8766,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -9025,9 +8988,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -9248,9 +9210,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -9471,9 +9432,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -9694,9 +9654,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -9917,9 +9876,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -10140,9 +10098,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -10363,9 +10320,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -10586,9 +10542,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -10809,9 +10764,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -11032,9 +10986,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -11255,9 +11208,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -11478,9 +11430,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -11701,9 +11652,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -11924,9 +11874,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -12147,9 +12096,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -12370,9 +12318,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -12593,9 +12540,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -12816,9 +12762,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -13039,9 +12984,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -13262,9 +13206,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -13485,9 +13428,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -13708,9 +13650,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -13931,9 +13872,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -14154,9 +14094,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -14377,9 +14316,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -14600,9 +14538,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -14823,9 +14760,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -15046,9 +14982,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -15269,9 +15204,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -15492,9 +15426,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -15715,9 +15648,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -15938,9 +15870,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -16161,9 +16092,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -16384,9 +16314,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -16607,9 +16536,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -16830,9 +16758,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -17053,9 +16980,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -17276,9 +17202,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -17499,9 +17424,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -17722,9 +17646,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -17945,9 +17868,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -18168,9 +18090,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -18391,9 +18312,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -18614,9 +18534,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -18837,9 +18756,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -19060,9 +18978,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -19284,9 +19201,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -19507,9 +19423,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -19730,9 +19645,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -19953,9 +19867,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -20176,9 +20089,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -20399,9 +20311,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -20622,9 +20533,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -20845,9 +20755,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -21068,9 +20977,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -21291,9 +21199,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -21514,9 +21421,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -21737,9 +21643,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -21960,9 +21865,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -22183,9 +22087,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -22406,9 +22309,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -22629,9 +22531,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -22852,9 +22753,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -23075,9 +22975,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -23298,9 +23197,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -23521,9 +23419,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -23744,9 +23641,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -23967,9 +23863,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -24190,9 +24085,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -24413,9 +24307,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -24636,9 +24529,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -24859,9 +24751,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -25082,9 +24973,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -25305,9 +25195,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -25528,9 +25417,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -25751,9 +25639,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -25974,9 +25861,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -26197,9 +26083,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -26420,9 +26305,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -26643,9 +26527,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -26866,9 +26749,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -27089,9 +26971,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -27312,9 +27193,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -27535,9 +27415,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -27758,9 +27637,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -27981,9 +27859,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -28204,9 +28081,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -28427,9 +28303,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -28650,9 +28525,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -28873,9 +28747,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -29096,9 +28969,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -29319,9 +29191,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -29542,9 +29413,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -29765,9 +29635,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -29988,9 +29857,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -30211,9 +30079,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -30434,9 +30301,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -30657,9 +30523,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -30880,9 +30745,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -31103,9 +30967,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -31326,9 +31189,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -31549,9 +31411,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -31772,9 +31633,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -31995,9 +31855,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -32218,9 +32077,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -32441,9 +32299,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -32664,9 +32521,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -32887,9 +32743,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -33110,9 +32965,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -33333,9 +33187,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -33556,9 +33409,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -33779,9 +33631,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -34002,9 +33853,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -34225,9 +34075,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -34448,9 +34297,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -34671,9 +34519,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -34894,9 +34741,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -35117,9 +34963,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -35340,9 +35185,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -35563,9 +35407,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -35786,9 +35629,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -36009,9 +35851,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -36232,9 +36073,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -36455,9 +36295,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -36678,9 +36517,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -36901,9 +36739,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -37124,9 +36961,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -37347,9 +37183,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -37570,9 +37405,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -37793,9 +37627,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -38016,9 +37849,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -38239,9 +38071,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -38462,9 +38293,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -38685,9 +38515,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -38908,9 +38737,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -39131,9 +38959,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -39354,9 +39181,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -39577,9 +39403,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -39800,9 +39625,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -40023,9 +39847,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -40246,9 +40069,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -40469,9 +40291,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -40692,9 +40513,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -40915,9 +40735,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -41138,9 +40957,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -41361,9 +41179,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -41584,9 +41401,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -41807,9 +41623,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -42030,9 +41845,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -42253,9 +42067,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -42476,9 +42289,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -42699,9 +42511,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -42922,9 +42733,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -43145,9 +42955,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -43368,9 +43177,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -43591,9 +43399,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -43814,9 +43621,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -44037,9 +43843,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -44260,9 +44065,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -44483,9 +44287,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -44706,9 +44509,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -44929,9 +44731,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -45152,9 +44953,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -45375,9 +45175,8 @@ paths:
         schema:
           type: string
       responses:
-        "204":
-          description: The resource was successfully deleted.
-          content: {}
+        '204':
+          $ref: '#/components/responses/Deleted'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
