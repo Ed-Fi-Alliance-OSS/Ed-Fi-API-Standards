@@ -31,3 +31,6 @@ npm install
 npm run testgen -- ./discovery-api/discovery-api-spec.yml
 mv output.postman.json ./discovery-api/discovery-api-spec.postman.json
 ```
+
+The generated file will need further modifications, see [Import, Cleaning, and Export with
+Postman](./IMPORT-EXPORT-POSTMAN.md) for details on those modifications.
