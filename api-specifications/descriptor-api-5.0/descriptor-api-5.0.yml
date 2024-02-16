@@ -28,15 +28,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: absenceEventCategoryDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -223,15 +214,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: academicHonorCategoryDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -418,15 +400,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: academicSubjectDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -613,15 +586,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: accommodationDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -808,15 +772,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: accountTypeDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -1003,15 +958,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: accreditationStatusDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -1198,15 +1144,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: achievementCategoryDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -1393,15 +1330,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: additionalCreditTypeDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -1588,15 +1516,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: addressTypeDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -1783,15 +1702,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: administrationEnvironmentDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -1979,15 +1889,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: administrativeFundingControlDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -2178,15 +2079,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: aidTypeDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -2373,15 +2265,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: ancestryEthnicOriginDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -2568,15 +2451,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: assessmentCategoryDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -2763,15 +2637,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: assessmentIdentificationSystemDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -2964,15 +2829,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: assessmentItemCategoryDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -3159,15 +3015,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: assessmentItemResultDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -3354,15 +3201,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: assessmentPeriodDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -3549,15 +3387,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: assessmentReportingMethodDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -3745,15 +3574,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: assignmentLateStatusDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -3940,15 +3760,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: attemptStatusDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -4135,15 +3946,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: attendanceEventCategoryDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -4330,15 +4132,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: barrierToInternetAccessInResidenceDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -4531,15 +4324,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: behaviorDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -4726,15 +4510,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: calendarEventDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -4921,15 +4696,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: calendarTypeDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -5116,15 +4882,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: careerPathwayDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -5311,15 +5068,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: certificationRouteDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -5506,15 +5254,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: charterApprovalAgencyTypeDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -5702,15 +5441,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: charterStatusDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -5897,15 +5627,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: citizenshipStatusDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -6092,15 +5813,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: classroomPositionDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -6287,15 +5999,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: cohortScopeDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -6482,15 +6185,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: cohortTypeDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -6677,15 +6371,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: cohortYearTypeDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -6872,15 +6557,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: competencyLevelDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -7067,15 +6743,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: contactTypeDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -7262,15 +6929,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: contentClassDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -7457,15 +7115,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: continuationOfServicesReasonDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -7656,15 +7305,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: costRateDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -7851,15 +7491,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: coteachingStyleObservedDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -8046,15 +7677,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: countryDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -8241,15 +7863,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: courseAttemptResultDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -8436,15 +8049,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: courseDefinedByDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -8631,15 +8235,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: courseGPAApplicabilityDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -8826,15 +8421,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: courseIdentificationSystemDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -9022,15 +8608,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: courseLevelCharacteristicDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -9218,15 +8795,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: courseRepeatCodeDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -9413,15 +8981,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: credentialFieldDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -9608,15 +9167,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: credentialStatusDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -9803,15 +9353,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: credentialTypeDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -9998,15 +9539,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: creditCategoryDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -10193,15 +9725,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: creditTypeDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -10388,15 +9911,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: cteProgramServiceDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -10583,15 +10097,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: curriculumUsedDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -10778,15 +10283,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: deliveryMethodDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -10973,15 +10469,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: diagnosisDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -11168,15 +10655,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: diplomaLevelDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -11363,15 +10841,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: diplomaTypeDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -11558,15 +11027,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: disabilityDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -11753,15 +11213,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: disabilityDesignationDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -11948,15 +11399,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: disabilityDeterminationSourceTypeDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -12149,15 +11591,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: disciplineActionLengthDifferenceReasonDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -12350,15 +11783,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: disciplineDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -12545,15 +11969,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: disciplineIncidentParticipationCodeDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -12746,15 +12161,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: educationalEnvironmentDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -12941,15 +12347,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: educationOrganizationAssociationTypeDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -13142,15 +12539,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: educationOrganizationCategoryDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -13343,15 +12731,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: educationOrganizationIdentificationSystemDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -13544,15 +12923,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: educationPlanDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -13739,15 +13109,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: educatorRoleDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -13934,15 +13295,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: electronicMailTypeDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -14129,15 +13481,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: eligibilityDelayReasonDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -14324,15 +13667,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: eligibilityEvaluationTypeDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -14520,15 +13854,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: employmentStatusDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -14715,15 +14040,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: englishLanguageExamDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -14910,15 +14226,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: enrollmentTypeDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -15105,15 +14412,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: entryGradeLevelReasonDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -15300,15 +14598,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: entryTypeDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -15495,15 +14784,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: eppProgramPathwayDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -15690,15 +14970,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: evaluationDelayReasonDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -15885,15 +15156,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: evaluationElementRatingLevelDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -16084,15 +15346,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: evaluationPeriodDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -16279,15 +15532,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: evaluationRatingLevelDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -16474,15 +15718,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: evaluationRatingStatusDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -16669,15 +15904,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: evaluationTypeDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -16864,15 +16090,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: eventCircumstanceDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -17059,15 +16276,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: exitWithdrawTypeDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -17254,15 +16462,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: financialCollectionDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -17449,15 +16648,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: genderDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -17644,15 +16834,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: gradebookEntryTypeDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -17839,15 +17020,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: gradeLevelDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -18034,15 +17206,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: gradePointAverageTypeDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -18229,15 +17392,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: gradeTypeDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -18424,15 +17578,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: gradingPeriodDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -18619,15 +17764,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: graduationPlanTypeDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -18814,15 +17950,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: gunFreeSchoolsActReportingStatusDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -19015,15 +18142,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: homelessPrimaryNighttimeResidenceDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -19216,15 +18334,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: homelessProgramServiceDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -19411,15 +18520,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: ideaPartDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -19606,15 +18706,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: identificationDocumentUseDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -19802,15 +18893,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: incidentLocationDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -19997,15 +19079,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: indicatorDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -20192,15 +19265,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: indicatorGroupDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -20387,15 +19451,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: indicatorLevelDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -20582,15 +19637,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: institutionTelephoneNumberTypeDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -20783,15 +19829,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: interactivityStyleDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -20978,15 +20015,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: internetAccessDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -21173,15 +20201,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: internetAccessTypeInResidenceDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -21374,15 +20393,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: internetPerformanceInResidenceDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -21575,15 +20585,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: interventionClassDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -21770,15 +20771,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: interventionEffectivenessRatingDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -21971,15 +20963,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: languageDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -22166,15 +21149,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: languageInstructionProgramServiceDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -22367,15 +21341,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: languageUseDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -22562,15 +21527,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: learningStandardCategoryDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -22757,15 +21713,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: learningStandardEquivalenceStrengthDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -22958,15 +21905,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: learningStandardScopeDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -23153,15 +22091,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: levelOfEducationDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -23348,15 +22277,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: licenseStatusDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -23543,15 +22463,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: licenseTypeDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -23738,15 +22649,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: limitedEnglishProficiencyDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -23934,15 +22836,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: localeDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -24129,15 +23022,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: localEducationAgencyCategoryDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -24328,15 +23212,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: magnetSpecialProgramEmphasisSchoolDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -24529,15 +23404,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: mediumOfInstructionDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -24724,15 +23590,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: methodCreditEarnedDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -24919,15 +23776,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: migrantEducationProgramServiceDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -25120,15 +23968,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: modelEntityDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -25315,15 +24154,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: monitoredDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -25510,15 +24340,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: neglectedOrDelinquentProgramDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -25709,15 +24530,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: neglectedOrDelinquentProgramServiceDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -25910,15 +24722,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: networkPurposeDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -26105,15 +24908,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: objectiveRatingLevelDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -26300,15 +25094,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: operationalStatusDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -26495,15 +25280,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: otherNameTypeDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -26690,15 +25466,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: participationDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -26885,15 +25652,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: participationStatusDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -27080,15 +25838,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: performanceBaseConversionDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -27276,15 +26025,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: performanceEvaluationRatingLevelDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -27477,15 +26217,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: performanceEvaluationTypeDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -27673,15 +26404,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: performanceLevelDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -27868,15 +26590,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: personalInformationVerificationDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -28069,15 +26782,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: platformTypeDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -28264,15 +26968,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: populationServedDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -28459,15 +27154,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: postingResultDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -28654,15 +27340,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: postSecondaryEventCategoryDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -28850,15 +27527,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: postSecondaryInstitutionLevelDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -29051,15 +27719,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: primaryLearningDeviceAccessDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -29248,15 +27907,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: primaryLearningDeviceAwayFromSchoolDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -29449,15 +28099,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: primaryLearningDeviceProviderDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -29650,15 +28291,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: proficiencyDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -29845,15 +28477,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: programAssignmentDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -30040,15 +28663,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: programCharacteristicDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -30235,15 +28849,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: programEvaluationPeriodDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -30430,15 +29035,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: programEvaluationTypeDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -30625,15 +29221,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: programSponsorDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -30820,15 +29407,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: programTypeDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -31015,15 +29593,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: progressDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -31210,15 +29779,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: progressLevelDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -31405,15 +29965,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: providerCategoryDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -31600,15 +30151,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: providerProfitabilityDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -31795,15 +30337,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: providerStatusDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -31990,15 +30523,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: publicationStatusDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -32185,15 +30709,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: questionFormDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -32380,15 +30895,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: raceDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -32575,15 +31081,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: ratingLevelDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -32770,15 +31267,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: reasonExitedDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -32965,15 +31453,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: reasonNotTestedDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -33160,15 +31639,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: recognitionTypeDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -33355,15 +31825,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: relationDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -33550,15 +32011,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: repeatIdentifierDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -33745,15 +32197,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: reporterDescriptionDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -33940,15 +32383,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: reportingTagDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -34135,15 +32569,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: residencyStatusDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -34330,15 +32755,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: responseIndicatorDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -34525,15 +32941,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: responsibilityDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -34720,15 +33127,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: restraintEventReasonDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -34915,15 +33313,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: resultDatatypeTypeDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -35110,15 +33499,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: retestIndicatorDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -35305,15 +33685,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: rubricRatingLevelDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -35500,15 +33871,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: schoolCategoryDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -35695,15 +34057,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: schoolChoiceBasisDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -35890,15 +34243,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: schoolChoiceImplementStatusDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -36087,15 +34431,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: schoolFoodServiceProgramServiceDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -36288,15 +34623,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: schoolTypeDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -36483,15 +34809,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: sectionCharacteristicDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -36678,15 +34995,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: sectionTypeDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -36873,15 +35181,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: separationDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -37068,15 +35367,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: separationReasonDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -37263,15 +35553,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: serviceDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -37458,15 +35739,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: sexDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -37653,15 +35925,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: sourceSystemDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -37848,15 +36111,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: specialEducationExitReasonDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -38044,15 +36298,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: specialEducationProgramServiceDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -38245,15 +36490,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: specialEducationSettingDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -38440,15 +36676,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: staffClassificationDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -38635,15 +36862,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: staffIdentificationSystemDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -38831,15 +37049,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: staffLeaveEventCategoryDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -39026,15 +37235,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: stateAbbreviationDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -39221,15 +37421,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: studentCharacteristicDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -39416,15 +37607,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: studentIdentificationSystemDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -39613,15 +37795,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: studentParticipationCodeDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -39808,15 +37981,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: submissionStatusDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -40003,15 +38167,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: supporterMilitaryConnectionDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -40200,15 +38355,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: surveyCategoryDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -40395,15 +38541,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: surveyLevelDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -40590,15 +38727,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: teachingCredentialBasisDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -40785,15 +38913,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: teachingCredentialDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -40980,15 +39099,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: technicalSkillsAssessmentDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -41176,15 +39286,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: telephoneNumberTypeDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -41371,15 +39472,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: termDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -41566,15 +39658,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: titleIPartAParticipantDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -41761,15 +39844,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: titleIPartAProgramServiceDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -41957,15 +40031,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: titleIPartASchoolDesignationDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -42156,15 +40221,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: tribalAffiliationDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -42351,15 +40407,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: visaDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
@@ -42546,15 +40593,6 @@ paths:
         - $ref: '#/components/parameters/MinChangeVersion'
         - $ref: '#/components/parameters/MaxChangeVersion'
         - $ref: '#/components/parameters/totalCount'
-        - name: weaponDescriptorId
-          in: query
-          description: >-
-            A unique identifier used as Primary Key, not derived from business
-            logic, when acting as Foreign Key, references the parent table.
-          schema:
-            type: integer
-            format: int32
-          x-Ed-Fi-isIdentity: true
       responses:
         '200':
           description: The requested resource was successfully retrieved.
