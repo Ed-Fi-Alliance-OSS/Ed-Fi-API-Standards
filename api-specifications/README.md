@@ -7,7 +7,7 @@ format.
 * Ed-Fi Resource API
   * [Resource API (3.3)](./resources-ds-3.3/)
   * [Resource API (4.0)](./resources-ds-4.0/)
-  * [Ed-Fi Resources DS 5.0](./resources-ds-5.0/)
+  * [Resources API (5.0)](./resources-ds-5.0/)
 
 Additionally, there are Postman environment files for the supported "production"
 services, and some of the specifications have a basic set of conformance tests
