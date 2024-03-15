@@ -1,7 +1,5 @@
 # Discovery API
 
-## Version Endpoint
-
 The default response when retrieving the base endpoint on an Ed-Fi
 implementation must be a JSON document that provides information about the
 application version, suported data model(s), and URLs for additional metadata.
