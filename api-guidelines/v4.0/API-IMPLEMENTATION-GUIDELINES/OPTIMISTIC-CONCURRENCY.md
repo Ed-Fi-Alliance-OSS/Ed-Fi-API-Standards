@@ -2,7 +2,7 @@
 
 Concurrency becomes an issue in high-volume systems with multiple clients
 accessing the same data. An Ed-Fi REST API can support an opt-in optimistic
-concurrency model[\[15\]](#f5) using ETags. During PUT and DELETE operations,
+concurrency model [[15]](#f15) using ETags. During PUT and DELETE operations,
 the API will verify that the resource has not been modified by another party
 since it was last obtained by the client. If the resource has not changed, the
 operation will continue normally. If, however, the resource has changed, clients
@@ -47,10 +47,10 @@ resource stored on the server.
 
 If the ETags do not match, a 412 (Precondition Failed) response code will be
 returned. If the If-Match header is not specified in the request, then the
-operation _must _be processed and the server _must _respond with a response code
-of 204 (No Content) if the operation succeeds. However, the API _may _be
+operation _must_ be processed and the server _must_ respond with a response code
+of 204 (No Content) if the operation succeeds. However, the API _may_ be
 implemented to require optimistic concurrency for updates and deletes, and if no
-If-Match request header is supplied by the client, it _must _respond with a
+If-Match request header is supplied by the client, it _must_ respond with a
 general 400 Bad Request error status code.
 
 For example, here is a header value in a PUT or DELETE request:
