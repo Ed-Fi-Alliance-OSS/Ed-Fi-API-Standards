@@ -1,11 +1,48 @@
-# Query Operators
+# Request Construction
+
+For all Ed-Fi API transactional requests and responses, JSON _must_ be the
+default format. If a media-type header is not provided, "application/json" is
+presumed. Alternate packet formats _may_ also be supported.
+
+## Resource Collections and Individual Resources
+
+For each resource, there are two base forms for the URI: one for a collection of
+resources and the other for a specific resource in the collection. The
+collection form for the URI is referred to by the pluralized name of the
+individual resource. A specific resource is referenced by the collection name,
+followed by a slash and the resource's unique identifier. For example:
+
+* `/students` refers to a collection of students
+* `/students/ffc0a272` refers to a specific student with an assigned identifier
+  of `ffc0a272`.
+
+## URI Construction and HTTP Verb Usage for Individual Records and Transactions
+
+Individual record and transaction URIs in an Ed-Fi API take a convention-based
+approach to construction and HTTP verb usage.
+
+**Table 2.** Example of Convention-Based Approach to Construction
+
+| Resource         | POST               | GET                           | PUT                           | DELETE                        |
+| ---------------- | ------------------ | ----------------------------- | ----------------------------- | ----------------------------- |
+| `/students`      | Adds a new Student | Gets a collection of Students | Error                         | Error                         |
+| `/students/{id}` | Error              | Gets an individual Student    | Updates an individual Student | Deletes an individual Student |
+
+## Temporary
+
+| REST Feature     | Ed-Fi Implementation                                                                       | Explanation                                                                                                                        |
+| ---------------- | ------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------- |
+| Case Sensitivity | `/students?firstName=JOHN` or <br /> `/students?FIRSTNAME=John`                                        | URIs, parameter names, and parameter values _must not_ be case sensitive. The two URI’s to the left will produce the same results. |
+| Version          | `https://api.example.com/v3/ed-fi/students` | The API standard version number _could_ be specified in the base URI, but is not required.  Note that `v3` here is for the API standard version number, which is represented by these guidelines.       
+
+## Query Operators
 
 An Ed-Fi API _should_ support searching capabilities with the possible use of
 filters, paging, and ordering. These are discussed below.  Information about all
 supported capabilities, their configurations, and their default values should be
 available from the API Metadata.  
 
-## Search
+### Search
 
 An Ed-Fi API _should_ support querying capabilities when searching a collection
 of Resources. Query operators are applied to the query string using the
@@ -31,39 +68,7 @@ assumption that `schoolId` by itself is uniquely searchable without
 dereferencing the parent entity, `schoolReference`. Thus, the correct HTTP query
 term is therefore simply `?schoolId=xyz`.
 
-
-## Selectors
-
-Selectors allow application developers to be more selective about how much data
-is returned in the resource representations. Implementation of selectors in an
-Ed-Fi REST API is optional (i.e., a _should_ requirement).
-
-**Table 5.** Selectors Allow Increased Selectivity in the Data that is Returned
-
-| Parameter | Description                               |
-| --------- | ----------------------------------------- |
-| fields    | Limits the response to the fields listed. |
-
-For example, to retrieve only a Student's first and last names:
-
-```none
-https://api.example.com/v1/students/{id}?fields=firstName,lastSurname
-```
-
-In addition, the fields selector _should_ be implemented to allow for deep
-selection by allowing for properties on (sub-)objects within the API resources
-to also be specified using parentheses to indicate the properties on that object
-to provide, following this example:
-
-```none
-/students?fields=firstName,addresses(latitude,longitude)
-```
-
-This query string value would return the first name and the address collection,
-but only provide the latitude and longitude properties on that address
-collection.
-
-## Paging
+### Paging
 
 Paging is a mechanism that restricts the number of results returned by an
 operation and has proven critical to the efficient usage of Ed-Fi APIs.  The
@@ -89,7 +94,13 @@ https://api.example.com/v1/students?fields=firstName,lastSurname&limit=10&offset
 Alternate approaches to paging could be implemented, for example using keyset or
 cursor-based parameters.
 
-## Ordering
+> ![WARNING] REVISE THIS
+> This change from must to should for the limit and offset parameters is in
+> recognition of significant performance degradation in many database platforms,
+> when using this technique beyond around 10,000 records. Some implementations
+> may wish to disable the functionality to avoid excessive database usage.**
+
+### Ordering
 
 Ordering is a mechanism that sorts the objects returned by one or more of the
 fields returned.  Ordering could be implemented with the use of URL query string

@@ -1,4 +1,4 @@
-# Response Codes
+# Responding to HTTP Requests
 
 REST APIs use HTTP response codes to communicate status information. An API
 consumer should be able to inspect the HTTP response code and understand the
