@@ -31,16 +31,22 @@ API should be replaced with "an Ed-Fi API."
 The following are sections proposed to be added to the current document; these
 are new and do not currently exist in any format within the document.
 
-### API Design Guidelines -> API Metadata
+### API Design Guidelines
 
-#### Version Endpoint
+#### Discovery API
 
 The default response when retrieving the base endpoint on an Ed-Fi
 implementation must be a JSON document that provides information about the
 application version, supported data model(s), and URLs for additional metadata.
-Historically, this root-level metadata resource has been known as the "version
-endpoint". The following sample JSON demonstrates the required elements, with an
-optional extension (TPDM).
+Historically, this root-level metadata resource was known as the "version
+endpoint".
+
+The Discovery API is completely described via an Open API 3 specification
+document, available in the [Ed-Fi-API-Standards code
+repository](https://github.com/Ed-Fi-Alliance-OSS/Ed-Fi-API-Standards).
+
+The following sample JSON demonstrates a basic example with an optional
+extension (TPDM).
 
 ```json
 {
@@ -67,11 +73,15 @@ optional extension (TPDM).
 }
 ```
 
-While the "suite" string traditionally differentiated between ODS/API 2.x and
-3.x+, it could also be used for alternate implementations. For example, the
-value could be "meadowlark": "3".
+While the `suite` string traditionally differentiated between ODS/API 2.x and
+3.x+, it could also be used for alternate implementations. For example, a third
+party developing an alternate Ed-Fi API implementation should _not_ use an Ed-Fi
+suite number here (2, 3). Instead, use a custom value that helps the API client
+know which software they are interacting with; this may be helpful when
+debugging an unexpected response to an HTTP request.
 
-Other URL values can also be included, for example:
+Other standard values that can appear in the `urls` include the following, which
+refer to specific features:
 
 ```json
 "xsdMetadata": "https://api.ed-fi.org/v7.0/api/metadata/xsd",
@@ -80,13 +90,13 @@ Other URL values can also be included, for example:
 "identity": "https://api.ed-fi.org/v7.0/api/identity/v2/"
 ```
 
-The required URLs are further described in the following sections.
+The _required_ URLs are further described in the following sections.
 
 #### Dependencies
 
-All implementations of an Ed-Fi API should expose an endpoint for dependency
+All implementations of an Ed-Fi API _should_ expose an endpoint for dependency
 metadata.  This endpoint will provide developers with the data needed to load
-resources in the appropriate order.  The endpoint should have a JSON
+resources in the appropriate order. The endpoint _should_ have a JSON
 implementation and optional a GraphML implementation.  A sample of the JSON
 output is below:
 
@@ -119,7 +129,7 @@ output is below:
 
 #### OpenApiMetadata
 
-An Ed-Fi API implementation should declare itself in OpenAPI; the version of
+An Ed-Fi API implementation _should_ declare itself in OpenAPI; the version of
 OpenAPI is up to the implementation. All Read-Only data must be labeled using
 the OpenAPI specification.
 
