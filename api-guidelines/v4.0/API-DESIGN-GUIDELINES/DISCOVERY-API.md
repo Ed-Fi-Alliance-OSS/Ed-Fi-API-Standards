@@ -2,11 +2,16 @@
 
 The default response when retrieving the base endpoint on an Ed-Fi
 implementation must be a JSON document that provides information about the
-application version, suported data model(s), and URLs for additional metadata.
-The following sample JSON comes from the Ed-Fi ODS/API for Suite 3, version 7.0,
-hosting Data Standard 5.0 with the TPDM extension (version 1.1). For more
-information, go to [Ed-Fi Discovery API
-specification](../../../api-specifications/discovery-api)
+application version, supported data model(s), and URLs for additional metadata.
+Historically, this root-level metadata resource was known as the "version
+endpoint".
+
+> [!TIP]
+> The Discovery API is completely described in an
+> [Open API 3 specification document](../../../api-specifications/discovery-api/).
+
+The following sample JSON demonstrates a basic example with an optional
+extension (TPDM).
 
 ```json
 {
@@ -33,15 +38,15 @@ specification](../../../api-specifications/discovery-api)
 }
 ```
 
-The "suite" string traditionally differentiated between ODS/API 2.x and 3.x+.
-The numbers "2" and "3" should only be used for the Ed-Fi ODS/API software.
-Other Ed-Fi compliant applications should provide their own moniker for the
-"suite". This is the one programmatic means for an API client to determine which
-software it is working with. In day-to-day interactions the software
-implementing the API's should not matter, but this information could be useful
-in debugging situations.
+While the `suite` string traditionally differentiated between ODS/API 2.x and
+3.x+, it could also be used for alternate implementations. For example, a third
+party developing an alternate Ed-Fi API implementation should _not_ use an Ed-Fi
+suite number here (2, 3). Instead, use a custom value that helps the API client
+know which software they are interacting with; this may be helpful when
+debugging an unexpected response to an HTTP request.
 
-Other URL values can also be included, for example:
+Other standard values that can appear in the `urls` include the following, which
+refer to specific features:
 
 ```json
 "xsdMetadata": "https://api.ed-fi.org/v7.0/api/metadata/xsd",
@@ -50,13 +55,13 @@ Other URL values can also be included, for example:
 "identity": "https://api.ed-fi.org/v7.0/api/identity/v2/"
 ```
 
-The required URLs are further described in the following sections.
+The _required_ URLs are further described in the following sections.
 
-## Dependencies
+#### Dependencies
 
-All implementations of an Ed-Fi API should expose an endpoint for dependency
+All implementations of an Ed-Fi API _should_ expose an endpoint for dependency
 metadata.  This endpoint will provide developers with the data needed to load
-resources in the appropriate order.  The endpoint should have a JSON
+resources in the appropriate order. The endpoint _should_ have a JSON
 implementation and optional a GraphML implementation.  A sample of the JSON
 output is below:
 
@@ -86,9 +91,10 @@ output is below:
   }
 ]
 ```
-## OpenApiMetadata
 
-An Ed-Fi API implementation should declare itself in OpenAPI; the version of
+#### OpenApiMetadata
+
+An Ed-Fi API implementation _should_ declare itself in OpenAPI; the version of
 OpenAPI is up to the implementation. All Read-Only data must be labeled using
 the OpenAPI specification.
 
@@ -97,17 +103,16 @@ resources supported by the API. A given API application might support multiple
 specifications, for example one for core Ed-Fi data model resources, and one for
 Ed-Fi descriptors.
 
-## OAuth
+#### OAuth
 
 The OAuth URL must be the token URL used by clients for authentication. The URL
 is not required to be on the same base address, i.e. it could be hosted on
 another server.
 
-## DataManagementApi
+#### DataManagementApi
 
 This URL represents the base path for constructing the full URL to access a
-resource. To this base path, a client appends the data model namespace
-
+resource. To this base path, a client appends the data model namespace.
 
 ## API Guidelines Contents
 
