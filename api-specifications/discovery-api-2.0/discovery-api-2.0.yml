@@ -1,0 +1,160 @@
+# SPDX-License-Identifier: Apache-2.0
+# Licensed to the Ed-Fi Alliance under one or more agreements.
+# The Ed-Fi Alliance licenses this file to you under the Apache License, Version 2.0.
+# See the LICENSE and NOTICES files in the project root for more information.
+
+openapi: 3.0.3
+info:
+  title: Ed-Fi Discovery API
+  version: 2.0.0
+  description: |
+    The default response when retrieving the base endpoint on an Ed-Fi implementation
+    must be a JSON document that provides information about the application version,
+    supported data model(s), and URLs for additional metadata.
+  license:
+    name: Apache 2.0
+    url: https://www.apache.org/licenses/LICENSE-2.0
+
+paths:
+  /:
+    get:
+      description: High-level metadata for the Ed-Fi API implementation.
+      responses:
+        "200":
+          description: GET response
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/metadataRoot"
+  /metadata/specifications:
+    get:
+      description: OpenAPI specifications for interfaces supported by this application.
+      responses:
+        "200":
+          description: GET response
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/apiSpecLink"
+  /metadata/dependencies:
+    get:
+      description: This endpoint will provide developers with the data needed to load resources in the appropriate order.
+      responses:
+        "200":
+          description: GET response
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/dependency"
+            application/graphml:
+              schema:
+                type: string
+
+components:
+  schemas:
+    metadataRoot:
+      type: object
+      required:
+        - version
+        - applicationName
+        - dataModels
+        - urls
+      properties:
+        version:
+          type: string
+          example: 7.1
+        applicationName:
+          type: string
+          example: 3
+        build:
+          type: string
+          example: 7.1.2250.0
+        dataModels:
+          type: array
+          items:
+            type: object
+            required:
+              - name
+              - version
+            properties:
+              name:
+                type: string
+                example: Ed-Fi
+              version:
+                type: string
+                example: 5.0.0
+              informationalVersion:
+                type: string
+                example: The Ed-Fi Data Model 5.0
+        urls:
+          type: object
+          required:
+            - dependencies
+            - openApiMetadata
+            - oauth
+            - dataManagementApi
+          properties:
+            dependencies:
+              type: string
+              example: "https://api.ed-fi.org/DMS/metadata/dependencies"
+            openApiMetadata:
+              type: string
+              example: "https://api.ed-fi.org/DMS/metadata/specifications"
+            oauth:
+              type: string
+              example: "https://api.ed-fi.org/DMS/oauth/token"
+            dataManagementApi:
+              type: string
+              description: Base path for all resources
+              example: "https://api.ed-fi.org/DMS/data"
+            xsdMetadata:
+              type: string
+              description: link for downloading XSD files
+              example: "https://api.ed-fi.org/DMS/metadata/xsd"
+            changeQueries:
+              type: string
+              description: Base path for the Change Queries API
+              example: "https://api.ed-fi.org/DMS/changeQueries/v1"
+            identity:
+              type: string
+              description: Base path for the Identity API
+              example: "https://api.ed-fi.org/DMS/identity/v2"
+
+    apiSpecLink:
+      type: object
+      required:
+        - name
+        - endpointUri
+        - prefix
+      properties:
+        name:
+          type: string
+          example: Resources
+        endpointUri:
+          type: string
+          example: "https://api.ed-fi.org/DMS/metadata/specifications/resources-spec.json"
+        prefix:
+          type: string
+
+    dependency:
+      type: object
+      required:
+        - resource
+        - order
+        - operations
+      properties:
+        resource:
+          type: string
+          example: "/ed-fi/absenceEventCategoryDescriptors"
+        order:
+          type: integer
+          example: 1
+        operations:
+          type: array
+          items:
+            type: string
+            example: Create
