@@ -146,6 +146,9 @@ components:
         specifications:
           type: string
           example: "https://api.ed-fi.org/DMS/metadata/specifications"
+        xsdMetadata:
+          type: string
+          example: "https://api.ed-fi.org/DMS/metadata/xsd"
 
     apiSpecLink:
       type: object
