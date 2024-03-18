@@ -6,7 +6,7 @@
 openapi: 3.0.3
 info:
   title: Ed-Fi Discovery API
-  version: 2.0.0
+  version: "2.0.0-pre1"
   description: |
     The default response when retrieving the base endpoint on an Ed-Fi implementation
     must be a JSON document that provides information about the application version,

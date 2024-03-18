@@ -1,7 +1,7 @@
 # Ed-Fi Discovery API 2.0
 
 > [!NOTE]
-> As a specification, this is still considered to be in PROPOSED status.
+> As a revised specification, this is still considered to be in PROPOSED status.
 
 This revision of the Ed-Fi Discovery API modifies some of the URL path
 segments and introduces new top-level elements for describing the API runtime
