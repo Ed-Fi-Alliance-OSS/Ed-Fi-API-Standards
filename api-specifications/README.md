@@ -3,7 +3,9 @@
 The following specifications files are in OpenAPI 2 (aka Swagger) or OpenAPI 3
 format.
 
-* [Ed-Fi Discovery API](./discovery-api/)
+* [Ed-Fi Discovery API]
+  * [Discovery API (1.0)](./discovery-api-1.0/)
+  * [Discovery API (2.0)](./discovery-api-2.0/)
 * Ed-Fi Resource API
   * [Resource API (3.3)](./resources-ds-3.3/)
   * [Resource API (4.0)](./resources-ds-4.0/)
@@ -13,9 +15,9 @@ format.
   * [Descriptor API (4.0)](./descriptor-api-4.0/)
   * [Descriptor API (5.0)](./descriptor-api-5.0/)
 
-Additionally, there are Postman environment files for the supported "production"
-services, and some of the specifications have a basic set of conformance tests
-for Postman / newman.
+Additionally, there are Postman environment files for some of the supported
+"production" services, and some of the specifications have a basic set of
+conformance tests for Postman / newman.
 
 ## Developer Notes
 

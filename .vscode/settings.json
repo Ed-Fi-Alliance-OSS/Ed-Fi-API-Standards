@@ -29,7 +29,7 @@
         {
             "language": "yaml",
             "mapTo": "python"
-        }
+        },
         {
             "language": "javascript",
             "mapTo": "csharp"

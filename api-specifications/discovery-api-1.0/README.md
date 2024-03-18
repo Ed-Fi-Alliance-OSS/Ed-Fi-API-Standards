@@ -1,7 +1,4 @@
-# Ed-Fi Discovery API
-
-> [!NOTE]
-> As a specification, this is still considered to be in PROPOSED status.
+# Ed-Fi Discovery API 1.0
 
 This refers to the information returned from an Ed-Fi API application's base
 endpoint, for example https://api.ed-fi.org/v7.1/api. Before December 2023, this
