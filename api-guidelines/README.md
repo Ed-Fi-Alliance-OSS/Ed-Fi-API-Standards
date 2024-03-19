@@ -1,6 +1,7 @@
 # API Guidelines
 
 * [v3.1](v3.1) - current, applies to ODS/API 3.x through 7.x
+* [Tips for Success in Building an Ed-Fi Compatible API](./api-guidelines/TIPS-FOR-SUCCESS.md)
 
 This section provides design guidelines for an Ed-Fi representational state
 transfer (REST) application programming interface (API). These guidelines
