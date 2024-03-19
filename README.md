@@ -33,7 +33,10 @@ What makes an application an "Ed-Fi (compatible) API"? An Ed-Fi API must:
   draft revision
   [4.0](https://github.com/Ed-Fi-Alliance-OSS/Ed-Fi-API-Standards/tree/rev-4.0/api-guidelines/v4.0)).
 
-> [!TIP] March, 2024
+Also see: [Tips for Success in Building an Ed-Fi Compatible
+API](./api-guidelines/TIPS-FOR-SUCCESS.md)
+
+> [!IMPORTANT] March, 2024
 > If you are building a new Ed-Fi API application in 2024, we recommend that you
 > begin studying the [draft 4.0
 > revision](https://github.com/Ed-Fi-Alliance-OSS/Ed-Fi-API-Standards/tree/rev-4.0/api-guidelines/v4.0)
