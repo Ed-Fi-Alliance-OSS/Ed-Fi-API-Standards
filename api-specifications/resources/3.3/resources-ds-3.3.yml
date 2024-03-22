@@ -5,9 +5,10 @@
 
 openapi: 3.0.3
 info:
-  title: Ed-Fi Resource API (3.3)
+  title: Ed-Fi Resources API (3.3)
   description: |
-    The Ed-Fi Resources API enables applications to read and write education data stored in an Ed-Fi-compatible application through a secure REST interface.
+    The Ed-Fi Resources API enables applications to read and write education data
+    stored in an Ed-Fi-compatible application through a secure REST interface.
   version: "3.3"
 security:
 - oauth2_client_credentials: []
