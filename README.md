@@ -31,7 +31,7 @@ What makes an application an "Ed-Fi (compatible) API"? An Ed-Fi API must:
   * Descriptors API (current version:
     [5.0](api-specifications/descriptors/5.0))
   * Discovery API (current version: [1.0](api-specifications/discovery/1.0),
-    draft revision: [2.0](api-specifications/discovery/2.0))
+    draft revision: [2.0](api-specifications/discovery/2.0-draft))
 * And, adhere all of the normative guidance in the [Ed-Fi API
   Guidelines](./api-guidelines/) (current version: [3.1](api-guidelines/v3.1),
   draft revision
