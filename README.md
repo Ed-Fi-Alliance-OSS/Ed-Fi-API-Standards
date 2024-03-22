@@ -11,7 +11,7 @@ community. The Ed-Fi Data Standard serves as the foundation for enabling
 interoperability among secure data systems and contains a Unifying Data Model
 designed to capture the meaning and inherent structure in the most important
 information in the K–12 education enterprise. _[more
-information](https://techdocs.ed-fi.org/display/ETKB/Ed-Fi+Standards) ↗_
+information](https://techdocs.ed-fi.org/display/ETKB/Ed-Fi+Standards)_ ↗
 
 An **Ed-Fi compatible API application** creates a REST-based interface for data
 exchange, where the messages conform to the Ed-Fi Data Standard. The **Ed-Fi
@@ -19,6 +19,8 @@ ODS/API** is the Ed-Fi Alliance's core API product, used by nearly all "Ed-Fi
 deployments." Any interested party can build an alternate, compatible,
 application, by adhering to the Open API specifications and guidance provided in
 this space.
+
+![From Data Standard to API Standard to API Application](ds-to-api-to-app.png)
 
 ## Building an Ed-Fi API Application
 
