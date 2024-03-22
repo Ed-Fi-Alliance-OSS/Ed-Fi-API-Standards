@@ -4,25 +4,21 @@ The following specifications files are in OpenAPI 2 (aka Swagger) or OpenAPI 3
 format.
 
 * Ed-Fi Discovery API
-  * [Discovery API (1.0)](./discovery-api-1.0/) (implemented in all versions of the Ed-Fi ODS/API)
-  * [Discovery API (2.0)](./discovery-api-2.0/) (draft proposal)
+  * [Discovery API (1.0)](./discovery/1.0/) (implemented in all versions of the
+    Ed-Fi ODS/API)
+  * [Discovery API (2.0)](./discovery/2.0-draft/) (draft proposal)
 * Ed-Fi Resource API
-  * [Resource API (3.3)](./resources-ds-3.3/) (implemented in Ed-Fi ODS/API v5.3)
-  * [Resource API (4.0)](./resources-ds-4.0/) (implemented in Ed-Fi ODS/API v6.x and 7.x)
-  * [Resources API (5.0)](./resources-ds-5.0/) (implemented in Ed-Fi ODS/API 7.x)
+  * [Resource API (3.3)](./resources/3.3/) (implemented in Ed-Fi ODS/API v5.3)
+  * [Resource API (4.0)](./resources/4.0/) (implemented in Ed-Fi ODS/API v6.x
+    and 7.x)
+  * [Resource API (5.0)](./resources/5.0/) (implemented in Ed-Fi ODS/API 7.x)
 * Ed-Fi Descriptor API
-  * [Descriptor API (3.3)](./descriptor-api-3.3/) (implemented in Ed-Fi ODS/API v5.3)
-  * [Descriptor API (4.0)](./descriptor-api-4.0/) (implemented in Ed-Fi ODS/API v6.x and 7.x)
-  * [Descriptor API (5.0)](./descriptor-api-5.0/) (implemented in Ed-Fi ODS/API 7.x)
-
-Additionally, there are Postman environment files for some of the supported
-"production" services, and some of the specifications have a basic set of
-conformance tests for Postman / newman.
-
-## Developer Notes
-
-See [docs](../docs/README.md) for developer notes on generating and managing
-OpenAPI specifications and Postman collections.
+  * [Descriptor API (3.3)](./descriptors/3.3/) (implemented in Ed-Fi ODS/API
+    v5.3)
+  * [Descriptor API (4.0)](./descriptors/4.0/) (implemented in Ed-Fi ODS/API
+    v6.x and 7.x)
+  * [Descriptor API (5.0)](./descriptors/5.0/) (implemented in Ed-Fi ODS/API
+    7.x)
 
 ## OpenAPI Resources
 
