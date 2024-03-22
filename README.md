@@ -27,11 +27,11 @@ this space.
 What makes an application an "Ed-Fi (compatible) API"? An Ed-Fi API must:
 
 * Implement the following [Open API specifications](api-specifications):
-  * Resources API (current version: [5.0](api-specifications/resources-ds-5.0))
+  * Resources API (current version: [5.0](api-specifications/resources/5.0))
   * Descriptors API (current version:
-    [5.0](api-specifications/descriptor-api-5.0))
-  * Discovery API (current version: [1.0](api-specifications/discovery-api-1.0),
-    draft revision: [2.0](api-specifications/discovery-api-2.0))
+    [5.0](api-specifications/descriptors/5.0))
+  * Discovery API (current version: [1.0](api-specifications/discovery/1.0),
+    draft revision: [2.0](api-specifications/discovery/2.0))
 * And, adhere all of the normative guidance in the [Ed-Fi API
   Guidelines](./api-guidelines/) (current version: [3.1](api-guidelines/v3.1),
   draft revision
