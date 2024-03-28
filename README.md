@@ -1,5 +1,7 @@
 # Ed-Fi-API-Standards
 
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Ed-Fi-Alliance-OSS/Ed-Fi-API-Standards/badge)](https://securityscorecards.dev/viewer/?uri=github.com/Ed-Fi-Alliance-OSS/Ed-Fi-API-Standards)
+
 The [Ed-Fi Alliance](https://www.ed-fi.org) coordinates and publishes
 community-led standards for education and the exchange of education data.
 
