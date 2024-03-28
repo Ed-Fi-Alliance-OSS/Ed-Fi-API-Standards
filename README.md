@@ -15,8 +15,8 @@ information](https://techdocs.ed-fi.org/display/ETKB/Ed-Fi+Standards)_ ↗
 
 An **Ed-Fi compatible API application** creates a REST-based interface for data
 exchange, where the messages conform to the Ed-Fi Data Standard. The **Ed-Fi
-ODS/API** is the Ed-Fi Alliance's core API product, used by nearly all "Ed-Fi
-deployments." Any interested party can build an alternate, compatible,
+ODS/API** is the Ed-Fi Alliance's production-ready reference implementation of
+an Ed-Fi API. Any interested party can build an alternate, compatible,
 application, by adhering to the Open API specifications and guidance provided in
 this space.
 
