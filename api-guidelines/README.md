@@ -2,6 +2,7 @@
 
 * [v3.1](v3.1) - current, applies to ODS/API 3.x through 7.x
 * [v4.0](v4.0) - draft, spring 2024
+  * [RFC: API Guidelines 4.0](RFC-api-guidelines-4.0.md)
 * [Tips for Success in Building an Ed-Fi Compatible API](./api-guidelines/TIPS-FOR-SUCCESS.md)
 
 This section provides design guidelines for an Ed-Fi representational state
