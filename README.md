@@ -11,25 +11,27 @@ community. The Ed-Fi Data Standard serves as the foundation for enabling
 interoperability among secure data systems and contains a Unifying Data Model
 designed to capture the meaning and inherent structure in the most important
 information in the K–12 education enterprise. _[more
-information](https://techdocs.ed-fi.org/display/ETKB/Ed-Fi+Standards) ↗_
+information](https://techdocs.ed-fi.org/display/ETKB/Ed-Fi+Standards)_ ↗
 
 An **Ed-Fi compatible API application** creates a REST-based interface for data
 exchange, where the messages conform to the Ed-Fi Data Standard. The **Ed-Fi
-ODS/API** is the Ed-Fi Alliance's core API product, used by nearly all "Ed-Fi
-deployments." Any interested party can build an alternate, compatible,
+ODS/API** is the Ed-Fi Alliance's production-ready reference implementation of
+an Ed-Fi API. Any interested party can build an alternate, compatible,
 application, by adhering to the Open API specifications and guidance provided in
 this space.
+
+![From Data Standard to API Standard to API Application](ds-to-api-to-app.png)
 
 ## Building an Ed-Fi API Application
 
 What makes an application an "Ed-Fi (compatible) API"? An Ed-Fi API must:
 
 * Implement the following [Open API specifications](api-specifications):
-  * Resources API (current version: [5.0](api-specifications/resources-ds-5.0))
+  * Resources API (current version: [5.0](api-specifications/resources/5.0))
   * Descriptors API (current version:
-    [5.0](api-specifications/descriptor-api-5.0))
-  * Discovery API (current version: [1.0](api-specifications/discovery-api-1.0),
-    draft revision: [2.0](api-specifications/discovery-api-2.0))
+    [5.0](api-specifications/descriptors/5.0))
+  * Discovery API (current version: [1.0](api-specifications/discovery/1.0),
+    draft revision: [2.0](api-specifications/discovery/2.0-draft))
 * And, adhere all of the normative guidance in the [Ed-Fi API
   Guidelines](./api-guidelines/) (current version: [3.1](api-guidelines/v3.1),
   draft revision
