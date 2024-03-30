@@ -1,5 +1,15 @@
 # Uniform Resource Locators (URLs)
 
+---
+
+## Work in Progress
+
+Maybe combine with [Request Construction](./REQUEST-CONSTRUCTION.md). Wrote
+these two weeks apart and did not initially realize the duplication of topical
+areas. Some elements of Request Construction probably belong in the GET page.
+
+---
+
 ## URL Path Segments
 
 All URLs _must_ follow this pattern:
