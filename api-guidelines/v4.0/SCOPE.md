@@ -9,26 +9,29 @@ following the REST architectural style.
 
 ### Resource API
 
-The Ed-Fi Unifying Data Model (UDM)[\[1\]](#f1) provides the basis for the data
-transferred and manipulated by an implementation of the Ed-Fi Resource API
-specification. The Ed-Fi UDM is a structured, conceptual model of common K–12
-education data. The model includes _entities_ that are easily recognized by
-educators and administrators: schools, students, teachers, attendance, grades,
-assessment results, and many others. These entities contain _attributes_ (i.e.,
-properties) that are also easily recognized. For example, assessment results
-contain data, such as a score and the date the assessment was administered. The
-UDM also includes _associations_ (i.e., relationships) between entities, such as
-the association between students and schools.
+The [Ed-Fi Unifying Data Model
+(UDM)](https://techdocs.ed-fi.org/display/ETKB/Ed-Fi+Unifying+Data+Model)
+provides the basis for the data transferred and manipulated by an implementation
+of the Ed-Fi Resource API specification. The Ed-Fi UDM is a structured,
+conceptual model of common K–12 education data. The model includes _entities_
+that are easily recognized by educators and administrators: schools, students,
+teachers, attendance, grades, assessment results, and many others. These
+entities contain _attributes_ (i.e., properties) that are also easily
+recognized. For example, assessment results contain data, such as a score and
+the date the assessment was administered. The UDM also includes _associations_
+(i.e., relationships) between entities, such as the association between students
+and schools.
 
 REST interfaces are built around Resources that define nouns. In the education
 domain, these nouns include such things as schools, students, and teachers. In
 the Ed-Fi UDM these nouns have been rigorously defined as "entities," with
 specific attributes and associations. Compositions of entities, with their
 attributes and associations, are called "domain aggregates." These are
-identified from the Ed-Fi UDM according to the principles of Domain-Driven
-Design (DDD).[\[2\]](#f2) Domain aggregates are the Resources for an Ed-Fi
-Resource API. These concepts are discussed in more detail later in this
-document.
+identified from the Ed-Fi UDM according to the principles of [Domain-Driven
+Design
+(DDD)](http://www.infoq.com/minibooks/domain-driven-design-quickly). Domain
+aggregates are the Resources for an Ed-Fi Resource API. These concepts are
+discussed in more detail later in this document.
 
 ### Discovery API
 
@@ -78,9 +81,10 @@ Other specifications managed by the Ed-Fi Alliance include:
 
 ## Architectural Style
 
-The REST architectural style[\[3\]](#f3) is a convention-based approach to
-defining APIs using the HTTP methods (GET, PUT, POST, DELETE, etc.), as the
-application protocol.
+The [REST architectural
+style](https://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm) is a
+convention-based approach to defining APIs using the HTTP methods (GET, PUT,
+POST, DELETE, etc.), as the application protocol.
 
 REST-style architectures consist of clients and servers. Clients initiate
 requests to servers; servers process requests and return appropriate responses.
@@ -113,20 +117,6 @@ There may be circumstances where an Ed-Fi API application would diverge from a
 pure REST approach to support specific use cases, for example, to support
 application-specific operations. Such use cases should be defined by their own
 specifications, which can sit alongside the Ed-Fi specification implementation.
-
-------
-
-<a name="f1"></a>1. For more information about the Ed-Fi Unifying Data Model, see
-[here](https://techdocs.ed-fi.org/display/ETKB/Ed-Fi+Unifying+Data+Model).
-
-<a name="f2"></a>2. See, e.g., Evans, Eric, et al. (2006), [Domain-Driven Design
-Quickly](http://www.infoq.com/minibooks/domain-driven-design-quickly), C4Media
-Inc., for a brief outline of Domain-Driven Design principles.
-
-<a name="f3"></a>3. The key principles of REST are outlined in Fielding, Roy Thomas (2000),
-[Architectural Styles and the Design of Network-Based Software
-Architectures](http://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm),Doctoral
-dissertation, University of California, Irvine.
 
 ## API Guidelines Contents
 

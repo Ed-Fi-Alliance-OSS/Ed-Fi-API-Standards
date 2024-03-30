@@ -1,15 +1,5 @@
 # Uniform Resource Locators (URLs)
 
----
-
-## Work in Progress
-
-Maybe combine with [Request Construction](./REQUEST-CONSTRUCTION.md). Wrote
-these two weeks apart and did not initially realize the duplication of topical
-areas. Some elements of Request Construction probably belong in the GET page.
-
----
-
 ## URL Path Segments
 
 All URLs _must_ follow this pattern:
@@ -25,8 +15,9 @@ All URLs _must_ follow this pattern:
 * The _required_ model namespace is a feature of an Ed-Fi API; in the core Ed-Fi
   Unifying Data Model, the namespace is always "ed-fi". Other values are used by
   Extensions ot the Data Model.
-* Examples of resource names, which are always plural: `students`,
-`studentEducationOrganizationAssociations`.
+* The _required_ resource name corresponds to an entity in the Ed-Fi Unifying
+  Data Model. Examples of resource names, which are always plural: `students`,
+  `studentEducationOrganizationAssociations`.
 * `PUT` and `DELETE` requests always specify a unique identifier after the
   resource; `GET` request may also specify that identifier.
 * Finally, query string key-value pairs may be appended after the rest of the
@@ -36,6 +27,21 @@ All URLs _must_ follow this pattern:
 Given the potential variability in base paths, an API client should utilize the
 [Discovery API](./ED-FI-DISCOVERY.md) to construct the full path segment
 preceding the namespace component.
+
+Also see [GET Requests](./GET-REQUESTS.md) for further detail on the use of
+query string parameters.
+
+## Resource Collections and Individual Resources
+
+For each resource, there are two base forms for the URL: one for a collection of
+resources and the other for a specific resource in the collection. The
+collection form for the URL is referred to by the pluralized name of the
+individual resource. A specific resource is referenced by the collection name,
+followed by a slash and the resource's unique identifier. For example:
+
+* `/students` refers to a collection of students
+* `/students/ffc0a272` refers to a specific student with an assigned identifier
+  of `ffc0a272`.
 
 ## Case Sensitivity
 

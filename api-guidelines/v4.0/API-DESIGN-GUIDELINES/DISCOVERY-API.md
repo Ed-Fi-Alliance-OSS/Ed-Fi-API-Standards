@@ -10,7 +10,9 @@
 * application settings / configuration?
   * default page size
   * case sensitivity
-* Fix headers
+  * paging type
+  * sorting
+* Fix md headers
 
 ---
 
