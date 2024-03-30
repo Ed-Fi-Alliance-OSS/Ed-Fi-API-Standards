@@ -1,7 +1,7 @@
 # Data Strictness
 
 The recommendations for this section are designed to allow the least amount of
-friction in the data exchange while still ensuring data are valid.  
+friction in the data exchange while still ensuring data are valid.
 
 ## Schema Validation
 
