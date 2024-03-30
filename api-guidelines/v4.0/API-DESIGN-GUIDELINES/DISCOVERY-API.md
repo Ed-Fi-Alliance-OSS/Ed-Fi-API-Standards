@@ -1,5 +1,19 @@
 # Discovery API
 
+---
+
+## Work in Progress
+
+* also see [Uniform Resource Locators](./UNIFORM-RESOURCE-LOCATORS.md)
+* Needs to be reviewed again
+* `applicationName` instead of `suite`
+* application settings / configuration?
+  * default page size
+  * case sensitivity
+* Fix headers
+
+---
+
 The default response when retrieving the base endpoint on an Ed-Fi
 implementation must be a JSON document that provides information about the
 application version, supported data model(s), and URLs for additional metadata.
