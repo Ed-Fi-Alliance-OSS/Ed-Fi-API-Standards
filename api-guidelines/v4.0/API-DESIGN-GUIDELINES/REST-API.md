@@ -1,58 +1,55 @@
 # REST API Conventions
 
-> [!WARNING] TODO
-> Consider adding HEADERS here. Just summarizing key points and
-> provide normative guidance. Needs an intro paragraph.
+All Ed-Fi API specifications are based on the Hypertext Transfer Protocol and
+follow the [semantics](https://datatracker.ietf.org/doc/html/rfc9110) described
+for that protocol. Furthermore, these API specifications follow the
+[REST](https://en.wikipedia.org/wiki/REST) (REpresentational State Transfer)
+architectural style. These API Design Guidelines highlight particular aspects of
+these protocols as they apply to an Ed-Fi API.
 
-## HTTP Verbs
+## Verbs
 
-HTTP verbs communicate actions that can be taken against a resource. Depending
-on the verb, the request can require additional information in the body. The
-Ed-Fi REST API supports the following verbs:
+HTTP verbs communicate actions that can be taken against a resource. An Ed-Fi
+API _must_ supports the following HTTP verbs: `POST`, `GET`, `PUT`, and
+`DELETE`. Each verb has specific usage patterns with respect to URL
+construction, HTTP headers, request bodies, response bodies, and status codes.
+These are described in separate pages for each.
 
-### POST
+* [POST Requests](./POST-REQUESTS.md) for creating items
+* [GET Requests](./GET-REQUESTS.md) for retrieving items
+* [PUT Requests](./PUT-REQUESTS.md) for updating items
+* [DELETE Requests](./DELETE-REQUESTS.md) for deleting items
 
-An HTTP POST creates an individual subordinate resource. If successful, the URI
-to the new resource is returned in the "Location" HTTP header of the response.
-Performing a POST with identical natural keys to a resource already in the data
-store _must_ perform an update rather than create a new resource (colloquially
-known as an "upsert"). A POST operation _must not_ allow a desired unique
-identifier to be provided to the REST API. POST is a required verb for
-non-read-only Resources.
-
-### GET
-
-An HTTP GET returns existing Resources. Providing the natural key or internal
-unique identifier on the URL specifies an individual resource, while omitting
-the natural keys and identifier retrieves the complete set of Resources of the
-given type. GET _must_ be an idempotent operation. GET is a required verb.
-
-### PUT
-
-An HTTP PUT _must_ perform an idempotent update of an existing resource. PUT
-performs a full replacement of the existing resource with the supplied value. A
-PUT against a nonexistent resource _must not_ create a new resource under the
-provided identifier. PUT is a _required_ verb for non-read-only Resources.
-
-### DELETE
-
-An HTTP DELETE deletes an existing individual resource. DELETE is a _required_
-verb for non-read-only Resources.
-
-### PATCH
-
-An HTTP PATCH performs a partial update on an existing individual resource. For
+An HTTP `PATCH` performs a partial update on an existing individual resource. For
 a partial update, only the properties that are submitted will be updated on the
 target resource. The entire patch will be applied, or none of it will. The new
 representation of the entire resource is returned in the response body. Due to a
 lack of industry standard practice in the use of PATCH for REST APIs, it is _not
 recommended_ that implementations support PATCH in Ed-Fi API applications.
 
-### OPTIONS and others
+## Authentication
 
-> [!WARNING] TODO
+To safeguard student data, an Ed-Fi API _must_ require authentication and
+implement one or more authorization schemes. Exception: the [Discovery
+API](./DISCOVERY-API.md) does not provide access to student data and _must_ be
+accessible to anonymous clients. The API application _must_ support the
+[Authorization](https://datatracker.ietf.org/doc/html/rfc7235) header and
+_should_ support [OAuth 2.0](https://datatracker.ietf.org/doc/html/rfc6749)
+style authentication using the _client credentials_ grant.
 
-## ETags
+For more detail on authentication and authorization, see the [API Implementation
+Guidelines: Handling Authentication and
+Authorization](../API-IMPLEMENTATION-GUIDELINES/AUTH.md).
+
+## Error Handling
+
+Requests that result in an error _must_ receive a standard HTTP status code in
+the response. The applicable status codes are listed in the sections for each
+verb. In situations where a response body is warranted, for providing detailed
+information on the error, the response _should_ follow the [Problem Details for
+HTTP APIs](https://datatracker.ietf.org/doc/html/rfc9457) specification.
+
+## eTags
 
 [ETags (Entity Tags)](https://tools.ietf.org/html/rfc7232#section-2.3) are
 mechanisms used to support optimistic concurrency and efficient bandwidth
@@ -61,7 +58,7 @@ handling. The use of ETags is _recommended_ for Ed-Fi REST API implementations.
 Also see [Optimistic
 Concurrency](../API-IMPLEMENTATION-GUIDELINES/OPTIMISTIC-CONCURRENCY.md) for
 further guidance on implementing ETags.
-  
+
 ## API Guidelines Contents
 
 * [Scope](../SCOPE.md)
@@ -76,6 +73,4 @@ further guidance on implementing ETags.
   * [Ed-Fi Descriptors](ED-FI-DESCRIPTORS.md)
   * [Query Operators](QUERY-OPERATORS.md)
   * [Response Codes](RESPONSE-CODES.md)
-  * [ETags and Other REST API Conventions and
-  Features](ETAGS-OTHER-CONVENTIONS.md)
 * [API Implementation Guidelines](../API-IMPLEMENTATION-GUIDELINES/README.md)
