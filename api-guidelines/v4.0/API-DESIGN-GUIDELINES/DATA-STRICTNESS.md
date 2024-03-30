@@ -3,43 +3,6 @@
 The recommendations for this section are designed to allow the least amount of
 friction in the data exchange while still ensuring data are valid.  
 
-## DateTime
-
-All API endpoints with date/time properties _should_ require both the date and
-time, not just a date. The data should include the timezone/offset. See
-[RFC 3339](https://www.rfc-editor.org/rfc/rfc3339) for detailed guidance on
-proper formatting of `datetime` type fields.
-
-Typical examples of validate `datetime` fields:
-
-* `2021-09-28T15:00:00Z`, that is, 3:00 PM in UTC on September 28, 2021.
-* `2021-09-28T15:00:00-06:00`, which is 3:00 PM in CST (central standard) on
-  September 28, 2021.
-
-## Case Sensitivity
-
-API routes and query string parameters _should_ be case insensitive.
-
-For example, the following pairs pairs should be treated equivalently:
-
-* `/ed-fi/students` and `/ed-FI/stUDeNTs`
-* `/ed-fi/students?lastName=John` and `/ed-fi/students?LASTNAME=John`
-
-> [!WARNING]
-> Revisit special interest group and survey results. This can be hard to achieve
-> in some platforms. Is it really necessary?  Does this extend to payloads on
-> PUT/POST? If so, what do we expect on GET payloads, or in streaming output -
-> should the property names be normalized to the "correct" casing?
-
-## Data Type Validation
-
-> [!WARNING]
-> The ODS/API infers data type. That should be allowed but do we
-> really want to recommend it? If we recommend this, it may be hard to manage in
-> some platforms. If we deny it, then we might cause problems for vendors who
-> have been sending the wrong data type. Currently favoring being more strict
-> about this.
-
 ## Schema Validation
 
 With respect to a given API Specification document, an Ed-Fi API:
@@ -67,6 +30,43 @@ variations in the API specification. For example:
   to a `student`. An API client is programmed to send the new attribute, and
   it continues to interoperate without fail when accessing older API implementations
   that have yet to accept hte minor Data Standard update.
+
+## Inference
+
+All data types _must_ be enforced while validating POST and PUT request bodies.
+An application _could_ make reasonable inferences, so long as the response to a
+GET request contains the correct data type. Inference is not a preferred
+behavior, as it can lead to a fragmented landscape where some applications
+accept inferred values and others do not. It is, however, accepted here for
+legacy reasons: the Ed-Fi ODS/API Platform infers data types; this was likely an
+outcome of the programming framework rather than an intentional design feature.
+
+Reasonable inferences include:
+
+| Data Type | Alternate Value | Inferred Value |
+| --------- | --------------- | -------------- |
+| Boolean   | 1               | true           |
+| Boolean   | "1"             | true           |
+| Boolean   | "true"          | true           |
+| Boolean   | 0               | false          |
+| Boolean   | "0"             | false          |
+| Boolean   | "false"         | false          |
+| Numeric   | "1"             | 1              |
+| Numeric   | "1.234"         | 1.234          |
+
+## DateTime
+
+All API endpoints with date/time properties _should_ require both the date and
+time, not just a date. Otherwise, a system is likely to infer midnight, which
+may not be accurate. The data _should_ include the timezone/offset. See [RFC
+3339](https://www.rfc-editor.org/rfc/rfc3339) for detailed guidance on proper
+formatting of `datetime` type fields.
+
+Typical examples of validate `datetime` fields:
+
+* `2021-09-28T15:00:00Z`, that is, 3:00 PM in UTC on September 28, 2021.
+* `2021-09-28T15:00:00-06:00`, which is 3:00 PM in CST (central standard) on
+  September 28, 2021.
 
 ## API Guidelines Contents
 
