@@ -48,6 +48,10 @@ The Discovery API allows client developers to build applications that need know
 only one base URL, can extract runtime information from it, and alter behavior
 as appropriate.
 
+> [!NOTE]
+> TODO: add Descriptors API to this document. Consider linking above sections
+> to the pages on the respective API specs.
+
 ### Defining an Ed-Fi API
 
 An application that exposes some subset of the Ed-Fi Resource API, and adheres

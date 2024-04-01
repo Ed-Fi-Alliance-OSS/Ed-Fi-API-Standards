@@ -58,3 +58,21 @@ This extends to query string values, not only the keys. Thus it is preferred
 that the query strings `?lastname=DOE` and `?lastname=Doe` return the same
 results. While this is the default behavior in some database, it may be
 difficult to achieve in others. Thus this is not a required feature.
+
+## API Guidelines Contents
+
+* [Scope](../SCOPE.md)
+* [Key Characteristics](../KEY-CHARACTERISTICS.md)
+* [Requirement Levels](../REQUIREMENT-LEVELS.md)
+* [API Design Guidelines](../API-DESIGN-GUIDELINES/README.md)
+  * [Resources](RESOURCES.md)
+  * [Discovery API](./DISCOVERY-API.md)
+  * [Ed-Fi Descriptors](./ED-FI-DESCRIPTORS.md)
+  * [REST API Conventions](./REST-API.md)
+    * [Uniform Resource Locators (URLs)](./UNIFORM-RESOURCE-LOCATORS.md)
+    * [Data Strictness](./DATA-STRICTNESS.md)
+    * [POST Requests](./POST-REQUESTS.md)
+    * [GET Requests](./GET-REQUESTS.md)
+    * [PUT Requests](./PUT-REQUESTS.md)
+    * [DELETE Requests](./DELETE-REQUESTS.md)
+* [API Implementation Guidelines](../API-IMPLEMENTATION-GUIDELINES/README.md)

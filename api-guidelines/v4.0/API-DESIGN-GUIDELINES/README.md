@@ -8,16 +8,16 @@ programmers.
 
 This section covers the following topics in detail:
 
-* [Discovery API](DISCOVERY-API.md)
-* [Data Strictness](DATA-STRICTNESS.md)
 * [Resources](RESOURCES.md)
-* [HTTP Verbs](HTTP-VERBS.md)
-* [General Request Construction](GENERAL-REQUEST-CONSTRUCTION.md)
-* [Ed-Fi Descriptors](ED-FI-DESCRIPTORS.md)
-* [Query Operators](QUERY-OPERATORS.md)
-* [Response Codes](RESPONSE-CODES.md)
-* [ETags and Other REST API Conventions and
-  Features](ETAGS-OTHER-CONVENTIONS.md)
+* [Discovery API](./DISCOVERY-API.md)
+* [Ed-Fi Descriptors](./ED-FI-DESCRIPTORS.md)
+* [REST API Conventions](./REST-API.md)
+  * [Uniform Resource Locators (URLs)](./UNIFORM-RESOURCE-LOCATORS.md)
+  * [Data Strictness](./DATA-STRICTNESS.md)
+  * [POST Requests](./POST-REQUESTS.md)
+  * [GET Requests](./GET-REQUESTS.md)
+  * [PUT Requests](./PUT-REQUESTS.md)
+  * [DELETE Requests](./DELETE-REQUESTS.md)
 
 ## API Guidelines Contents
 
