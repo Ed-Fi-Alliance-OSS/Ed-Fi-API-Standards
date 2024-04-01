@@ -2,7 +2,7 @@
 
 The sections that follow contain guidelines for Ed-Fi API designs and
 implementations. Certain key terms have specific meanings in these
-guidelines.[\[4\]](#f4) From this point forward, key terms are italicized when
+guidelines.[\[1\]](#f1) From this point forward, key terms are italicized when
 used with the specific meanings shown below:
 
 * _Must, required, shall._ These terms indicate an absolute requirement for an
@@ -30,8 +30,8 @@ used with the specific meanings shown below:
 
 -----
 
-<a name="f4"></a>4 Language for this section has been adapted for use from
-[http://www.ietf.org/rfc/rfc2119](http://www.ietf.org/rfc/rfc2119). This
+<a name="f1">1.</a> Language for this section has been adapted for use from
+[Key words for use in RFCs to Indicate Requirement Levels](http://www.ietf.org/rfc/rfc2119). This
 document conforms to the guidelines provided there.
 
 ## Contents

@@ -62,3 +62,21 @@ The following status codes _must_ be supported for `POST` responses:
 | 500         | Server Error | An unhandled error occurred on the server.                                                             |
 
 Other [HTTP status codes](./REST-API.md#status-codes) may be used as needed for specific situations.
+
+## API Guidelines Contents
+
+* [Scope](../SCOPE.md)
+* [Key Characteristics](../KEY-CHARACTERISTICS.md)
+* [Requirement Levels](../REQUIREMENT-LEVELS.md)
+* [API Design Guidelines](../API-DESIGN-GUIDELINES/README.md)
+  * [Resources](RESOURCES.md)
+  * [Discovery API](./DISCOVERY-API.md)
+  * [Ed-Fi Descriptors](./ED-FI-DESCRIPTORS.md)
+  * [REST API Conventions](./REST-API.md)
+    * [Uniform Resource Locators (URLs)](./UNIFORM-RESOURCE-LOCATORS.md)
+    * [Data Strictness](./DATA-STRICTNESS.md)
+    * [POST Requests](./POST-REQUESTS.md)
+    * [GET Requests](./GET-REQUESTS.md)
+    * [PUT Requests](./PUT-REQUESTS.md)
+    * [DELETE Requests](./DELETE-REQUESTS.md)
+* [API Implementation Guidelines](../API-IMPLEMENTATION-GUIDELINES/README.md)
