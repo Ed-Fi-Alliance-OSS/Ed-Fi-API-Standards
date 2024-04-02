@@ -76,6 +76,9 @@ components:
         build:
           type: string
           example: 7.1.2250.0
+        apiMode:
+          type: string
+          example: Sandbox
         dataModels:
           type: array
           items:
