@@ -49,33 +49,76 @@ term is therefore simply `?schoolId=xyz`.
 
 Paging is a mechanism that restricts the number of results returned by an
 operation and has proven critical to the efficient usage of Ed-Fi APIs.  The
-limit parameter _should_ be supported in the query string and allow the client
+`limit` parameter _should_ be supported in the query string and allow the client
 to set the maximum number of records to return. If no value is supplied, the
-limit parameter _should_ default to 25.
+`limit` parameter _should_ default to 25.
 
-The offset parameter _should_ be available to the client to specify how many
-records to skip when getting the result set. The value for offset _should_
-default to 0.  However, some API hosts may wish to disable offset-based
-searching for performance and reliability reasons.
+The `offset` parameter _should_ be available to the client to specify how many
+records to skip when getting the result set. The value for `offset` _should_
+default to 0.
 
 When multiple records are being returned, the total count of all
 records _should_ be returned, as part of the HTTP header information.
 
-For example, to get the first name and last name of a collection of available
-Students from positions 31 to 40:
+An Ed-Fi API _must_ use the same sort order on all query requests, so that
+repeated `GET` requests with the same `limit` and `offset` parameters retrieve
+the same records, unless the collection has been modified. If new records are
+inserted or existing records are deleted, these modifications will necessarily
+alter which records are included in the response.
+
+#### Paging Examples
+
+For example, the following request will retrieve the first 25 student records:
 
 ```none
-https://api.example.com/v1/students?fields=firstName,lastSurname&limit=10&offset=30
+https://api.example.com/ed-fi/students
 ```
 
-Alternate approaches to paging could be implemented, for example using keyset or
-cursor-based parameters.
+If the `total-count` response header has a value greater than 25, then the
+following request will retrieve the next set of students, up to 25. Note that
+the `offset` is zero based, which means the number 25 represents the 26th
+record.
 
-> ![WARNING] REVISE THIS
-> This change from must to should for the limit and offset parameters is in
-> recognition of significant performance degradation in many database platforms,
-> when using this technique beyond around 10,000 records. Some implementations
-> may wish to disable the functionality to avoid excessive database usage.**
+```none
+https://api.example.com/v1/students?offset=25
+```
+
+The next example increases the number of records requested to 100, instead of
+25, and it starts with the 101st record in the collection.
+
+```none
+https://api.example.com/v1/students?offset=100&limit=100
+```
+
+#### Alternate Paging Mechanisms
+
+Many databases have known performance limitations when using `offset` beyond
+around 10,000 records. Before the fourth revision to these guidelines, support
+for `limit`/`offset` queries was a _required_ feature of an Ed-Fi API. This has
+been relaxed to a `recommended` feature, so that API hosts may disable use of
+these parameters if they are concerned about potential impact of "deep" (beyond
+10,000) queries on their databases.
+
+Alternate approaches to paging could be implemented, for example using keyset or
+cursor-based parameters. A common approach the resolves the performance
+limitations is to set a lower boundary on a monotonically increasing field, such
+as a numeric identifier or a date. For example, a resource could support paging
+by using the `_lastModifiedDate` metadata attribute instead of `offset`. This
+could be expressed in a query string as `minModifiedDate`:
+
+```none
+https://api.example.com/ed-fi/students?minModifiedDate=2024-03-29T18:23:57&limit=100
+```
+
+This query implies that the API will sort the students by a "modified date"
+attribute or column, and return the next 100 records where that modification
+date is strictly greater than `2024-03-29T18:23:57`. The API client would look
+at the modified date of the 100th record in the response, and use that value as
+the `minModifiedDate` in the subsequent request.
+
+> [!NOTE]
+> As an experimental feature, this example is merely one possibility, rather than
+> a prescribed approach.
 
 ### Ordering
 
@@ -96,8 +139,9 @@ smallest School Id to largest with the following URL fragment:
 /ed-fi/studentSchoolAssociations?orderBy=SchoolId&direction=desc.
 ```
 
-As an experimental feature, this example is merely one possibility, rather than
-a prescribed approach.
+> [!NOTE]
+> As an experimental feature, this example is merely one possibility, rather than
+> a prescribed approach.
 
 ## Request Body
 
@@ -127,39 +171,39 @@ more of the following metadata attributes:
 * A `link` construction for references, which describes the relationship of the
   reference and provides a locator that can be used to construct the URL to the
   referenced item.
-* _Last modified date_
+* _Last modified date_, which ideally will have a _datetime_ data type.
 * _[ETag](./REST-API.md#etags)_ value
 * _Provenance_ describing the source and/or modifications to the data.
 
 The following example demonstrates all forms of metadata.
 
 ```json
-  {
-    "id": "986a44e7cfcf4019b7b2ea4a640c6d20",
-    "schoolReference": {
-      "schoolId": 255901107,
-      "link": {
-        "rel": "School",
-        "href": "/ed-fi/schools/2af36358c7824afe8b3b88aea077c172"
-      }
-    },
-    "schoolYearTypeReference": {
-      "schoolYear": 2022,
-      "link": {
-        "rel": "SchoolYearType",
-        "href": "/ed-fi/schoolYearTypes/337ea29f861b4ee88fa9714863cc0b98"
-      }
-    },
-    "calendarCode": "2010605675",
-    "calendarTypeDescriptor": "uri://ed-fi.org/CalendarTypeDescriptor#Student Specific",
-    "gradeLevels": [],
-    "_etag": "5250159352800270276",
-    "_lastModifiedDate": "2024-03-29T18:23:57.2882372Z",
-    "_provenance": {
-        "sourceSystem": "Example SIS",
-        "modifications": []
+{
+  "id": "986a44e7cfcf4019b7b2ea4a640c6d20",
+  "schoolReference": {
+    "schoolId": 255901107,
+    "link": {
+      "rel": "School",
+      "href": "/ed-fi/schools/2af36358c7824afe8b3b88aea077c172"
     }
+  },
+  "schoolYearTypeReference": {
+    "schoolYear": 2022,
+    "link": {
+      "rel": "SchoolYearType",
+      "href": "/ed-fi/schoolYearTypes/337ea29f861b4ee88fa9714863cc0b98"
+    }
+  },
+  "calendarCode": "2010605675",
+  "calendarTypeDescriptor": "uri://ed-fi.org/CalendarTypeDescriptor#Student Specific",
+  "gradeLevels": [],
+  "_etag": "5250159352800270276",
+  "_lastModifiedDate": "2024-03-29T18:23:57.2882372Z",
+  "_provenance": {
+      "sourceSystem": "Example SIS",
+      "modifications": []
   }
+}
 ```
 
 > [!NOTE]
