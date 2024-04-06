@@ -105,8 +105,10 @@ a prescribed approach.
 
 ## Request Headers
 
-> [!NOTE]
-> TODO: profiles, snapshot
+In general, there is no requirement that an Ed-Fi API support any special
+request headers. Specific implementations may use request headers for special
+purposes; for example, the Ed-Fi ODS/API uses special headers with the Profiles
+and Change Queries features.
 
 ## Response Body
 
@@ -119,7 +121,8 @@ In a JSON response, an empty collection is represented by `[]`.
 
 ### Metadata
 
-The items in a `GET` response body _could_ be modified to include the following metadata:
+The items in a `GET` response body _could_ be modified to include the one or
+more of the following metadata attributes:
 
 * A `link` construction for references, which describes the relationship of the
   reference and provides a locator that can be used to construct the URL to the
