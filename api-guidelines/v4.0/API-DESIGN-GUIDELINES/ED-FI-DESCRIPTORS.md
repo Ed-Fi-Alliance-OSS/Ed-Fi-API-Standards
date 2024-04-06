@@ -1,26 +1,28 @@
 # Ed-Fi Descriptors
 
 Descriptors in the Ed-Fi Data Standard are a set of mechanisms to support
-flexible enumerations or code sets. The following table defined the attibuts of
-an Ed-Fi Descriptor:
+flexible enumerations or code sets. The following table defined the attributes
+of an Ed-Fi Descriptor:
 
 **Table 3.** Descriptor Attributes
 
-| Attribute                | Return from GET | Needed for PUT/POST   | Notes                                                        |
-| ------------------------ | --------------- | -------------------- | ------------------------------------------------------------ |
-| namespace                | required        | required             |                                                              |
-| codeValue                | required        | required             | Value should be human readable, e.g. prefer one or more words over a numeric code or random string.|
-| shortDescription         | required        | required             |                                                              |
-| description              | required        | optional             | Longer description that may contain additional normative usage guidance.|
-| effectiveBeginDate       | required        | optional             | Date for display only, not validation                        |
-| effectiveEndDate         | required        | optional             | Date for display only, not validation                        |
-| id                       | required        | Must not have on POST <br /> required on PUT|                                                              |
-| _etag                    | required        | optional             |                                                              |
-| xyzDescriptorId          | optional        | Must not have        | Retained only for backward-compliance with existing ODS/API implementations.|
-| priorDescriptorId        | optional        | optional             | Retained only for backward-compliance with existing ODS/API implementations.|
-| lastModfiedDateTime      | optional        | Must not have        | Date for display only, not validation                        |
+The `GET`, `POST`, and `PUT` columns indicate if the attribute is _required_ ("yes"), _optional_ ("opt"), or _must not have_ ("no")k.
 
-## URI Construction and HTTP Verb Usage for Ed-Fi Descriptors
+| Attribute              | `GET` | `POST` | `PUT` | Notes                                                                                  |
+| ---------------------- | ----- | ------ | ----- | -------------------------------------------------------------------------------------- |
+| `namespace`            | yes   | yes    | yes   |                                                                                        |
+| `codeValue`            | yes   | yes    | yes   | Value _preferred_ to be one or more words rather than a numeric code or random string. |
+| `shortDescription`     | yes   | yes    | yes   |                                                                                        |
+| `description`          | yes   | opt    | opt   | Longer description that may contain additional normative usage guidance.               |
+| `effectiveBeginDate`   | yes   | opt    | opt   | Date for display only, not validation                                                  |
+| `effectiveEndDate`     | yes   | opt    | opt   | Date for display only, not validation                                                  |
+| `id`                   | yes   | no     | yes   |                                                                                        |
+| `_etag`                | yes   | no     | no    |                                                                                        |
+| `xyzDescriptorId`      | opt   | no     | no    | Retained only for backward-compliance with existing ODS/API implementations.           |
+| `priorDescriptorId`    | opt   | no     | no    | Retained only for backward-compliance with existing ODS/API implementations.           |
+| `lastModifiedDateTime` | opt   | no     | no    | Date for display only, not validation                                                  |
+
+## URL Construction and HTTP Verb Usage for Ed-Fi Descriptors
 
 Descriptors are also exposed as Resources of an Ed-Fi API and can be accessed
 and manipulated as follows:
@@ -34,14 +36,16 @@ and manipulated as follows:
 
 ## Descriptor References
 
-References to a Descriptor value _must_ be constructed in the following format:
+Many Ed-Fi [Resources](./RESOURCES.md) have one or more Descriptor in their
+lists of attributes. The Descriptor value is a Uniform Resource Indicator (URI).
+The URI for a Descriptor _must_ be constructed in the following format:
 
 ```none
 uri://[namespace]/[name of descriptor]#[descriptor value]
 ```
 
-For example, to refer to the academicSubject value in the Ed-Fi namespace
-("ed-fi.org") with a codeValue of "Chemistry," the reference would be the
+For example, to refer to the `academicSubject` value in the Ed-Fi namespace
+("ed-fi.org") with a codeValue of "Chemistry" the reference would be the
 following URI:
 
 ```none
@@ -56,29 +60,39 @@ For example, a descriptor whose codeValue has spaces _must_ be sent thus:
 uri://ed-fi.org/AcademicSubjectDescriptor#English Language Arts
 ```
 
-...and _must not_ be sent as, e.g.,
+... and _must not_ be sent as, e.g.,
 
 ```none
 uri://ed-fi.org/AcademicSubjectDescriptor#English%20Language%20Arts
 ```
 
+The server API application _should_ parse the `namespace` and `codeValue` from
+this URI to perform reference validation, unless reference validation has been
+deliberately disabled. For example, if the API application does not have
+"Chemistry" as a `codeValue` for `academicSubject`, then the server _must_
+respond with status code 400 when processing a `POST` or `PUT` request that
+contains `uri://ed-fi.org/AcademicSubjectDescriptor#Chemistry`.
+
 ## Ed-Fi Descriptor API
 
 An Ed-Fi API _should_ expose all Descriptors via a REST interface, using the
-[standard verbs](./HTTP-VERBS.md). However, it is _recommended_ that most API
-clients be granted read-only access to these Descriptors, so that they may
-ascertain the full set of values available in the given implementation.
+standard [REST API conventions](./REST-API.md). However, it is _recommended_
+that access to the HTTP verbs be carefully controlled:
 
-Furthermore, it is _recommended_ that access to the POST verb be granted only in
-carefully controlled situations, as most API clients will not need to have this
-access. The community best practice is to avoid modifying or deleting existing
-Descriptors; thus an Ed-Fi API might not provide PUT or POST capability on
-Descriptors. However, the PUT verb might be used to modify the `endDate` on an
-existing Descriptor, or clarify the `description`, without otherwise modifying
-the `namespace` and `codeValue`.
+* All API clients should have read-access using `GET` requests, so that they may
+  ascertain the full set of values available in the given implementation.
+* Access to the `POST` verb should be granted only in carefully controlled
+  situations, so that the number of `codeValues` does not proliferate
+  inappropriately.
+* The community best practice is to avoid modifying or deleting existing
+  Descriptors; however, a `PUT` request may be used to modify the `endDate` on
+  an existing Descriptor, or clarify the `description`, without otherwise
+  modifying the `namespace` and `codeValue`.
 
-Also see: [Descriptor API
-specification](../../../api-specifications/descriptor-api).
+> [!TIP]
+> The Descriptor API is completely described in an [Open API 3 specification
+> document](../../../api-specifications/descriptors/). Note that there are
+> multiple versions, matching with the Resources API versions.
 
 ## API Guidelines Contents
 
