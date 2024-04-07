@@ -17,8 +17,8 @@ key that uniquely identifies the item to be modified.
 
 ## Request Headers
 
-If the application supports [ETags](./REST-API.md#etags), then the ETag _must_
-support the `If-Match` request header. Example:
+If the application supports [ETags](./REST-API.md#etags), then the application
+_must_ support the `If-Match` request header. Example:
 
 `If-Match: 5250159352800270276`
 
