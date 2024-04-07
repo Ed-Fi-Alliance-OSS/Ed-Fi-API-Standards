@@ -10,7 +10,7 @@ specific identifier or query string parameters.
 
 ## Request Headers
 
-There are no specific request headers associated with a `PUT` request in an
+There are no specific request headers associated with a `POST` request in an
 Ed-Fi API.
 
 ## Request Body
