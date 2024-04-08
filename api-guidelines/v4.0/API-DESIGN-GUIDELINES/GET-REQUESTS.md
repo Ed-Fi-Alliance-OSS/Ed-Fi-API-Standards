@@ -204,6 +204,8 @@ The following example demonstrates all forms of metadata.
   "_lastModifiedDate": "2024-03-29T18:23:57.2882372Z",
   "_lineage": {
       "sourceSystem": "Example SIS",
+      "apiCreateTimestamp": 1670597414,
+      "apiModifyTimestamp": 1670597414,
       "modifications": []
   }
 }
