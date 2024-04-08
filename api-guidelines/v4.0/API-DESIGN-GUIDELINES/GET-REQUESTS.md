@@ -176,7 +176,11 @@ more of the following metadata attributes:
 * _Lineage_ describing the source and/or modifications to the data. Recording
   the modifications may be useful for data that have been manipulated after
   receipt, for example an address that has been regularized by third party
-  postal software.
+  postal software. The two proposed timestamps are with respect to the API
+  itself - not the source system. The format is a Unix timestamp. The
+  `apiModifyTimestamp` is thus the same value as the `_lastModifiedDate`; the
+  new name provides a more compact format without breaking any existing
+  integrations with `_lastModifiedDate`.
 
 The following example demonstrates all forms of metadata.
 
@@ -204,8 +208,8 @@ The following example demonstrates all forms of metadata.
   "_lastModifiedDate": "2024-03-29T18:23:57.2882372Z",
   "_lineage": {
       "sourceSystem": "Example SIS",
-      "apiCreateTimestamp": 1670597414,
-      "apiModifyTimestamp": 1670597414,
+      "apiCreateTimestamp": 1711754637,
+      "apiModifyTimestamp": 1711761837,
       "modifications": []
   }
 }
