@@ -173,7 +173,10 @@ more of the following metadata attributes:
   referenced item.
 * _Last modified date_, which ideally will have a _datetime_ data type.
 * _[ETag](./REST-API.md#etags)_ value
-* _Provenance_ describing the source and/or modifications to the data.
+* _Lineage_ describing the source and/or modifications to the data. Recording
+  the modifications may be useful for data that have been manipulated after
+  receipt, for example an address that has been regularized by third party
+  postal software.
 
 The following example demonstrates all forms of metadata.
 
@@ -199,7 +202,7 @@ The following example demonstrates all forms of metadata.
   "gradeLevels": [],
   "_etag": "5250159352800270276",
   "_lastModifiedDate": "2024-03-29T18:23:57.2882372Z",
-  "_provenance": {
+  "_lineage": {
       "sourceSystem": "Example SIS",
       "modifications": []
   }
@@ -207,9 +210,9 @@ The following example demonstrates all forms of metadata.
 ```
 
 > [!NOTE]
-> At the time of publication, _provenance_ is a new proposal that has not been
+> At the time of publication, _lineage_ is a new proposal that has not been
 > implemented in any known Ed-Fi API applications. The example provided above
-> is not a required format for optional provenance information.
+> is not a required format for optional lineage information.
 
 ## Response Headers
 
