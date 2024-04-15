@@ -169,11 +169,12 @@ The items in a `GET` response body _could_ be modified to include the one or
 more of the following metadata attributes:
 
 * A `link` construction for references, which describes the relationship of the
-  reference and provides a locator that can be used to construct the URL to the
-  referenced item.
-* _Last modified date_, which ideally will have a _datetime_ data type.
-* _[ETag](./REST-API.md#etags)_ value
-* _Lineage_ describing the source and/or modifications to the data. Recording
+  reference and provides a locator that can be used to construct the full URL to
+  the referenced item.
+* `_lastModifiedDate`, which is the [datetime](./DATA-STRICTNESS.md#datetime)
+  when one or more of the document's values were last modified.
+* `[etag](./REST-API.md#etags)` value
+* `_lineage` describing the source and/or modifications to the data. Recording
   the modifications may be useful for data that have been manipulated after
   receipt, for example an address that has been regularized by third party
   postal software. The two proposed timestamps are with respect to the API
