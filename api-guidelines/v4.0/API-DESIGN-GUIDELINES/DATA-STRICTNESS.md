@@ -87,8 +87,6 @@ formatting of `datetime` type fields. Typical examples of validate `datetime` fi
 * `2021-09-28T15:00:00-06:00`, which is 3:00 PM in CST (central standard) on
   September 28, 2021.
 
-
-
 ## API Guidelines Contents
 
 * [Scope](../SCOPE.md)
