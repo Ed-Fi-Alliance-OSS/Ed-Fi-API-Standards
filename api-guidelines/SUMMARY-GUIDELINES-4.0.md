@@ -78,6 +78,7 @@ is:
   * The "GET Requests" section removes the concept of selectors, relaxes the
     requirement to have OFFSET/LIMIT paging and opens the possibility of
     alternate paging mechanisms, and adds a proposal for sorting results.
+  * Deprecation of `link` metadata in `GET` responses.
 * The [Data Strictness](./v4.0/API-DESIGN-GUIDELINES/DATA-STRICTNESS.md) content
   provides new details on schema validation and data type handling, based on
   experience with the Ed-Fi ODS/API Platform.

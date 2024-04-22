@@ -168,9 +168,6 @@ In a JSON response, an empty collection is represented by `[]`.
 The items in a `GET` response body _could_ be modified to include the one or
 more of the following metadata attributes:
 
-* A `link` construction for references, which describes the relationship of the
-  reference and provides a locator that can be used to construct the full URL to
-  the referenced item.
 * `_lastModifiedDate`, which is the [datetime](./DATA-STRICTNESS.md#datetime)
   when one or more of the document's values were last modified.
 * `[etag](./REST-API.md#etags)` value
@@ -220,6 +217,53 @@ The following example demonstrates all forms of metadata.
 > At the time of publication, _lineage_ is a new proposal that has not been
 > implemented in any known Ed-Fi API applications. The example provided above
 > is not a required format for optional lineage information.
+
+#### Deprecation of Links
+
+While not described in prior versions of these Guidelines, some Ed-Fi API
+implementations include a `link` metadata construct on all references. This
+property describes the relationship of the reference and provides a locator that
+can be used to construct the full URL to the referenced item. Systems that store
+JSON documents would be forced to enrich the document with information not
+immediately available in the `POST` or `PUT` request pipeline, unlike the other
+metadata described above. Few client applications utilize this feature, and
+alternatives exist. It is _not recommended_ that new Ed-Fi API applications
+include this metadata element.
+
+The `Calendar` resource shown above is duplicated here, with inclusion of two
+`link` entries as provided by the Ed-Fi ODS/API Platform.
+
+```json
+{
+  "id": "986a44e7cfcf4019b7b2ea4a640c6d20",
+  "schoolReference": {
+    "schoolId": 255901107,
+    "link": {
+      "rel": "School",
+      "href": "/ed-fi/schools/2af36358c7824afe8b3b88aea077c172"
+    }
+  },
+  "schoolYearTypeReference": {
+    "schoolYear": 2022,
+    "link": {
+      "rel": "SchoolYearType",
+      "href": "/ed-fi/schoolYearTypes/337ea29f861b4ee88fa9714863cc0b98"
+    }
+  },
+  "calendarCode": "2010605675",
+  "calendarTypeDescriptor": "uri://ed-fi.org/CalendarTypeDescriptor#Student Specific",
+  "gradeLevels": [],
+  "_etag": "5250159352800270276",
+  "_lastModifiedDate": "2024-03-29T18:23:57.2882372Z"
+}
+```
+
+A client application wishing to to look up information about the `School` with
+identifier `255901107` can read the exact path from the `link`. Without this,
+all clients can alternately perform a query, i.e. `GET
+/ed-fi/schools?schoolId=255901107`. Examples with multiple part natural keys
+also support direct queries, as the components of the natural key are always
+queryable.
 
 ## Response Headers
 
