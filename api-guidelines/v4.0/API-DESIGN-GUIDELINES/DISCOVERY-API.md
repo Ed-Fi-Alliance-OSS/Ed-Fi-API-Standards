@@ -115,16 +115,12 @@ output is below:
 ### OpenApiMetadata
 
 An Ed-Fi API implementation _should_ declare itself in OpenAPI; the version of
-OpenAPI is up to the implementation. All Read-Only data must be labeled using
-the OpenAPI specification.
-
-The OpenAPI specification must be a faithful representation of all available
-resources supported by the API. A given API application might support multiple
-specifications, for example one for core Ed-Fi data model resources, and one for
-Ed-Fi descriptors.
-
-> [!NOTE]
-> TODO: might want to disable this!
+OpenAPI is up to the implementation. The OpenAPI specification must be a
+faithful representation of all available resources supported by the API. A given
+API application might support multiple specifications, for example one for the
+core Ed-Fi data model resources, and one for Ed-Fi descriptors. The
+specifications provided by an API application _must_ be consistent with the
+official [Ed-Fi API Specifications](../../../api-specifications/).
 
 ### OAuth
 
