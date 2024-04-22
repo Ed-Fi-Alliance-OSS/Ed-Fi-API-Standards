@@ -31,6 +31,27 @@ variations in the API specification. For example:
   it continues to interoperate without fail when accessing older API implementations
   that have yet to accept hte minor Data Standard update.
 
+## Case Sensitivity
+
+An Ed-Fi API _should_ enforce case sensitivity of property names in `POST` and
+`PUT` request bodies. All implementations _must_ use the proper casing in
+responses to `GET` requests.
+
+The [Uniform Resource Locators (URLs)](./UNIFORM-RESOURCE-LOCATORS.md) section
+describes that URLs _should not_ be case sensitive, which is seemingly at odds
+with the requirement above. The URL insensitivity provides backwards
+compatibility with prior versions of these Guidelines. Case sensitivity in the
+document structure was not previously addressed. Requiring proper casing in
+`GET` responses ensures consistency for API _consumer_ clients and downstream
+reporting and analytics systems.
+
+Ideally, an Ed-Fi API _should_ treat property _values_ as case insensitive. For
+example, the local course codes "MATH-01" and "math-01" would be treated as
+exactly equivalent. For example, if a system contains a `Course` with a
+`LocalCourseCode` of "MATH-01", then that system ought to accept "math-01" and
+other variants interchangeably in place of "MATH-01". This requirement is not
+mandatory because it may be impractical in some data stores.
+
 ## Inference
 
 All data types _must_ be enforced while validating POST and PUT request bodies.
@@ -67,6 +88,8 @@ Typical examples of validate `datetime` fields:
 * `2021-09-28T15:00:00Z`, that is, 3:00 PM in UTC on September 28, 2021.
 * `2021-09-28T15:00:00-06:00`, which is 3:00 PM in CST (central standard) on
   September 28, 2021.
+
+
 
 ## API Guidelines Contents
 
