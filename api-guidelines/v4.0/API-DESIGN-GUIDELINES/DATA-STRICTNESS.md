@@ -47,7 +47,7 @@ reporting and analytics systems.
 
 Ideally, an Ed-Fi API _should_ treat property _values_ as case insensitive. For
 example, the local course codes "MATH-01" and "math-01" would be treated as
-exactly equivalent. By implication, if a system contains a `Course` with a
+exactly equivalent. For example, if a system contains a `Course` with a
 `LocalCourseCode` of "MATH-01", then that system ought to accept "math-01" and
 other variants interchangeably in place of "MATH-01". This requirement is not
 mandatory because it may be impractical in some data stores.
@@ -86,6 +86,8 @@ formatting of `datetime` type fields. Typical examples of validate `datetime` fi
 * `2021-09-28T15:00:00Z`, that is, 3:00 PM in UTC on September 28, 2021.
 * `2021-09-28T15:00:00-06:00`, which is 3:00 PM in CST (central standard) on
   September 28, 2021.
+
+
 
 ## API Guidelines Contents
 
