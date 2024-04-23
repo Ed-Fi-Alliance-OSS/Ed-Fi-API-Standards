@@ -186,18 +186,10 @@ The following example demonstrates all forms of metadata.
 {
   "id": "986a44e7cfcf4019b7b2ea4a640c6d20",
   "schoolReference": {
-    "schoolId": 255901107,
-    "link": {
-      "rel": "School",
-      "href": "/ed-fi/schools/2af36358c7824afe8b3b88aea077c172"
-    }
+    "schoolId": 255901107
   },
   "schoolYearTypeReference": {
-    "schoolYear": 2022,
-    "link": {
-      "rel": "SchoolYearType",
-      "href": "/ed-fi/schoolYearTypes/337ea29f861b4ee88fa9714863cc0b98"
-    }
+    "schoolYear": 2022
   },
   "calendarCode": "2010605675",
   "calendarTypeDescriptor": "uri://ed-fi.org/CalendarTypeDescriptor#Student Specific",
@@ -220,18 +212,21 @@ The following example demonstrates all forms of metadata.
 
 #### Deprecation of Links
 
-While not described in prior versions of these Guidelines, some Ed-Fi API
-implementations include a `link` metadata construct on all references. This
-property describes the relationship of the reference and provides a locator that
-can be used to construct the full URL to the referenced item. Systems that store
-JSON documents would be forced to enrich the document with information not
-immediately available in the `POST` or `PUT` request pipeline, unlike the other
-metadata described above. Few client applications utilize this feature, and
-alternatives exist. It is _not recommended_ that new Ed-Fi API applications
-include this metadata element.
+While not described in prior versions of these Guidelines, the Ed-Fi ODS/API
+Platform inserts a `link` metadata construct on all references when responding
+to a `GET` request. This property describes the relationship of the reference
+and provides a locator that can be used to construct the full URL to the
+referenced item.
+
+If this element were required, systems that store JSON documents would be forced
+to enrich the document with information not immediately available in the `POST`
+or `PUT` request pipeline, unlike the other metadata described above. Few client
+applications utilize this feature, and alternatives exist. Therefore, it is _not
+recommended_ that new Ed-Fi API applications include this metadata element.
 
 The `Calendar` resource shown above is duplicated here, with inclusion of two
-`link` entries as provided by the Ed-Fi ODS/API Platform.
+`link` entries as provided by the Ed-Fi ODS/API Platform. To re-iterate,
+inclusion of `link` is _not_ a preferred practice in new implementations.
 
 ```json
 {
