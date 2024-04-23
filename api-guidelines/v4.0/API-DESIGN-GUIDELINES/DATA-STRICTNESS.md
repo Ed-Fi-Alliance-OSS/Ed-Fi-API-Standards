@@ -47,7 +47,7 @@ reporting and analytics systems.
 
 Ideally, an Ed-Fi API _should_ treat property _values_ as case insensitive. For
 example, the local course codes "MATH-01" and "math-01" would be treated as
-exactly equivalent. For example, if a system contains a `Course` with a
+exactly equivalent. By implication, if a system contains a `Course` with a
 `LocalCourseCode` of "MATH-01", then that system ought to accept "math-01" and
 other variants interchangeably in place of "MATH-01". This requirement is not
 mandatory because it may be impractical in some data stores.
