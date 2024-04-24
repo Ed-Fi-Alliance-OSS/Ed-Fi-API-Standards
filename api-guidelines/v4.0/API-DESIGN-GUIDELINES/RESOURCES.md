@@ -49,7 +49,8 @@ identifiers _could_ be generated using a [UUID
 implementation](http://en.wikipedia.org/wiki/Globally_unique_identifier) such as
 Microsoft's GUID (globally unique identifier). An Ed-Fi API _should_ generate
 unique identifiers for its clients, and _should not_ accept client-generated
-identifiers when inserting or updating data.
+identifiers when inserting or updating data. This unique identifier _must_ be
+immutable: it does not change on modification of a document.
 
 All Resources _must_ be created with and also be retrievable by one or more
 externally defined primary key values. Those values _must_ be natural keys of
