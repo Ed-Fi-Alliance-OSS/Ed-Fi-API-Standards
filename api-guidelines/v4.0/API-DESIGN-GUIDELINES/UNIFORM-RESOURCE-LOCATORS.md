@@ -46,8 +46,8 @@ followed by a slash and the resource's unique identifier. For example:
 ## Case Sensitivity
 
 API routes and query string parameters _should not_ be case sensitive, although
-this may be not be realistic in some API frameworks and case sensitivity may be
-required.
+this may be not be realistic in some API frameworks and case _insensitivity_ may
+be impractical.
 
 For example, the following pairs pairs should be treated equivalently:
 
