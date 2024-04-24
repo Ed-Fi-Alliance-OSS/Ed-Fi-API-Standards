@@ -45,8 +45,9 @@ documents](../../../api-specifications/).
 Each resource exposed by an Ed-Fi API _must_ be referenced by an
 internally-assigned unique identifier. While the specific algorithm for
 generating these identifiers is not prescribed in these guidelines, the
-identifiers _could_ be generated using a UUID implementation such as Microsoft's
-GUID (globally unique identifier)[\[5\]](#f5). An Ed-Fi API _should_ generate
+identifiers _could_ be generated using a [UUID
+implementation](http://en.wikipedia.org/wiki/Globally_unique_identifier) such as
+Microsoft's GUID (globally unique identifier). An Ed-Fi API _should_ generate
 unique identifiers for its clients, and _should not_ accept client-generated
 identifiers when inserting or updating data.
 
@@ -100,15 +101,63 @@ resource.
 }
 ```
 
+## Education Organizations
+
+The Ed-Fi UDM contains an _abstract entity_ called `EducationOrganization`. This
+entity does not exist in the Ed-Fi API specifications. Instead, it provides a
+common set of properties that other entities _inherit_. For example,
+`EducationOrganization` has a property called `nameOfInstitution`. All entities
+that inherit from `EducationOrganization` ("child entities") automatically have
+the `nameOfInstitution` property, without needing to redefine that property on
+the child entity.
+
+`EducationOrganization` has one property that must be handled carefully in any
+Ed-Fi API: the `EducationOrganizationId`. This value _must be unique_ across all
+child entities. Furthermore, this value receives a different property name for
+each child entity.
+
+For example, `LocalEducationAgency` and `School` both inherit from
+`EducationOrganization`. Respectively, they have properties
+`LocalEducationAgencyId` and `SchoolId`, which _are_ `EducationOrganizationId`
+values, albeit by a different name. The uniqueness constraint means this: if
+there is a `LocalEducationAgency` with `LocalEducationAgencyId = 123`, then
+there _must not_ also exist a `School` with `SchoolId = 123`.
+
+The necessity of this requirement becomes more apparent when looking at the
+`/ed-fi/studentEducationOrganizationAssociation` resource in the Ed-Fi Resources
+API specification. This resource describes a single student in relation to a
+single `EducationOrganization`. A student can thus have multiple records in this
+resource: one each for `LocalEducationAgency`, `School`, or any other child
+object of `EducationOrganization`. If the `<childEntity>Id` value were allowed
+to repeat, then it would be impossible to determine _which_ specific child
+resource is intended.
+
+The following snippet comes from a single
+`StudentEducationOrganizationAssociation` document. The value `255901` must
+uniquely describe a single `EducationOrganizationAssociation`.
+
+```json
+{
+  "id": "bb82e4c1433547f3bedf97c133e8148a",
+  "educationOrganizationReference": {
+    "educationOrganizationId": 255901
+  },
+  "studentReference": {
+    "studentUniqueId": "604824"
+  },
+...
+```
+
 ## Resource Extensions
 
 The Ed-Fi UDM can be extended to augment the structure of existing entities or
-create entirely new entities.[\[6\]](#f6)In the context of an Ed-Fi REST API,
-these are called resource extensions. Consumers of an Ed-Fi REST API interact
-with resource extensions just as they interact with other Resources. For
-example, if the Student resource has been extended in the data model supported
-by the API platform host, an API consumer requesting a student will receive the
-extended resource.
+create entirely new entities (cf [Ed-Fi Data Standard Extension
+Framework](https://edfi.atlassian.net/wiki/x/LYBgAw)). In the context of an
+Ed-Fi REST API, these are called resource extensions. Consumers of an Ed-Fi REST
+API interact with resource extensions just as they interact with other
+Resources. For example, if the Student resource has been extended in the data
+model supported by the API platform host, an API consumer requesting a student
+will receive the extended resource.
 
 An Ed-Fi API resource _must_ follow a specific pattern for extensibility in its
 structure in order to distinguish extension attributes from native attributes.
@@ -167,15 +216,6 @@ student, an API client uses the string `uri://ed-fi.org/LanguageDescriptor#rup`.
 
 See [Ed-Fi Descriptors](./ED-FI-DESCRIPTORS.md) for more information on use and
 management of Descriptors.
-
------
-
-<a name="f5"></a>5 For additional information on UUIDs, see
-[here](http://en.wikipedia.org/wiki/Globally_unique_identifier).
-
-<a name="f6"></a>6 Extensions to the Ed-Fi data model in an API context are
-discussed in the Ed-Fi ODS / API documentation, available
-[here]([/pages/viewpage.action?pageId=43583558](https://techdocs.ed-fi.org/x/RgiZAg)).
 
 ## API Guidelines Contents
 

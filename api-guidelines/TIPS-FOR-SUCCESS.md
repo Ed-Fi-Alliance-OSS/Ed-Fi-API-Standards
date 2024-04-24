@@ -23,7 +23,7 @@ Ignore statements about _XML and bulk loading_. An Ed-Fi API application does
 not need to support bulk data exchange or use of XML. "Ed-Fi 1.0" was based on
 exchange of XML files. Some organizations may still be producing XML files based
 on the Ed-Fi Data Standard. The Ed-Fi Alliance produces a [client
-application](https://techdocs.ed-fi.org/display/ODSAPIS3V71/Bulk+Load+Client+Utility)
+application](https://edfi.atlassian.net/wiki/x/sQCFAQ)
 that will process XML files and upload them through the REST API when needed.
 Ultimately, the Ed-Fi Alliance feels that direct integration with the API is a
 much stronger approach to interoperability than asynchronous, batch, file
@@ -116,16 +116,26 @@ or delete Descriptors (except to set an end date).
 ### Resources API
 
 The core set of entities from the Ed-Fi Data Standard are collectively
-represented under the banner of the "Resources API". The Ed-Fi ODS/API supports
-the entire breadth of the Resources API. There are a few "profiles" of the
-Resources API, which isolate specific domains: see [Ed-Fi RFC
-Home](https://techdocs.ed-fi.org/display/EFDSRFC/Ed-Fi+RFC+Home). An Ed-Fi
-compatible API does not necessarily need to implement the entire surface of the
-Resources API. However, there is some danger in trying to pick and choose which
-resources to support. Please tread cautiously when decomposing the API.
+represented under the banner of the "Resources API". The Ed-Fi ODS/API Platform
+supports the entire breadth of the Resources API. There are a few "profiles" of
+the Resources API, which isolate specific domains; :exclamation: these profiles
+are currently offline and will soon be loaded into this code repository. An
+Ed-Fi compatible API does not necessarily need to implement the entire surface
+of the Resources API. However, there is some danger in trying to pick and choose
+which resources to support. Please tread cautiously when decomposing the API.
 
 ### Choosing Which Specification Version to Implement
 
 Be sure to match the Descriptors and Resources API versions, for example do not
 accidentally use Descriptors API version 4.0 with the Resources API version 5.0.
 A revision to the Discovery API is underway; either version could be chosen.
+
+## EducationOrganizationId
+
+Each entity that is a _child_ of `EducationOrganization` has its own version of
+an `EducationOrganizationId` value, and these values _must_ be unique. For
+example, an Ed-Fi API must not allow creation of a `LocalEducationAgency` and a
+`School` with the same value for their respective `LocalEducationAgencyId` and
+`SchoolId` properties. For more background, see [API Design Guidelines >
+Resources > Education
+Organizations](v4.0/API-DESIGN-GUIDELINES/RESOURCES.md#education-organizations).
