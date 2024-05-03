@@ -1,5 +1,7 @@
 # Resources
 
+## Domain-Driven Design
+
 The Resources that are used by an Ed-Fi API are compositions of entities,
 attributes, and associations. Resources are domain aggregates that have been
 identified from the Ed-Fi Unifying Data Model (UDM) according to the principles
@@ -42,6 +44,8 @@ documents](../../../api-specifications/).
 |                  | CourseLearningStandard    |
 |                  | CourseLevelCharacteristic |
 
+## Resource Identifiers
+
 Each resource exposed by an Ed-Fi API _must_ be referenced by an
 internally-assigned unique identifier. While the specific algorithm for
 generating these identifiers is not prescribed in these guidelines, the
@@ -50,7 +54,11 @@ implementation](http://en.wikipedia.org/wiki/Globally_unique_identifier) such as
 Microsoft's GUID (globally unique identifier). An Ed-Fi API _should_ generate
 unique identifiers for its clients, and _should not_ accept client-generated
 identifiers when inserting or updating data. This unique identifier _must_ be
-immutable: it does not change on modification of a document.
+immutable: it does not change on modification of a document. An individual
+resources _must_ be accessible by GET request using a URI of the form
+`{resourceURI}/{id}`.
+
+## Natural Keys
 
 All Resources _must_ be created with and also be retrievable by one or more
 externally defined primary key values. Those values _must_ be natural keys of
@@ -59,83 +67,51 @@ School Year, and a reference to a School. Resources _must_ be accessible by
 primary key values using the standard HTTP GET query string search syntax:
 
 ```none
-{resourceURI}?keyField1={value1}&keyField2={value2}
+{resourceURI}?{keyField1}={value1}&{keyField2}={value2}
 ```
 
 PUT, PATCH, and DELETE operations _must_ be identified using their URI
 (i.e., `{resourceURI}/{id}`). PUT, PATCH, and DELETE operations _should_ also be
 identifiable using their primary key values (natural keys).
 
-## Field and Key Unification
-
-The Ed-Fi UDM describes cases in which fields on a resource are merged with
-other fields on a resource, producing a situation in which two fields must have
-the same value. This most commonly occurs in references to other API resources,
-as these references use the (often composite) primary key fields. In such cases,
-key fields from the reference may be defined — via the UDM — to be unified with
-existing fields on the resource.
-
-This unification has proven extremely valuable to ensuring basic data quality in
-field operations. All field and key unification scenarios defined in the
-UDM _must_ be implemented in an Ed-Fi  API.
-
-For example, the two `schoolId` values, nested within `schoolReference` and
-`sessionReference`, must have the same value in the following `CourseOffering`
-resource.
-
-```json
-{
-  "id": "5394aabc256d4b938a8137d3b971b372",
-  "courseReference": {
-    "courseCode": "ALG-1",
-    "educationOrganizationId": 255901001
-  },
-  "schoolReference": {
-    "schoolId": 255901001
-  },
-  "sessionReference": {
-    "schoolId": 255901001,
-    "schoolYear": 2022,
-    "sessionName": "2021-2022 Fall Semester"
-  },
-  "localCourseCode": "ALG-1"
-}
-```
+See [Validation of Natural and Foreign Keys](./NATURAL-FOREIGN-KEYS.md) for
+additional requirements for handling natural keys on a resource and foreign keys
+to other resources.
 
 ## Education Organizations
 
-The Ed-Fi UDM contains an _abstract entity_ called `EducationOrganization`. This
+The Ed-Fi UDM contains an _abstract entity_ called EducationOrganization. This
 entity does not exist in the Ed-Fi API specifications. Instead, it provides a
 common set of properties that other entities _inherit_. For example,
-`EducationOrganization` has a property called `nameOfInstitution`. All entities
-that inherit from `EducationOrganization` ("child entities") automatically have
+EducationOrganization has a property called `nameOfInstitution`. All entities
+that inherit from EducationOrganization ("child entities") automatically have
 the `nameOfInstitution` property, without needing to redefine that property on
 the child entity.
 
-`EducationOrganization` has one property that must be handled carefully in any
-Ed-Fi API: the `EducationOrganizationId`. This value _must be unique_ across all
+EducationOrganization has one property that must be handled carefully in any
+Ed-Fi API: the `educationOrganizationId`. This value _must be unique_ across all
 child entities. Furthermore, this value receives a different property name for
 each child entity.
 
-For example, `LocalEducationAgency` and `School` both inherit from
-`EducationOrganization`. Respectively, they have properties
-`LocalEducationAgencyId` and `SchoolId`, which _are_ `EducationOrganizationId`
+For example, LocalEducationAgency and School both inherit from
+EducationOrganization. Respectively, they have properties
+`localEducationAgencyId` and `schoolId`, which _are_ `educationOrganizationId`
 values, albeit by a different name. The uniqueness constraint means this: if
-there is a `LocalEducationAgency` with `LocalEducationAgencyId = 123`, then
-there _must not_ also exist a `School` with `SchoolId = 123`.
+there is a LocalEducationAgency with `localEducationAgencyId = 123`, then there
+_must not_ also exist a School with `schoolId = 123`.
 
 The necessity of this requirement becomes more apparent when looking at the
 `/ed-fi/studentEducationOrganizationAssociation` resource in the Ed-Fi Resources
 API specification. This resource describes a single student in relation to a
-single `EducationOrganization`. A student can thus have multiple records in this
-resource: one each for `LocalEducationAgency`, `School`, or any other child
-object of `EducationOrganization`. If the `<childEntity>Id` value were allowed
+single EducationOrganization. A student can thus have multiple records in this
+resource: one each for LocalEducationAgency, School, or any other child object
+of EducationOrganization. If the `<childEntity>Id` value were allowed
 to repeat, then it would be impossible to determine _which_ specific child
 resource is intended.
 
 The following snippet comes from a single
-`StudentEducationOrganizationAssociation` document. The value `255901` must
-uniquely describe a single `EducationOrganizationAssociation`.
+StudentEducationOrganizationAssociation document. The value `255901` must
+uniquely describe a single EducationOrganizationAssociation.
 
 ```json
 {
@@ -146,7 +122,8 @@ uniquely describe a single `EducationOrganizationAssociation`.
   "studentReference": {
     "studentUniqueId": "604824"
   },
-...
+  ...
+}
 ```
 
 ## Resource Extensions
@@ -166,7 +143,7 @@ Extensions _must_ be denoted by use of the reserved term `_ext` and namespaced.
 For API users, this both clearly distinguishes these attributes from native
 attributes that originate from the UDM, and provides (via the namespace)
 information as to the origin or governance of the extension. The example below
-shows the JSON for a Staff resource that has been extended using a "_grandbend_"
+shows the JSON for a Staff resource that has been extended using a `_grandbend_`
 namespace.
 
 ```json
@@ -188,8 +165,8 @@ namespace.
 Likewise, new domain aggregates created via extensions must follow a similar
 pattern by using the namespace in the path of the new resource.
 
-The example below shows the path for resources in the "_ed-fi_" and
-"_grand-bend_" namespaces.
+The example below shows the path for resources in the `_ed-fi_` and
+`_grand-bend_` namespaces.
 
 ```none
 /ed-fi/staffs
@@ -209,7 +186,7 @@ some elements. This enumeration ensures higher quality in the data compared to
 allowing free-text strings. For example, a student can be associated with one or
 more languages. The list of languages is specified in the `languageDescriptors`.
 Each descriptor has a `namespace` and `codeValue`. These two are combined into
-`<namespace>#<codeValue>` when filling in a Descriptor value on a resource.
+`{namespace}#{codeValue}` when filling in a Descriptor value on a resource.
 
 Example: the Aromanian language with codeValue `rup` is in the
 `uri://ed-fi.org/LanguageDescriptor` namespace. When assigning a language to a
@@ -225,6 +202,7 @@ management of Descriptors.
 * [Requirement Levels](../REQUIREMENT-LEVELS.md)
 * [API Design Guidelines](../API-DESIGN-GUIDELINES/README.md)
   * [Resources](RESOURCES.md)
+    * [Validation of Natural and Foreign Keys](./NATURAL-FOREIGN-KEYS.md)
   * [Discovery API](./DISCOVERY-API.md)
   * [Ed-Fi Descriptors](./ED-FI-DESCRIPTORS.md)
   * [REST API Conventions](./REST-API.md)
