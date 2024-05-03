@@ -1,17 +1,13 @@
 # Ed-Fi API Design & Implementation Guidelines
 
-> [!WARNING]
-> This document in the `main` branch is just a copy of v3.1, with changes
-> coming in via the `rev-4.0` branch.
-
-Version: 4.0
-Obsoletes: [Ed-Fi API Design & Implementation Guidelines v3.1](../v3.1/)
-Obsoleted By: --
+Version: 4.0\
+Obsoletes: [Ed-Fi API Design & Implementation Guidelines v3.1](../v3.1/)\
+Obsoleted By: --\
 Status: Current
 
-Ed-Fi Alliance
-Contact: Stephen Fuqua
-March, 2024
+Ed-Fi Alliance\
+Contact: Stephen Fuqua\
+May, 2024
 
 This section provides design guidelines for an Ed-Fi representational state
 transfer (REST) application programming interface (API). These guidelines
@@ -23,9 +19,9 @@ is also provided.
 
 ## Version History
 
-| Date        | Version | Change                                 |
-| ----------- | ------- | -------------------------------------- |
-| March, 2024 | v4.0    | Substantial revisions compared to v3.1 |
+| Date      | Version | Change                                 |
+| --------- | ------- | -------------------------------------- |
+| May, 2024 | v4.0    | Substantial revisions compared to v3.1 |
 
 ## Contents
 
