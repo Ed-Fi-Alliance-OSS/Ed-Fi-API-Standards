@@ -16,9 +16,9 @@ as these references use the (often composite) primary key fields. In such cases,
 key fields from the reference may be defined — via the UDM — to be unified with
 existing fields on the resource.
 
-This unification has proven extremely valuable to ensuring basic data quality in
-field operations. All field and key unification scenarios defined in the
-UDM _must_ be implemented in an Ed-Fi  API.
+This unification has proven valuable to ensuring basic data quality in field
+operations. All field and key unification scenarios defined in the UDM _must_ be
+implemented in an Ed-Fi  API.
 
 For example, the two `schoolId` values, nested within `schoolReference` and
 `sessionReference`, must have the same value in the following `CourseOffering`
@@ -66,7 +66,7 @@ where the API host has a business reason to accept incomplete data. Generally,
 such a host would either provide the missing data through an alternate method or
 prevent the incomplete data from being used in reporting or analytics.
 
-## Key Modifications
+## Cascading Key Modifications
 
 Relational databases typically provide the capability of _cascading_ a
 modification. When cascading is enabled:
@@ -79,19 +79,27 @@ modification. When cascading is enabled:
 * A DELETE request on a resource automatically propagates the deletion to all
   other documents that refer to it.
 
-An Ed-Fi API is _not_ required to cascade these modifications. When cascading is
-not enabled, then the API must reject a PUT or DELETE requests that would break
-a reference from another resource to the modified one, responding with the
-Conflict (status code 409).
-
 Cascading these modifications thus allows one PUT or DELETE request to cause
-mass updates in the API. There is both a danger and a benefit to this.
+mass updates in the data store. An Ed-Fi API is _not_ required to cascade these
+modifications. When cascading is not enabled, then the API must reject a PUT or
+DELETE requests that would break a reference from another resource to the
+modified one, responding with Conflict (status code 409).
 
-> [!NOTE]
-> TODO: lookup the resources that DO cascade. Decide if that is required or optional. Descriptors and a few other things:
->
-> Deletes Assessment, AssessmentContentStandard,
-> AssessmentScoreRangeLearningStandard, Section BellSchedule, ClassPeriod,
-> CalendarDate, ChartOfAccount, Most Deletes cascade, except for Descriptors.
-> But what is the rule? School doesn't cascade. Then a smaller number of updates
-> cascade.
+## API Guidelines Contents
+
+* [Scope](../SCOPE.md)
+* [Key Characteristics](../KEY-CHARACTERISTICS.md)
+* [Requirement Levels](../REQUIREMENT-LEVELS.md)
+* [API Design Guidelines](../API-DESIGN-GUIDELINES/README.md)
+  * [Resources](RESOURCES.md)
+    * [Validation of Natural and Foreign Keys](./NATURAL-FOREIGN-KEYS.md)
+  * [Discovery API](./DISCOVERY-API.md)
+  * [Ed-Fi Descriptors](./ED-FI-DESCRIPTORS.md)
+  * [REST API Conventions](./REST-API.md)
+    * [Uniform Resource Locators (URLs)](./UNIFORM-RESOURCE-LOCATORS.md)
+    * [Data Strictness](./DATA-STRICTNESS.md)
+    * [POST Requests](./POST-REQUESTS.md)
+    * [GET Requests](./GET-REQUESTS.md)
+    * [PUT Requests](./PUT-REQUESTS.md)
+    * [DELETE Requests](./DELETE-REQUESTS.md)
+* [API Implementation Guidelines](../API-IMPLEMENTATION-GUIDELINES/README.md)

@@ -294,6 +294,7 @@ situations.
 * [Requirement Levels](../REQUIREMENT-LEVELS.md)
 * [API Design Guidelines](../API-DESIGN-GUIDELINES/README.md)
   * [Resources](RESOURCES.md)
+    * [Validation of Natural and Foreign Keys](./NATURAL-FOREIGN-KEYS.md)
   * [Discovery API](./DISCOVERY-API.md)
   * [Ed-Fi Descriptors](./ED-FI-DESCRIPTORS.md)
   * [REST API Conventions](./REST-API.md)

@@ -87,6 +87,8 @@ is:
   UUID, as the identifier for a specific resource.
 * Remove notes on encryption, which is an operational concern rather than a
   design topic.
+* Added content describing [natural and foreign key
+  validation](./v4.0/API-DESIGN-GUIDELINES/NATURAL-FOREIGN-KEYS.md).
 
 ## Deleted Sections
 

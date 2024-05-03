@@ -9,6 +9,7 @@ programmers.
 This section covers the following topics in detail:
 
 * [Resources](RESOURCES.md)
+  * [Validation of Natural and Foreign Keys](./NATURAL-FOREIGN-KEYS.md)
 * [Discovery API](./DISCOVERY-API.md)
 * [Ed-Fi Descriptors](./ED-FI-DESCRIPTORS.md)
 * [REST API Conventions](./REST-API.md)
