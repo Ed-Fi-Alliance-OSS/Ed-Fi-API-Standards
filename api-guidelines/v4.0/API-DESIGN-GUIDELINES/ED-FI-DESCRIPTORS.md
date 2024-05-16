@@ -17,7 +17,7 @@ The `GET`, `POST`, and `PUT` columns indicate if the attribute is _required_ ("y
 | `effectiveBeginDate`   | yes   | opt    | opt   | Date for display only, not validation                                                  |
 | `effectiveEndDate`     | yes   | opt    | opt   | Date for display only, not validation                                                  |
 | `id`                   | yes   | no     | yes   |                                                                                        |
-| `_etag`                | yes   | no     | no    |                                                                                        |
+| `_etag`                | opt   | no     | no    | Required _when the host implements etags_.                                             |
 | `xyzDescriptorId`      | opt   | no     | no    | Retained only for backward-compliance with existing ODS/API implementations.           |
 | `priorDescriptorId`    | opt   | no     | no    | Retained only for backward-compliance with existing ODS/API implementations.           |
 | `lastModifiedDateTime` | opt   | no     | no    | Date for display only, not validation                                                  |
