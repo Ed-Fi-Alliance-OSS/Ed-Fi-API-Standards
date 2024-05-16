@@ -1,14 +1,17 @@
 # Discovery API
 
 The default response when retrieving the base endpoint on an Ed-Fi
-implementation must be a JSON document that provides information about the
+implementation _must_ be a JSON document that provides information about the
 application version, supported data model(s), and URLs for additional metadata.
-Historically, this root-level metadata resource was known as the "version
-endpoint".
+Historically, this root-level metadata resource was informally known as the
+"version endpoint". It is now formally called the Discovery API.
 
 > [!TIP]
 > The Discovery API is completely described in an
-> [Open API 3 specification document](../../../api-specifications/discovery-api/).
+> [Open API 3 specification document](../../../api-specifications/discovery-api/)
+> This specification document describes the required and optional features in
+> detail. The guidance below supplements the specification file by providing
+> additional context.
 
 The following sample JSON demonstrates a typical example of the document:
 
@@ -39,7 +42,7 @@ The following sample JSON demonstrates a typical example of the document:
 }
 ```
 
-The example above is based on [version
+The example above is based on the [version
 1.0](../../../api-specifications/discovery/1.0/) specification, used by the
 Ed-Fi ODS/API Platform. New Ed-Fi API implementations are encouraged to look
 into the modifications in the [draft version
@@ -57,15 +60,20 @@ the client-server interaction.
 ## Data Models
 
 This section lists all of the Data Models that are served by this API
-application. This will always include the core Ed-Fi (Unifying) Data Model.
-Other models listed are the _extensions_ that a given deployment implements. The
+application. This _must_ include the core Ed-Fi (Unifying) Data Model. Other
+models listed are the _extensions_ that a given deployment implements. The
 example above shows the core Teacher Preparation Data Model (TPDM) extension.
+
+> [!TIP]
+> The [Ed-Fi extension framework](https://edfi.atlassian.net/wiki/x/5IWXAQ) is
+> defined elsewhere. All implementations that include extensions should follow
+> the extension framework guidance as supplementary to this guide.
 
 ## URLs Section
 
 The URLs section helps client applications discover for themselves how to
-interact with the Ed-Fi API application. The _required_ URLs are further
-described in the following sections.
+interact with the Ed-Fi API application. All listed URLS _must_ be absolute, not
+relative. The most common URLs are further described in the following sections.
 
 The optional values listed below represent features of the the Ed-Fi ODS/API
 Platform. Other applications can add their own URLs as needed.
@@ -79,11 +87,14 @@ Platform. Other applications can add their own URLs as needed.
 
 ### Dependencies
 
-All implementations of an Ed-Fi API _should_ expose an endpoint for dependency
-metadata.  This endpoint will provide developers with the data needed to load
-resources in the appropriate order. The endpoint _should_ have a JSON
-implementation and optional a GraphML implementation.  A sample of the JSON
-output is below:
+All implementations of an Ed-Fi API _must_ expose an endpoint for dependency
+metadata. This endpoint will provide developers with the data needed to load
+resources in the appropriate order. A client application should read the exact
+URL to the dependencies from the `urls` section of the root Discovery document,
+rather than hard-code the location.
+
+The endpoint _must_ have a JSON implementation and _may_ have an optional a
+GraphML implementation.  A sample of the JSON output is below:
 
 ```json
 [
@@ -124,24 +135,24 @@ official [Ed-Fi API Specifications](../../../api-specifications/).
 
 ### OAuth
 
-The OAuth URL must be the token URL used by clients for authentication. The URL
-is not required to be on the same base address, i.e. it could be hosted on
-another server.
+The OAuth URL _must_ be provided; it is the URL used by clients for token
+authentication. The URL is not required to be on the same base address, i.e. it
+could be hosted on another server or by a third party.
 
 ### DataManagementApi
 
-This URL represents the base path for constructing the full [Uniform Resource
-Locators](./UNIFORM-RESOURCE-LOCATORS.md) (URL) to a given resource. To this
-base path, a client appends the data model namespace. For example, the
+This _required_ URL represents the base path for constructing the full [Uniform
+Resource Locators](./UNIFORM-RESOURCE-LOCATORS.md) (URL) to a given resource. To
+this base path, a client appends the data model namespace. For example, the
 `/ed-fi/students` resource can be reached at the URL formed by combining the
 `dataManagementApi` URL with the resource information. From the example above,
 this yields the URL `https://api.ed-fi.org/v7.1/api/data/v3/ed-fi/students`.
-While the Ed-Fi ODS/API Platform uses "data/v3" in the URL, any implementation
-could use different path segments.
+While the Ed-Fi ODS/API Platform uses "data/v3" in the URL, other
+implementations can use different path segments.
 
 ## Application Settings
 
-The draft 2.0 specifications will introduce a section for listing application
+The Discovery API 2.0 specifications will introduce a section for listing application
 settings that could be useful for client application self-discovery. These may
 include standard settings such as:
 
@@ -149,6 +160,9 @@ include standard settings such as:
 * Case sensitivity.
 * ETags support.
 * ... and more.
+
+> [!NOTE]
+> These settings will not be backported to version 1 of the Discovery API specification.
 
 ## API Guidelines Contents
 
