@@ -51,20 +51,24 @@ internally-assigned unique identifier. While the specific algorithm for
 generating these identifiers is not prescribed in these guidelines, the
 identifiers _could_ be generated using a [UUID
 implementation](http://en.wikipedia.org/wiki/Globally_unique_identifier) such as
-Microsoft's GUID (globally unique identifier). An Ed-Fi API _should_ generate
-unique identifiers for its clients, and _should not_ accept client-generated
-identifiers when inserting or updating data. This unique identifier _must_ be
-immutable: it does not change on modification of a document. An individual
-resources _must_ be accessible by GET request using a URI of the form
-`{resourceURI}/{id}`.
+Microsoft's GUID (globally unique identifier). In all cases, the identifier
+_must_ be represented as a string with max length 255 characters.
+
+An Ed-Fi API _should_ generate unique identifiers for its clients, and _should
+not_ accept client-generated identifiers when inserting or updating data. This
+unique identifier _must_ be immutable: it does not change on modification of a
+document. An individual resources _must_ be accessible by GET request using a
+URI of the form `{resourceURI}/{id}`.
 
 ## Natural Keys
 
-All Resources _must_ be created with and also be retrievable by one or more
-externally defined primary key values. Those values _must_ be natural keys of
-the resource. For example, a Session is uniquely identified by the Session Name,
-School Year, and a reference to a School. Resources _must_ be accessible by
-primary key values using the standard HTTP GET query string search syntax:
+All resources _must_ be created with and also be retrievable by one or more
+externally defined key values that uniquely identify an individual resource.
+Those values _must_ be _natural keys_ of the resource. For example, a Session is
+uniquely identified by the Session Name, School Year, and a reference to a
+School. These are the natural key values, as opposed to a synthetic key like
+"Session ID". Resources _must_ be accessible by natural key values using the
+standard HTTP GET query string search syntax:
 
 ```none
 {resourceURI}?{keyField1}={value1}&{keyField2}={value2}
@@ -72,7 +76,7 @@ primary key values using the standard HTTP GET query string search syntax:
 
 PUT, PATCH, and DELETE operations _must_ be identified using their URI
 (i.e., `{resourceURI}/{id}`). PUT, PATCH, and DELETE operations _should_ also be
-identifiable using their primary key values (natural keys).
+identifiable using their natural key values.
 
 See [Validation of Natural and Foreign Keys](./NATURAL-FOREIGN-KEYS.md) for
 additional requirements for handling natural keys on a resource and foreign keys
