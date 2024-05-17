@@ -150,6 +150,19 @@ this yields the URL `https://api.ed-fi.org/v7.1/api/data/v3/ed-fi/students`.
 While the Ed-Fi ODS/API Platform uses "data/v3" in the URL, other
 implementations can use different path segments.
 
+> [!WARNING]
+> The following note about a specific implementation problem is shared to help
+> other implementations of an Ed-Fi API avoid making similar mistakes.
+>
+> In versions of the Ed-Fi ODS/API Platform prior to 7.x, there were modes of
+> operation that added another segment to the path, for example a school year.
+> In those modes of operation, an API client could not rely solely on the
+> `dataManagementApi` URL to determine the correct base address. This was
+> changed in ODS/API 7.x with its new multi-tenancy modes. A single tenant's
+> base URL is itself a proper Discovery document: thus, the hosting provider
+> would give the vendor the specific tenant URL, not the root URL for the
+> deployment.
+
 ## Application Settings
 
 The Discovery API 2.0 specifications will introduce a section for listing application
