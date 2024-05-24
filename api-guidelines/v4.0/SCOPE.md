@@ -2,36 +2,47 @@
 
 The Ed-Fi Alliance produces several related Application Programming Interface
 (API) specifications for exchange of K-12 education data. The essential feature
-that characterizes an "Ed-Fi API" is implementation of the Ed-Fi Resource API,
-following the REST architectural style.
+that characterizes an "Ed-Fi API" is implementation of one or more Ed-Fi API
+specifications, following the REST architectural style.
+
+An application that exposes some subset of the Ed-Fi Resource API, and adheres
+to this guideline document, is said to be "Ed-Fi aligned." An application that
+is Ed-Fi aligned, supports the _entire_ Resource API, and implements the Ed-Fi
+Discovery API is said to be "Ed-Fi compatible".  In either situation, an
+application _may_ expose other API's, whether from Ed-Fi or another source.
+
+Unless otherwise stated, the guidelines provided by this document apply to both
+_compatible_ and _aligned_ API applications.
 
 ## Ed-Fi API Specifications
 
 ### Resource API
 
-The [Ed-Fi Unifying Data Model
-(UDM)](https://techdocs.ed-fi.org/display/ETKB/Ed-Fi+Unifying+Data+Model)
-provides the basis for the data transferred and manipulated by an implementation
-of the Ed-Fi Resource API specification. The Ed-Fi UDM is a structured,
-conceptual model of common K–12 education data. The model includes _entities_
-that are easily recognized by educators and administrators: schools, students,
-teachers, attendance, grades, assessment results, and many others. These
-entities contain _attributes_ (i.e., properties) that are also easily
-recognized. For example, assessment results contain data, such as a score and
-the date the assessment was administered. The UDM also includes _associations_
-(i.e., relationships) between entities, such as the association between students
-and schools.
+The [Ed-Fi Unifying Data Model](https://edfi.atlassian.net/wiki/x/MIC-Bw) (UDM)
+provides the basis for the data transferred and manipulated by an Ed-Fi REST API
+implementation. The Ed-Fi UDM is a structured, conceptual model of common K–12
+education data. The model includes entities that are easily recognized by
+educators and administrators: schools, students, teachers, attendance, grades,
+assessment results, and many others. These entities contain attributes (i.e.,
+properties) that are also easily recognized. For example, assessment results
+contain data, such as a score and the date the assessment was administered. The
+UDM also includes associations (i.e., relationships) between entities, such as
+the association between students and schools.
 
 REST interfaces are built around Resources that define nouns. In the education
 domain, these nouns include such things as schools, students, and teachers. In
 the Ed-Fi UDM these nouns have been rigorously defined as "entities," with
 specific attributes and associations. Compositions of entities, with their
 attributes and associations, are called "domain aggregates." These are
-identified from the Ed-Fi UDM according to the principles of [Domain-Driven
-Design
-(DDD)](http://www.infoq.com/minibooks/domain-driven-design-quickly). Domain
-aggregates are the Resources for an Ed-Fi Resource API. These concepts are
-discussed in more detail later in this document.
+identified from the Ed-Fi UDM according to the principles of Domain-Driven
+Design (DDD). Domain aggregates are the Resources for an Ed-Fi
+REST API. These concepts are discussed in more detail later in this document.
+
+Entities are abstract concepts. They are implemented as "models" that define
+data types, validation requirements, and inter-relationships. The words are
+loosely interchangeable.
+
+_Also see [Resources](./API-DESIGN-GUIDELINES/RESOURCES.md)_.
 
 ### Discovery API
 
@@ -48,20 +59,7 @@ The Discovery API allows client developers to build applications that need know
 only one base URL, can extract runtime information from it, and alter behavior
 as appropriate.
 
-> [!NOTE]
-> TODO: add Descriptors API to this document. Consider linking above sections
-> to the pages on the respective API specs.
-
-### Defining an Ed-Fi API
-
-An application that exposes some subset of the Ed-Fi Resource API, and adheres
-to this guideline document, is said to be "Ed-Fi aligned." An application that
-is Ed-Fi aligned, supports the entire Resource API, and implements the Ed-Fi
-Discovery API is said to be "Ed-Fi compatible".  In either situation, an
-application _may_ expose other API's, whether from Ed-Fi or another source.
-
-Unless otherwise stated, the guidelines provided by this document apply to both
-_compatible_ and _aligned_ API applications.
+_Also see [Discovery API](./API-DESIGN-GUIDELINES/DISCOVERY-API.md)_.
 
 ### Other API Specifications
 
@@ -70,12 +68,13 @@ authentication, though the implementation _may_ use non-Ed-Fi software to
 provision OAuth-related services.
 
 > ![NOTE]
-> The Ed-Fi ODS/API exclusively uses a built-in OAuth 2.0 provider, which cannot
-> be replaced by an off-the-shelf component. This need not be true of other
+> The Ed-Fi ODS/API Platform exclusively uses a built-in OAuth 2.0 provider, which
+> cannot be replaced by an off-the-shelf component. This need not be true of other
 > implementations.
 
 Other specifications managed by the Ed-Fi Alliance include:
 
+* [Ed-Fi Descriptors API](./API-DESIGN-GUIDELINES/ED-FI-DESCRIPTORS.md)
 * Ed-Fi Admin API
 * Ed-Fi Identity API
 * Ed-Fi Change Queries API
@@ -85,10 +84,9 @@ Other specifications managed by the Ed-Fi Alliance include:
 
 ## Architectural Style
 
-The [REST architectural
-style](https://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm) is a
-convention-based approach to defining APIs using the HTTP methods (GET, PUT,
-POST, DELETE, etc.), as the application protocol.
+The REST architectural style is a convention-based approach to defining APIs
+using the HTTP methods (GET, PUT, POST, DELETE, etc.), as the application
+protocol.
 
 REST-style architectures consist of clients and servers. Clients initiate
 requests to servers; servers process requests and return appropriate responses.
@@ -121,6 +119,16 @@ There may be circumstances where an Ed-Fi API application would diverge from a
 pure REST approach to support specific use cases, for example, to support
 application-specific operations. Such use cases should be defined by their own
 specifications, which can sit alongside the Ed-Fi specification implementation.
+
+## Additional References
+
+* **Domain-Driven Design**: see, e.g., Evans, Eric, et al. (2006), [Domain-Driven
+Design Quickly](http://www.infoq.com/minibooks/domain-driven-design-quickly),
+C4Media Inc., for a brief outline of Domain-Driven Design principles.
+* **REST**: The key principles of REST are outlined in Fielding, Roy Thomas (2000),
+[Architectural Styles and the Design of Network-Based Software
+Architectures](http://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm),
+Doctoral dissertation, University of California, Irvine.
 
 ## API Guidelines Contents
 
