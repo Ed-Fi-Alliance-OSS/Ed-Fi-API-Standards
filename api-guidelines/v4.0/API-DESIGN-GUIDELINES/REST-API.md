@@ -78,6 +78,11 @@ verb. In situations where a response body is warranted, for providing detailed
 information on the error, the response _should_ follow the [Problem Details for
 HTTP APIs](https://datatracker.ietf.org/doc/html/rfc9457) specification.
 
+> [!WARNING]
+> When reporting on error details, the API implementation must carefully
+> consider the potential for leakage of Personally Identifiable Information
+> (PII) or other sensitive information.
+
 ## ETags
 
 [ETags (Entity Tags)](https://tools.ietf.org/html/rfc7232#section-2.3) are
