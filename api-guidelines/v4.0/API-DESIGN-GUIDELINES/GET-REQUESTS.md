@@ -153,9 +153,14 @@ smallest School Id to largest with the following URL fragment:
 ## Request Headers
 
 In general, there is no requirement that an Ed-Fi API support any special
-request headers. Specific implementations may use request headers for special
-purposes; for example, the Ed-Fi ODS/API uses special headers with the Profiles
-and Change Queries features.
+request headers other than `Authorization`. Specific implementations may use
+request headers for special purposes; for example, the Ed-Fi ODS/API uses
+special headers with the Profiles and Change Queries features.
+
+An Ed-Fi API that supports [`etags`](./REST-API.md#etags) _should_ support the
+[`If-Match`](https://datatracker.ietf.org/doc/html/rfc7232#section-3.1) and
+[`If-None-Match`](https://datatracker.ietf.org/doc/html/rfc7232#section-3.2)
+header for supporting caches.
 
 ## Response Body
 
@@ -173,7 +178,7 @@ more of the following metadata attributes:
 
 * `_lastModifiedDate`, which is the [datetime](./DATA-STRICTNESS.md#datetime)
   when one or more of the document's values were last modified.
-* `[etag](./REST-API.md#etags)` value
+* [`etag`](./REST-API.md#etags) value
 * `_lineage` describing the source and/or modifications to the data. Recording
   the modifications may be useful for data that have been manipulated after
   receipt, for example an address that has been regularized by third party
