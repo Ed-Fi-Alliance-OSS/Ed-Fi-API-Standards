@@ -17,7 +17,8 @@ All URLs _must_ follow this pattern:
   Extensions ot the Data Model.
 * The _required_ resource name corresponds to an entity in the Ed-Fi Unifying
   Data Model. Examples of resource names, which are always plural: `students`,
-  `studentEducationOrganizationAssociations`.
+  `studentEducationOrganizationAssociations`. Pluralization follows standard
+  English grammar, i.e. "agency" properly becomes "agencies", not "agencys".
 * `PUT` and `DELETE` requests always specify a unique identifier after the
   resource; `GET` request may also specify that identifier.
 * Finally, query string key-value pairs may be appended after the rest of the
