@@ -21,10 +21,10 @@ available to client applications via the [Discovery API](./DISCOVERY-API.md).
 
 ### Search
 
-An Ed-Fi API _should_ support querying capabilities when searching a collection
+An Ed-Fi API _must_ support querying capabilities when searching a collection
 of Resources. Query operators are applied to the query string using the
 following format: `{collectionURI}?{propertyName}={value}`. Additional
-`{propertyName}={value}` terms may be appended after an ampersand, &.
+`{propertyName}={value}` terms may be appended after an ampersand, `&`.
 
 For example, to search all available Students having the first name "John" and
 surname "Smith":
@@ -33,7 +33,10 @@ surname "Smith":
 https://api.example.com/v3/ed-fi/students?firstName=john&lastSurname=Smith
 ```
 
-The Open API specification documents will show which properties are searchable.
+Resources _must_ be queryable by natural key, and _should_ also be queryable by
+other properties on the root of the Resource. The Open API specification
+documents will show which properties are searchable.
+
 When a searchable parameter is nested under another object in the JSON
 payload, the Ed-Fi API specifications require the query string to use only the
 parameter name _without_ dereferencing the parent element name. For example, the
