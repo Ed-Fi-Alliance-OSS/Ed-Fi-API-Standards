@@ -199,6 +199,46 @@ student, an API client uses the string `uri://ed-fi.org/LanguageDescriptor#rup`.
 See [Ed-Fi Descriptors](./ED-FI-DESCRIPTORS.md) for more information on use and
 management of Descriptors.
 
+## School Year
+
+School Year is not treated like other Resources in the Ed-Fi Unifying Data Model
+and in the Ed-Fi Resources API. This is a legacy from earlier iterations where
+school year was treated as an enumerable _type_ (similar to a Descriptor).
+Unlike a Descriptor, the School Year comes into a API model as a _reference_.
+Moreover, it is specially named as a _TypeReference_. The upshot of this unusual
+behavior is that an Ed-Fi API can essentially use School Year as a reference
+type like any other entity, ensuring referential integrity and supporting
+management of allowed school year values through the Resource API itself.
+
+For example, a Calendar entity naturally is assigned to a School in a specific
+School Year. In the JSON request body, there is a `schoolReference`. The body
+does not contain a plain `schoolYear` - instead it contains a _type reference_,
+`schoolYearTypeReference`.
+
+```json
+{
+    "id": "986a44e7cfcf4019b7b2ea4a640c6d20",
+    "schoolReference": {
+        "schoolId": 255901107
+    },
+    "schoolYearTypeReference": {
+        "schoolYear": 2022
+    },
+    "calendarCode": "2010605675",
+    "calendarTypeDescriptor": "uri://ed-fi.org/CalendarTypeDescriptor#Student Specific"
+}
+```
+
+In some cases, a domain entity might reference a School Year for a purpose other
+than storing multiple years of data. For example, a School Year might be used to
+indicate the future year when a student is expected to graduate. In those cases,
+the Unifying Data Model may give a _role name_ to clarify the intent. For
+example, the API model for a Graduation Plan has a
+`graduationSchoolYearTypeReference` instead of a `schoolYearTypeReference`. The
+Open API specifications contain the actual API model used for data exchange; a
+client application built from that specification will not need to infer when a
+role name has been used.
+
 ## API Guidelines Contents
 
 * [Scope](../SCOPE.md)
