@@ -50,15 +50,15 @@ API routes and query string parameters _should not_ be case sensitive, although
 this may be not be realistic in some API frameworks and case _insensitivity_ may
 be impractical.
 
-For example, the following pairs pairs should be treated equivalently:
+For example, the following pairs pairs _should_ be treated equivalently:
 
 * `/ed-fi/students` and `/ed-FI/stUDeNTs`
 * `/ed-fi/students?lastName=Doe` and `/ed-fi/students?LASTNAME=Doe`
 
-This extends to query string values, not only the keys. Thus it is preferred
-that the query strings `?lastname=DOE` and `?lastname=Doe` return the same
-results. While this is the default behavior in some database, it may be
-difficult to achieve in others. Thus this is not a required feature.
+Likewise, the _value_ of a query string _should_ be treated as _insensitive_.
+Thus it is preferred that the query strings `?lastname=DOE` and `?lastname=Doe`
+return the same results. While this is the default behavior in some database, it
+may be difficult to achieve in others. Thus this is not a required feature.
 
 ## API Guidelines Contents
 
