@@ -1,13 +1,13 @@
 # Ed-Fi API Design & Implementation Guidelines  
 
-Version: 3.1  
-Generation: Technical Suite 3  
-Obsoletes: [Ed-Fi API Design & Implementation Guidelines v3.0](https://techdocs.ed-fi.org/x/rAxhAg)  
-Obsoleted By: --  
+Version: 3.1\
+Generation: Technical Suite 3\
+Obsoletes: Ed-Fi API Design & Implementation Guidelines v3.0\
+Obsoleted By: [Ed-Fi API Design & Implementation Guidelines v4.0](../v4.0/)\
 Status: Current
 
-Ed-Fi Alliance  
-Contact: Eric Jansson  
+Ed-Fi Alliance\
+Contact: Eric Jansson\
 January 31, 2019
 
 This section provides design guidelines for an Ed-Fi representational state

@@ -2,16 +2,18 @@
 
 Concurrency becomes an issue in high-volume systems with multiple clients
 accessing the same data. An Ed-Fi REST API can support an opt-in optimistic
-concurrency model[\[15\]](#f5) using ETags. During PUT and DELETE operations,
-the API will verify that the resource has not been modified by another party
-since it was last obtained by the client. If the resource has not changed, the
-operation will continue normally. If, however, the resource has changed, clients
-will receive an error as notification that they _must_ obtain the latest version
-of the resource before attempting further modifications. This approach can be
-used to prevent "last-in-wins" update scenarios and related potential data loss.
+[concurrency
+model](https://developer.mozilla.org/en-US/docs/Web/HTTP/Conditional_requests)
+using ETags. During PUT and DELETE operations, the API will verify that the
+resource has not been modified by another party since it was last obtained by
+the client. If the resource has not changed, the operation will continue
+normally. If, however, the resource has changed, clients will receive an error
+as notification that they _must_ obtain the latest version of the resource
+before attempting further modifications. This approach can be used to prevent
+"last-in-wins" update scenarios and related potential data loss.
 
 When ETag-enabled systems respond to a GET request for an individual resource
-(for example, `/students/{id}``), the response header returned by the API must
+(for example, `/students/{id}`), the response header returned by the API must
 contain an ETag that uniquely identifies the version of the resource.
 
 The following is an example response header:
@@ -40,17 +42,17 @@ above:
 }
 ```
 
-To opt-in to an optimistic update, the ETag value is added to an "If-Match"
+To opt-in to an optimistic update, the ETag value is added to an `If-Match`
 header of a subsequent PUT or DELETE request, and the operation will be
 processed only if the If-Match header value matches the latest ETag for the
 resource stored on the server.
 
 If the ETags do not match, a 412 (Precondition Failed) response code will be
 returned. If the If-Match header is not specified in the request, then the
-operation _must _be processed and the server _must _respond with a response code
-of 204 (No Content) if the operation succeeds. However, the API _may _be
+operation _must_ be processed and the server _must_ respond with a response code
+of 204 (No Content) if the operation succeeds. However, the API _may_ be
 implemented to require optimistic concurrency for updates and deletes, and if no
-If-Match request header is supplied by the client, it _must _respond with a
+If-Match request header is supplied by the client, it _must_ respond with a
 general 400 Bad Request error status code.
 
 For example, here is a header value in a PUT or DELETE request:
@@ -64,13 +66,7 @@ it _may_ be implemented as a version number, a timestamp representing the last
 modification to the resource, or a unique identifier that is refreshed after
 each modification to the resource.
 
------
-
-<a name="f15"></a>15. See
-[here](http://en.wikipedia.org/wiki/Optimistic_concurrency_control) for a
-definition and links to further reading.
-
-## API Guidelines Contents
+## Ed-Fi API Design and Implementation Guidelines
 
 * [Scope](../SCOPE.md)
 * [Key Characteristics](../KEY-CHARACTERISTICS.md)

@@ -2,7 +2,7 @@
 
 ETags _may_ be used to reduce bandwidth usage by preventing the contents of an
 unmodified resource from being returned. An Ed-Fi REST API _should_ support such
-cache validation through the use of the "If-None-Match" request header. If the
+cache validation through the use of the `If-None-Match` request header. If the
 ETag value supplied in the request header still matches the existing resource,
 the API _may_ respond with a 304 (Not Modified) status code with no response
 body, rather than a 200 (OK) with the resource content.
@@ -13,7 +13,7 @@ A REST API is one mechanism for bulk data loading into a data store. While other
 possibilities abound, when a REST API bulk load API is provided, the
 considerations in the following sections apply.
 
-### **Security**
+### Security
 
 The bulk data portion of the Ed-Fi REST API _may_ use system user
 authentication, but _must_ use application authentication. In addition,
@@ -27,14 +27,14 @@ REST APIs are based on simple HTTP verbs and use the HTTP protocol for data
 transfer. The HTTP PUT and POST verbs packet sizes can be limited by the web
 server and client configurations. There is no size limit in the HTTP protocol
 itself for PUT or POST operations, however practical limitations
-exist.[\[16\]](#f16)
+exist.
 
 Packet sizes _should_ be limited to a reasonable maximum based on the
 capabilities of the host system. All resource transactions are considered
-upserts[\[17\]](#f17) and are idempotent; a single resource failure within a
-packet does not invalidate the packet, but subsequent Resources from that packet
-are processed. Failed uploads _may _be resubmitted, but are treated like a new
-submission.
+[upserts](http://en.wikipedia.org/wiki/Merge_(SQL)) and are idempotent; a single
+resource failure within a packet does not invalidate the packet, but subsequent
+Resources from that packet are processed. Failed uploads _may_ be resubmitted,
+but are treated like a new submission.
 
 ### Data Ordering
 
@@ -78,18 +78,7 @@ The exact mechanisms for queuing are left to the implementation, but _should_
 ensure transactional integrity, first-in/first-out (FIFO) ordering, and minimize
 long connections and resource locks.
 
------
-
-<a name="f16"></a>16. Internet Information Server and Apache have a default file
-upload limit of 2GB. Many browsers and frameworks often have this value as a
-configurable limit as well.
-
-<a name="f17"></a>17. A term representing a combination of an UPDATE (to
-existing records) and INSERT (for new records) functionality, detailed
-[here](http://en.wikipedia.org/wiki/Merge_(SQL)).
-
-
-## API Guidelines Contents
+## Ed-Fi API Design and Implementation Guidelines
 
 * [Scope](../SCOPE.md)
 * [Key Characteristics](../KEY-CHARACTERISTICS.md)

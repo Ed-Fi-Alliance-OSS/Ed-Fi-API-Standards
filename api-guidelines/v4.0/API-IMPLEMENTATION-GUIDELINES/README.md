@@ -1,9 +1,8 @@
 # API Implementation Guidelines
 
-Ed-Fi REST API implementations typically require features for authentication and
-authorization, non-repudiation, optimistic concurrency, web cache validation,
-and bulk operations. Guidelines for implementation of those features are
-provided in this section.
+Ed-Fi REST API implementations frequently include features that go beyond the
+basics of [API designs](../API-DESIGN-GUIDELINES/), addressing questions around
+client security and client performance optimization.
 
 This section covers the following topics in detail:
 
@@ -12,7 +11,7 @@ This section covers the following topics in detail:
 * [Handling Optimistic Concurrency with ETags](OPTIMISTIC-CONCURRENCY.md)
 * [Handling Web Cache Validation with ETags](CACHE-VALIDATION.md)
 
-## API Guidelines Contents
+## Ed-Fi API Design and Implementation Guidelines
 
 * [Scope](../SCOPE.md)
 * [Key Characteristics](../KEY-CHARACTERISTICS.md)
