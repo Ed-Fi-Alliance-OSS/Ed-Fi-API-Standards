@@ -239,7 +239,7 @@ Open API specifications contain the actual API model used for data exchange; a
 client application built from that specification will not need to infer when a
 role name has been used.
 
-## API Guidelines Contents
+## Ed-Fi API Design and Implementation Guidelines
 
 * [Scope](../SCOPE.md)
 * [Key Characteristics](../KEY-CHARACTERISTICS.md)

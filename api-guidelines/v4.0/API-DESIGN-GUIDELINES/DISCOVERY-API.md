@@ -177,7 +177,7 @@ include standard settings such as:
 > [!NOTE]
 > These settings will not be backported to version 1 of the Discovery API specification.
 
-## API Guidelines Contents
+## Ed-Fi API Design and Implementation Guidelines
 
 * [Scope](../SCOPE.md)
 * [Key Characteristics](../KEY-CHARACTERISTICS.md)

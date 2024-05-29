@@ -94,7 +94,7 @@ that access to the HTTP verbs be carefully controlled:
 > document](../../../api-specifications/descriptors/). Note that there are
 > multiple versions, matching with the Resources API versions.
 
-## API Guidelines Contents
+##Ed-Fi API Design and Implementation Guidelines
 
 * [Scope](../SCOPE.md)
 * [Key Characteristics](../KEY-CHARACTERISTICS.md)

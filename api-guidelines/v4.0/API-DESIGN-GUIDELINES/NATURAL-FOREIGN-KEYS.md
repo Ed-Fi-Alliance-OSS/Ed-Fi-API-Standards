@@ -85,7 +85,7 @@ modifications. When cascading is not enabled, then the API must reject a PUT or
 DELETE requests that would break a reference from another resource to the
 modified one, responding with Conflict (status code 409).
 
-## API Guidelines Contents
+## Ed-Fi API Design and Implementation Guidelines
 
 * [Scope](../SCOPE.md)
 * [Key Characteristics](../KEY-CHARACTERISTICS.md)

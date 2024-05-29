@@ -17,7 +17,7 @@ purported to have performed an action must actually have done it. Without
 appropriate security or logging, it cannot be guaranteed that a specific user
 actually performed an action on the system.
 
-## API Guidelines Contents
+## Ed-Fi API Design and Implementation Guidelines
 
 * [Scope](../SCOPE.md)
 * [Key Characteristics](../KEY-CHARACTERISTICS.md)

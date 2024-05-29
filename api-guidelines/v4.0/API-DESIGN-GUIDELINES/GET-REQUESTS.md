@@ -295,7 +295,7 @@ Code 304 (Not Modified) also _must_ be supported _if_ the application supports
 codes](./REST-API.md#status-codes) may be used as needed for specific
 situations.
 
-## API Guidelines Contents
+## Ed-Fi API Design and Implementation Guidelines
 
 * [Scope](../SCOPE.md)
 * [Key Characteristics](../KEY-CHARACTERISTICS.md)

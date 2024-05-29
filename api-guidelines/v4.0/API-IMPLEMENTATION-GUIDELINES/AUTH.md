@@ -107,7 +107,7 @@ Draft](http://tools.ietf.org/pdf/draft-ietf-oauth-v2-12.pdf).
 <a name="f12"></a>12. For more information on the HTTP OPTIONS method,
 see Section 9.2 [here](http://www.w3.org/Protocols/rfc2616/rfc2616-sec9.html).
 
-## API Guidelines Contents
+## Ed-Fi API Design and Implementation Guidelines
 
 * [Scope](../SCOPE.md)
 * [Key Characteristics](../KEY-CHARACTERISTICS.md)

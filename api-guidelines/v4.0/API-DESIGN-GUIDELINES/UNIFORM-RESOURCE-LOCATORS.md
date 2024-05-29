@@ -60,7 +60,7 @@ Thus it is preferred that the query strings `?lastname=DOE` and `?lastname=Doe`
 return the same results. While this is the default behavior in some database, it
 may be difficult to achieve in others. Thus this is not a required feature.
 
-## API Guidelines Contents
+## Ed-Fi API Design and Implementation Guidelines
 
 * [Scope](../SCOPE.md)
 * [Key Characteristics](../KEY-CHARACTERISTICS.md)

@@ -20,7 +20,7 @@ This section covers the following topics in detail:
   * [PUT Requests](./PUT-REQUESTS.md)
   * [DELETE Requests](./DELETE-REQUESTS.md)
 
-## API Guidelines Contents
+## Ed-Fi API Design and Implementation Guidelines
 
 * [Scope](../SCOPE.md)
 * [Key Characteristics](../KEY-CHARACTERISTICS.md)

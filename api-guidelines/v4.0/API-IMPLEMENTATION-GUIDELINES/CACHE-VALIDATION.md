@@ -89,7 +89,7 @@ existing records) and INSERT (for new records) functionality, detailed
 [here](http://en.wikipedia.org/wiki/Merge_(SQL)).
 
 
-## API Guidelines Contents
+## Ed-Fi API Design and Implementation Guidelines
 
 * [Scope](../SCOPE.md)
 * [Key Characteristics](../KEY-CHARACTERISTICS.md)
