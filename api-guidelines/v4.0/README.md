@@ -1,4 +1,4 @@
-# Ed-Fi API Design & Implementation Guidelines
+# Ed-Fi API Design and Implementation Guidelines
 
 Version: 4.0\
 Obsoletes: [Ed-Fi API Design & Implementation Guidelines v3.1](../v3.1/)\
