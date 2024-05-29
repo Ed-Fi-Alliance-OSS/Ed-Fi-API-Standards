@@ -58,7 +58,7 @@ The following status codes _must_ be supported for `POST` responses:
 | 401         | Unauthorized | The request requires authentication. The OAuth bearer token was either not provided or is invalid.     |
 | 403         | Forbidden    | The request cannot be completed in the current authorization context.                                  |
 | 404         | NotFound     | GET by ID request where the identifier does not exist.                                                 |
-| 405         | Not Allowed  | The API is only intended for reads, or the Use-Snapshot header is set to true.                          |
+| 405         | Not Allowed  | The API is only intended for reads, or the `Use-Snapshot` header is set to true.                          |
 | 500         | Server Error | An unhandled error occurred on the server.                                                             |
 
 Other [HTTP status codes](./REST-API.md#status-codes) may be used as needed for specific situations.

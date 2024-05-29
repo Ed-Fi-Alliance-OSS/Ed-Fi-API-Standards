@@ -58,7 +58,7 @@ API; other canonical status codes _may_ be used in appropriate circumstances.
 | 200  | OK                  | The requested resource was successfully retrieved.                                                              |
 | 201  | Created             | The item was created.                                                                                           |
 | 204  | No Content          | The resource was successfully updated or deleted.                                                               |
-| 304  | Not Modified        | The item's ETag value matched the If-None-Match header value; the resource has not been modified.               |
+| 304  | Not Modified        | The item's ETag value matched the `If-None-Match` header value; the resource has not been modified.               |
 | 400  | Bad Request         | The request was invalid and cannot be completed. See the response body for specific validation errors.          |
 | 401  | Unauthorized        | The request requires authentication. The OAuth bearer token was either not provided or is invalid.              |
 | 403  | Forbidden           | The request cannot be completed in the current authorization context.                                           |

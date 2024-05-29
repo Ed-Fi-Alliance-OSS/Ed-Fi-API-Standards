@@ -14,13 +14,13 @@ of who is known as authentication; the what is authorization.
 
 The process of authentication provides the means of reliably identifying
 applications and users to an Ed-Fi REST API implementation. Both applications
-and users require authentication in order to maintain secure data. The OAuth 2
-specification[\[10\]](#f10)is used by an Ed-Fi REST API for authentication. This
-specification is broad enough to handle both private and public identity
-providers. An identity provider issues identification information for all
-providers desiring interaction with the system. An authentication module
-verifies a security token as an alternative to explicitly authenticating the
-user.
+and users require authentication in order to maintain secure data. The [OAuth 2
+framework](https://oauth.net/2/) is used by an Ed-Fi REST API for
+authentication. This specification is broad enough to handle both private and
+public identity providers. An identity provider issues identification
+information for all providers desiring interaction with the system. An
+authentication module verifies a security token as an alternative to explicitly
+authenticating the user.
 
 Both application authentication and user authentication _should_ be used. When
 applications do not have user authentication associated with API calls, the API
@@ -44,9 +44,10 @@ privileges.
 ## Authorization
 
 Authorization is a set of mechanisms for identifying what operations can be
-performed, and upon which resources. Due to privacy concerns and FERPA (the
-Family Educational Rights and Privacy Act) regulations, it is critical that an
-Ed-Fi REST API implementation correctly authorizes all resource requests.
+performed, and upon which resources. Due to privacy concerns and
+[FERPA](https://studentprivacy.ed.gov/ferpa) (the Family Educational Rights and
+Privacy Act) regulations, it is critical that an Ed-Fi REST API implementation
+correctly authorizes all resource requests.
 
 The principle of least privilege _should be_ used for an Ed-Fi REST API
 implementation. Least privilege means that default application and user
@@ -94,18 +95,6 @@ within the implementation.
 Authentication](Authentication-Figure.jpg)
 
 **Figure 2.** Permutations of Authentication and Authorization
-
------
-
-<a name="f10"></a>10. Specification details can be found in Hammer-Lahav, et al.
-(2011), [The OAuth 2.0 Authorization Protocol, IETF
-Draft](http://tools.ietf.org/pdf/draft-ietf-oauth-v2-12.pdf).
-
-<a name="f11"></a>11. For more information on STS, see
-[here](http://en.wikipedia.org/wiki/Security_token_service).
-
-<a name="f12"></a>12. For more information on the HTTP OPTIONS method,
-see Section 9.2 [here](http://www.w3.org/Protocols/rfc2616/rfc2616-sec9.html).
 
 ## Ed-Fi API Design and Implementation Guidelines
 

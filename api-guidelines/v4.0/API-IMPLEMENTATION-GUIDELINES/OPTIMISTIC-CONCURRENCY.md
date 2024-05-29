@@ -42,7 +42,7 @@ above:
 }
 ```
 
-To opt-in to an optimistic update, the ETag value is added to an "If-Match"
+To opt-in to an optimistic update, the ETag value is added to an `If-Match`
 header of a subsequent PUT or DELETE request, and the operation will be
 processed only if the If-Match header value matches the latest ETag for the
 resource stored on the server.
