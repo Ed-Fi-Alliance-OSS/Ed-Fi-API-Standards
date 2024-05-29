@@ -46,19 +46,18 @@ Stephen Fuqua, Director of Software Engineering, Ed-Fi Alliance
 
 ## Milestones
 
-| #   | Status | Description                                                              |
-| --- | ------ | ------------------------------------------------------------------------ |
-| 1   | ✅      | Special Interest Group to gather input on revising API Design Guidelines |
-| 2   | ✅      | Load existing Guidelines and Data Standard 3.3, 4.0, and 5.0 specs       |
-| 3   | 🚧      | Ed-Fi API Guidelines revision 4.0                                        |
-| 4   | 📅      | Load existing RFCs, describe governance                                  |
-| 5   | 📅      | Action plan for revising RFCs and next steps with Ed-Fi API Guidelines   |
+| #   | Status | Description                                                               |
+| --- | ------ | ------------------------------------------------------------------------- |
+| 1   | ✅     | Special Interest Group to gather input on revising API Design Guidelines |
+| 2   | ✅     | Load existing Guidelines and Data Standard 3.3, 4.0, and 5.0 specs       |
+| 3   | ✅     | Ed-Fi API Guidelines revision 4.0 - APPROVED BY TAG, MAY 2024            |
+| 4   | 📅     | Load existing RFCs, describe governance                                  |
+| 5   | 📅     | Action plan for revising RFCs and next steps with Ed-Fi API Guidelines   |
 
 [Project Kanban board](https://tracker.ed-fi.org/secure/RapidBoard.jspa?rapidView=260&view=detail&selectedIssue=APIS-29)
 
-
 | Icon | Meaning     |
 | ---- | ----------- |
-| ✅    | done        |
-| 🚧    | in progress |
-| 📅    | planned     |
+| ✅   | done        |
+| 🚧   | in progress |
+| 📅   | planned     |
