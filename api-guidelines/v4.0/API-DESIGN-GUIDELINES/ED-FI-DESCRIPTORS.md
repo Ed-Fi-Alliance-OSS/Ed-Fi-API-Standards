@@ -13,14 +13,16 @@ The `GET`, `POST`, and `PUT` columns indicate if the attribute is _required_ ("y
 | `namespace`            | yes   | yes    | yes   |                                                                                        |
 | `codeValue`            | yes   | yes    | yes   | Value _preferred_ to be one or more words rather than a numeric code or random string. |
 | `shortDescription`     | yes   | yes    | yes   |                                                                                        |
-| `description`          | yes   | opt    | opt   | Longer description that may contain additional normative usage guidance.               |
-| `effectiveBeginDate`   | yes   | opt    | opt   | Date for display only, not validation                                                  |
-| `effectiveEndDate`     | yes   | opt    | opt   | Date for display only, not validation                                                  |
+| `description`          | yes*  | opt    | opt   | Longer description that may contain additional normative usage guidance.               |
+| `effectiveBeginDate`   | yes*  | opt    | opt   | Date for display only, not validation                                                  |
+| `effectiveEndDate`     | yes*  | opt    | opt   | Date for display only, not validation                                                  |
 | `id`                   | yes   | no     | yes   |                                                                                        |
 | `_etag`                | opt   | no     | no    | Required _when the host implements etags_.                                             |
 | `xyzDescriptorId`      | opt   | no     | no    | Retained only for backward-compliance with existing ODS/API implementations.           |
 | `priorDescriptorId`    | opt   | no     | no    | Retained only for backward-compliance with existing ODS/API implementations.           |
 | `lastModifiedDateTime` | opt   | no     | no    | Date for display only, not validation                                                  |
+
+\* if a value was provided in POST / PUT
 
 ## URL Construction and HTTP Verb Usage for Ed-Fi Descriptors
 
