@@ -1,34 +1,51 @@
 # Ed-Fi-API-Standards
 
-This repository provides documentation and guidance on building Ed-Fi compatible
-API applications. Also see
-[Ed-Fi-Standard](https://github.com/Ed-Fi-Alliance-OSS/Ed-Fi-Standard) for
-official Ed-Fi Data Standard, which informs but remains distinct from the core
-API Standard.
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Ed-Fi-Alliance-OSS/Ed-Fi-API-Standards/badge)](https://securityscorecards.dev/viewer/?uri=github.com/Ed-Fi-Alliance-OSS/Ed-Fi-API-Standards)
 
-The canonical versions of this guidance are in Ed-Fi Tech Docs; this repository
-has been created to provide greater transparency and improved development
-practices for changes to the standards and normative guidance. Related content
-in Ed-Fi Tech Docs:
+The [Ed-Fi Alliance](https://www.ed-fi.org) coordinates and publishes
+community-led standards for education and the exchange of education data.
 
-* [Ed-Fi Standards](https://techdocs.ed-fi.org/display/ETKB/Ed-Fi+Standards)
-  (general information)
-* [Ed-Fi Data Exchange Standards](https://techdocs.ed-fi.org/display/EFDS) (API
-  specifications)
-* [Ed-Fi RFC Home](https://techdocs.ed-fi.org/display/EFDSRFC/Ed-Fi+RFC+Home)
-  (Ed-Fi Data (and API) Standard Request for Comment (RFC) documents).
+The **Ed-Fi Data Standard** is the widely adopted, CEDS-aligned, open-source
+data standard developed by the educational community for the betterment of the
+community. The Ed-Fi Data Standard serves as the foundation for enabling
+interoperability among secure data systems and contains a Unifying Data Model
+designed to capture the meaning and inherent structure in the most important
+information in the K–12 education enterprise. _[more
+information](https://edfi.atlassian.net/wiki/spaces/ETKB/pages/20875600/Ed-Fi+Standards)_
+↗
 
-## Repository Contents
+An **Ed-Fi compatible API application** creates a REST-based interface for data
+exchange, where the messages conform to the Ed-Fi Data Standard. The **Ed-Fi
+ODS/API** is the Ed-Fi Alliance's production-ready reference implementation of
+an Ed-Fi API. Any interested party can build an alternate, compatible,
+application, by adhering to the Open API specifications and guidance provided in
+this space.
 
-* [Ed-Fi API Design and Implementation Guidelines](./api-guidelines/), the
-  source code version of [Tech Docs: Ed-Fi API Design and Implementation
-  Guidelines](https://techdocs.ed-fi.org/display/EFAPIGUIDE/Ed-Fi+API+Design+and+Implementation+Guidelines)↗
-* [API Specifications](api-specifications/README.md)
-  * [Ed-Fi Discovery API](api-specifications/discovery-api)
+![From Data Standard to API Standard to API Application](ds-to-api-to-app.png)
+
+## Building an Ed-Fi API Application
+
+What makes an application an "Ed-Fi (compatible) API"? An Ed-Fi API must:
+
+* Implement the following [Open API specifications](api-specifications):
+  * Resources API (current version: [5.0](api-specifications/resources/5.0))
+  * Descriptors API (current version:
+    [5.0](api-specifications/descriptors/5.0))
+  * Discovery API (current version: [1.0](api-specifications/discovery/1.0),
+    draft revision: [2.0](api-specifications/discovery/2.0-draft))
+* And, adhere all of the normative guidance in the [Ed-Fi API
+  Guidelines](./api-guidelines/) (current version: [4.0](api-guidelines/v4.0/).
+
+Also see: [Tips for Success in Building an Ed-Fi Compatible
+API](./api-guidelines/TIPS-FOR-SUCCESS.md)
+
+## Other Documents
+
+* [2024 Migration and Revision Project](docs/2024-MIGRATION-AND-REVISION.md)
 
 ## Legal Information
 
-Copyright (c) 2023 Ed-Fi Alliance, LLC and contributors.
+Copyright (c) 2024 Ed-Fi Alliance, LLC and contributors.
 
 Licensed under the [Apache License, Version 2.0](LICENSE) (the "License").
 

@@ -1,0 +1,22 @@
+{
+  "name": "ed-fi-api-specifications",
+  "version": "1.0.0",
+  "description": "Collection of OpenAPI documents from the Ed-Fi Alliance",
+  "main": "index.js",
+  "scripts": {
+    "testgen": "npx @apideck/portman -o output.postman.json -l"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ed-Fi-Alliance-OSS/Ed-Fi-API-Standards.git"
+  },
+  "author": "",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Ed-Fi-Alliance-OSS/Ed-Fi-API-Standards/issues"
+  },
+  "homepage": "https://github.com/Ed-Fi-Alliance-OSS/Ed-Fi-API-Standards#readme",
+  "dependencies": {
+    "@apideck/portman": "^1.26.3"
+  }
+}
