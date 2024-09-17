@@ -1,0 +1,124 @@
+# SPDX-License-Identifier: Apache-2.0
+# Licensed to the Ed-Fi Alliance under one or more agreements.
+# The Ed-Fi Alliance licenses this file to you under the Apache License, Version 2.0.
+# See the LICENSE and NOTICES files in the project root for more information.
+
+openapi: 3.0.1
+info:
+  title: Ed-Fi OAuth Token Introspection API
+  version: "1.0.0-pre1"
+  description: |
+    This API implements [RFC 7662](https://datatracker.ietf.org/doc/html/rfc7662) (OAuth 2.0 Token Introspection), which returns meta information surrounding a token, including the token's accessible resources.
+  license:
+    name: Apache 2.0
+    url: https://www.apache.org/licenses/LICENSE-2.0
+
+paths:
+  /token_info:
+    post:
+      description: Returns meta information surrounding a token, including the token's accessible resources.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/tokenIntrospectionRequest"
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: "#/components/schemas/tokenIntrospectionRequest"
+      responses:
+        "200":
+          description: POST response
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/tokenIntrospectionResponse"
+
+components:
+  schemas:
+    tokenIntrospectionRequest:
+      type: object
+      properties:
+        token:
+          type: string
+      required:
+        - token
+    tokenIntrospectionResponse:
+      type: object
+      properties:
+        active:
+          description: Boolean indicator of whether or not the presented token is currently active.
+          type: boolean
+          example: true
+        exp:
+          description: Integer timestamp, measured in the number of seconds since January 1 1970 UTC, indicating when this token will expire.
+          type: integer
+          example: 1726602656
+        client_id:
+          description: The API Client's key.
+          type: string
+          example: PS7B3HzEmysp5lK8ejqI0
+        namespace_prefixes:
+          type: array
+          items:
+            type: string
+          example:
+            - "uri://ed-fi.org"
+        education_organizations:
+          type: array
+          items:
+            type: object
+            properties:
+              education_organization_id:
+                type: integer
+                example: 255901
+              name_of_institution:
+                type: string
+                example: "Grand Bend ISD"
+              type:
+                type: string
+                example: "edfi.LocalEducationAgency"
+        assigned_profiles:
+          type: array
+          items:
+            type: string
+          example:
+            - "Sample-Profile-Resource-IncludeOnly"
+        claim_set:
+          type: object
+          properties:
+            name:
+              type: string
+              example: "Ed-Fi Sandbox"
+        resources:
+          type: array
+          items:
+            type: object
+            properties:
+              resource:
+                type: string
+                example: "/ed-fi/students"
+              operations:
+                type: array
+                items:
+                  type: string
+                example:
+                  - "Create"
+                  - "Read"
+                  - "Update"
+                  - "Delete"
+        services:
+          type: array
+          items:
+            type: object
+            properties:
+              service:
+                type: string
+                example: "identity"
+              operations:
+                type: array
+                items:
+                  type: string
+                example:
+                  - "Create"
+                  - "Read"

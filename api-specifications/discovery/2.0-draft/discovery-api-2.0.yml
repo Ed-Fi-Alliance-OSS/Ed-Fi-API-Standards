@@ -116,6 +116,9 @@ components:
             oauth:
               type: string
               example: "https://api.ed-fi.org/DMS/oauth/token"
+            oauthTokenIntrospection:
+              type: string
+              example: "https://api.ed-fi.org/DMS/oauth/token_info"
             dataManagementApi:
               type: string
               description: Base path for all resources
