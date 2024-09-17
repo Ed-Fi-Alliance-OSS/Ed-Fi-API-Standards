@@ -8,7 +8,7 @@ info:
   title: Ed-Fi OAuth Token Introspection API
   version: "1.0.0-pre1"
   description: |
-    The Ed-Fi OAuth Token Introspection API returns the meta information surrounding the token, including the accessible resources.
+    This API implements [RFC 7662](https://datatracker.ietf.org/doc/html/rfc7662) (OAuth 2.0 Token Introspection), which returns meta information surrounding a token, including the token's accessible resources.
   license:
     name: Apache 2.0
     url: https://www.apache.org/licenses/LICENSE-2.0
@@ -16,7 +16,7 @@ info:
 paths:
   /token_info:
     post:
-      description: Returns the meta information surrounding the token, including the accessible resources.
+      description: Returns meta information surrounding a token, including the token's accessible resources.
       requestBody:
         required: true
         content:
@@ -47,10 +47,15 @@ components:
       type: object
       properties:
         active:
+          description: Boolean indicator of whether or not the presented token is currently active.
           type: boolean
           example: true
+        exp:
+          description: Integer timestamp, measured in the number of seconds since January 1 1970 UTC, indicating when this token will expire.
+          type: integer
+          example: 1726602656
         client_id:
-          description: The API Client's key
+          description: The API Client's key.
           type: string
           example: PS7B3HzEmysp5lK8ejqI0
         namespace_prefixes:
