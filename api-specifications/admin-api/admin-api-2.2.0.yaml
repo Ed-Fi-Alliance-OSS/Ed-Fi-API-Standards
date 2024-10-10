@@ -2036,14 +2036,14 @@ components:
       properties:
         odsInstanceId:
           type: integer
-          description: ODS instance context ODS instance id.
+          description: ODS instance id.
           format: int32
         contextKey:
           type: string
-          description: context key.
+          description: Context key. Should match route segment specified in the OdsContextRouteTemplate configuration in Ed-Fi API.
         contextValue:
           type: string
-          description: context value.
+          description: Context value. Should match range values specified in the OdsContextRouteTemplate configuration in Ed-Fi API.
       additionalProperties: false
     editOdsInstanceContextRequest:
       title: EditOdsInstanceContextRequest
@@ -2056,14 +2056,14 @@ components:
       properties:
         odsInstanceId:
           type: integer
-          description: ODS instance context ODS instance id.
+          description: ODS instance id.
           format: int32
         contextKey:
           type: string
-          description: context key.
+          description: Context key. Should match route segment specified in the OdsContextRouteTemplate configuration in Ed-Fi API.
         contextValue:
           type: string
-          description: context value.
+          description: Context value. Should match range values specified in the OdsContextRouteTemplate configuration in Ed-Fi API.
       additionalProperties: false
     odsInstanceContext:
       title: OdsInstanceContext
@@ -2079,12 +2079,15 @@ components:
           format: int32
         odsInstanceId:
           type: integer
+          description: ODS instance id.
           format: int32
         contextKey:
           type: string
+          description: Context key. Should match route segment specified in the OdsContextRouteTemplate configuration in Ed-Fi API.
           nullable: true
         contextValue:
           type: string
+          description: Context value. Should match range values specified in the OdsContextRouteTemplate configuration in Ed-Fi API.
           nullable: true
       additionalProperties: false
     addOdsInstanceDerivateRequest:
@@ -2097,14 +2100,14 @@ components:
       properties:
         odsInstanceId:
           type: integer
-          description: ODS instance derivative ODS instance id.
+          description: Primary ODS instance id.
           format: int32
         derivativeType:
           type: string
-          description: derivative type.
+          description: Derivative type. Currently "ReadReplica", "Snapshot" are valid values.
         connectionString:
           type: string
-          description: connection string.
+          description: Derivative ODS connection string.
       additionalProperties: false
     editOdsInstanceDerivateRequest:
       title: EditOdsInstanceDerivativeRequest
@@ -2117,14 +2120,14 @@ components:
       properties:
         odsInstanceId:
           type: integer
-          description: ODS instance derivative ODS instance id.
+          description: Primary ODS instance id.
           format: int32
         derivativeType:
           type: string
-          description: derivative type.
+          description: Derivative type. Currently "ReadReplica", "Snapshot" are valid values.
         connectionString:
           type: string
-          description: connection string.
+          description: Derivative ODS connection string.
       additionalProperties: false
     odsInstanceDerivative:
       title: OdsInstanceDerivative
@@ -2139,10 +2142,12 @@ components:
           format: int32
         odsInstanceId:
           type: integer
+          description: Primary ODS instance id.
           format: int32
           nullable: true
         derivativeType:
           type: string
+          description: Derivative type. Currently "ReadReplica", "Snapshot" are valid values.
           nullable: true
       additionalProperties: false
     addOdsIntanceRequest:
@@ -2158,10 +2163,10 @@ components:
           description: Ods Instance name
         instanceType:
           type: string
-          description: Ods Instance type
+          description: ODS Instance type, describes the purpose of the ODS instance
         connectionString:
           type: string
-          description: Ods Instance connection string
+          description: ODS Instance connection string
       additionalProperties: false
     editOdsInstanceRequest:
       title: EditOdsInstanceRequest
@@ -2174,13 +2179,13 @@ components:
       properties:
         name:
           type: string
-          description: Ods Instance name
+          description: ODS Instance name
         instanceType:
           type: string
-          description: Ods Instance type
+          description: ODS Instance type, describes the purpose of the ODS instance
         connectionString:
           type: string
-          description: Ods Instance connection string
+          description: ODS Instance connection string
           nullable: true
       additionalProperties: false
     addProfileRequest:
