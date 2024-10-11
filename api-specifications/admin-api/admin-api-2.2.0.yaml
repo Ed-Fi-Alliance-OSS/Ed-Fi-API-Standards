@@ -1,6 +1,7 @@
 openapi: 3.0.1
 info:
   version: 2.2.0
+  title: "Ed-Fi Admin API"
   description: The Ed-Fi Admin API is a REST API-based administrative interface for managing vendors, applications, client credentials, and authorization rules for accessing an Ed-Fi API.
 paths:
   /v2/resourceClaims:
@@ -2035,14 +2036,14 @@ components:
       properties:
         odsInstanceId:
           type: integer
-          description: ODS instance context ODS instance id.
+          description: ODS instance id.
           format: int32
         contextKey:
           type: string
-          description: context key.
+          description: Context key. Should match route segment specified in the OdsContextRouteTemplate configuration in Ed-Fi API.
         contextValue:
           type: string
-          description: context value.
+          description: Context value. Should match range values specified in the OdsContextRouteTemplate configuration in Ed-Fi API.
       additionalProperties: false
     editOdsInstanceContextRequest:
       title: EditOdsInstanceContextRequest
@@ -2055,14 +2056,14 @@ components:
       properties:
         odsInstanceId:
           type: integer
-          description: ODS instance context ODS instance id.
+          description: ODS instance id.
           format: int32
         contextKey:
           type: string
-          description: context key.
+          description: Context key. Should match route segment specified in the OdsContextRouteTemplate configuration in Ed-Fi API.
         contextValue:
           type: string
-          description: context value.
+          description: Context value. Should match range values specified in the OdsContextRouteTemplate configuration in Ed-Fi API.
       additionalProperties: false
     odsInstanceContext:
       title: OdsInstanceContext
@@ -2078,12 +2079,15 @@ components:
           format: int32
         odsInstanceId:
           type: integer
+          description: ODS instance id.
           format: int32
         contextKey:
           type: string
+          description: Context key. Should match route segment specified in the OdsContextRouteTemplate configuration in Ed-Fi API.
           nullable: true
         contextValue:
           type: string
+          description: Context value. Should match range values specified in the OdsContextRouteTemplate configuration in Ed-Fi API.
           nullable: true
       additionalProperties: false
     addOdsInstanceDerivateRequest:
@@ -2096,14 +2100,14 @@ components:
       properties:
         odsInstanceId:
           type: integer
-          description: ODS instance derivative ODS instance id.
+          description: Primary ODS instance id.
           format: int32
         derivativeType:
           type: string
-          description: derivative type.
+          description: Derivative type. Currently "ReadReplica", "Snapshot" are valid values.
         connectionString:
           type: string
-          description: connection string.
+          description: Derivative ODS connection string.
       additionalProperties: false
     editOdsInstanceDerivateRequest:
       title: EditOdsInstanceDerivativeRequest
@@ -2116,14 +2120,14 @@ components:
       properties:
         odsInstanceId:
           type: integer
-          description: ODS instance derivative ODS instance id.
+          description: Primary ODS instance id.
           format: int32
         derivativeType:
           type: string
-          description: derivative type.
+          description: Derivative type. Currently "ReadReplica", "Snapshot" are valid values.
         connectionString:
           type: string
-          description: connection string.
+          description: Derivative ODS connection string.
       additionalProperties: false
     odsInstanceDerivative:
       title: OdsInstanceDerivative
@@ -2138,10 +2142,12 @@ components:
           format: int32
         odsInstanceId:
           type: integer
+          description: Primary ODS instance id.
           format: int32
           nullable: true
         derivativeType:
           type: string
+          description: Derivative type. Currently "ReadReplica", "Snapshot" are valid values.
           nullable: true
       additionalProperties: false
     addOdsIntanceRequest:
@@ -2157,10 +2163,10 @@ components:
           description: Ods Instance name
         instanceType:
           type: string
-          description: Ods Instance type
+          description: ODS Instance type, describes the purpose of the ODS instance
         connectionString:
           type: string
-          description: Ods Instance connection string
+          description: ODS Instance connection string
       additionalProperties: false
     editOdsInstanceRequest:
       title: EditOdsInstanceRequest
@@ -2173,13 +2179,13 @@ components:
       properties:
         name:
           type: string
-          description: Ods Instance name
+          description: ODS Instance name
         instanceType:
           type: string
-          description: Ods Instance type
+          description: ODS Instance type, describes the purpose of the ODS instance
         connectionString:
           type: string
-          description: Ods Instance connection string
+          description: ODS Instance connection string
           nullable: true
       additionalProperties: false
     addProfileRequest:
@@ -2381,3 +2387,53 @@ components:
 security:
   - oauth:
       - api
+tags: [
+    {
+      name: "ResourceClaims",
+      description: "Manage ResourceClaims, which represent the permissions for specific resources within the Ed-Fi API. ResourceClaims are organized hierarchically, allowing related ResourceClaims to be included in a ClaimSet by selecting a parent ResourceClaim. This structure simplifies the management of access permissions across different resources."
+    },
+    {
+      name: "Vendors",
+      description: "Manage education software vendors. This serves as a wrapper for individual education software applications that connect to the Ed-Fi API, enabling the organization and tracking of vendors and their applications."
+    },
+    {
+      name: "Profiles",
+      description: "In the Ed-Fi API, Profiles control access to specific properties of a resource. A Profile can be defined via XML and configured through this endpoint. Profiles are also assigned to Applications, restricting which parts of an Ed-Fi API resource are accessible to API clients for the Application, allowing for fine-tuned control over data access."
+    },
+    {
+      name: "OdsInstances",
+      description: "Manage ODS (Operational Data Store) database connections. API clients are associated with specific ODS instances, allowing for data isolation and segmentation within the Ed-Fi API environment."
+    },
+    {
+      name: "OdsInstanceDerivatives",
+      description: "Configure the Ed-Fi API to serve certain requests from a derivative of the primary ODS, such as a read replica or a snapshot. A read replica offloads read-heavy workloads, while snapshots provide processing isolation during change processing."
+    },
+    {
+      name: "OdsInstanceContexts",
+      description: "Manage the configuration of context-based routing, allowing implementations to add specific contextual values (e.g., school year, district, or instance identifier) to API request paths. The out-of-the-box configuration does not use context-based routing and provides a common base URL to all API clients without requiring them to be aware of the data segmentation in the backend. If an API client is associated with more than one ODS instance, ODS context values are required to properly identify which ODS a particular request is referring to."
+    },
+    {
+      name: "ClaimSets",
+      description: "Manage ClaimSets, which are named sets of claims assigned to an API consumer (or Role). Each Application is associated with a ClaimSet, which defines the access level and permissions the application has within the Ed-Fi API."
+    },
+    {
+      name: "AuthorizationStrategies",
+      description: "Domain-specific approaches for authorizing requests for specific Resources. These strategies can be applied to a combination of ResourceClaims and Actions (e.g. Create, Read, Update, or Delete) to define how access to specific actions on a resource is authorized."
+    },
+    {
+      name: "Applications",
+      description: "Manage Applications supported by education software vendors on behalf of one or more education organizations (e.g., an LEA such as a district or a school). A single application can be associated with multiple education organizations, or a separate vendor application record can be created for each education organization. In addition, each vendor application can be assigned a ClaimSet, Profile, and OdsInstances to configure the Application's level of access to the Ed-Fi API."
+    },
+    {
+      name: "Actions",
+      description: "View Actions (Create, Read, Update, Delete, etc.) performed by API clients on resources. Access to each action for a resource can be configured, allowing fine-grained control over which actions an API client is permitted to perform."
+    },
+    {
+      name: "Information",
+      description: "View information about the Ed-Fi API deployment."
+    },
+    {
+      name: "Connect",
+      description: "Ed-Fi Admin API client registration and login."
+    },
+]
